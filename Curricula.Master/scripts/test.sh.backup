@@ -1,0 +1,8 @@
+#!/bin/csh
+
+#--BEGIN-FILTERS--
+set infile    = "$1"
+set outfile   = "$2"
+
+echo "infile = $infile ..."
+echo "outfile = $outfile ..."

@@ -1,0 +1,239 @@
+\begin{syllabus}
+
+\course{CS100. Introducción a la Ciencia de la Computación}{Mandatory}{CS100}
+
+\begin{justification}
+La Ciencia de la Computación es un campo de estudio enorme con muchas especialidades y aplicaciones. Este curso brindará a sus participantes, una visión panorámica de la informática y mostrará sus campos más representativos, como son: Algoritmos, Estructuras de de Datos, Sistemas Operativos, Bases de Datos, etc.
+\end{justification}
+
+\begin{goals}
+\item Brindar un panorama del área del conocimiento que es cubierta en la ciencia de la computación.
+\end{goals}
+
+\begin{outcomes}
+\ExpandOutcome{a}{1}
+\ExpandOutcome{b}{1}
+\ExpandOutcome{e}{1}
+\ExpandOutcome{g}{1}
+\ExpandOutcome{h}{1}
+\ExpandOutcome{i}{1}
+\ExpandOutcome{j}{1}
+\end{outcomes}
+
+\begin{unit}{\DSBasicLogicDef}{brookshear2005}{2}{1}
+    \DSBasicLogicAllTopics
+    \DSBasicLogicAllObjectives
+\end{unit}
+
+\begin{unit}{\PFFundamentalConstructsDef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \PFFundamentalConstructsTopicSyntax
+      \item \PFFundamentalConstructsTopicVariables
+      \item \PFFundamentalConstructsTopicStructured
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \PFFundamentalConstructsObjONE
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\PFAlgorithmsAndProblemSolvingDef}{brookshear2005}{3}{1}
+    \PFAlgorithmsAndProblemSolvingAllTopics
+    \PFAlgorithmsAndProblemSolvingAllObjectives
+\end{unit}
+
+\begin{unit}{\PFFundamentalDataStructuresDef}{brookshear2005}{2}{1}
+    \PFFundamentalDataStructuresAllTopics
+    \PFFundamentalDataStructuresAllObjectives
+\end{unit}
+
+\begin{unit}{\ALONEDef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \ALONETopicIdentificar
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \ALONEObjTHREE
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\ALTWODef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \ALTWOTopicAlgoritmos
+      \item \ALTWOTopicDividir
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \ALTWOObjONE
+      \item \ALTWOObjFOUR
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\ARONEDef}{brookshear2005}{2}{1}
+    \ARONEAllTopics
+    \ARONEAllObjectives
+\end{unit}
+
+\begin{unit}{\ARTHREEDef}{brookshear2005}{2}{1}
+    \ARTHREEAllTopics
+    \ARTHREEAllObjectives
+\end{unit}
+
+\begin{unit}{\ARFOURDef}{brookshear2005}{2}{1}
+    \ARFOURAllTopics
+    \ARFOURAllObjectives
+\end{unit}
+
+\begin{unit}{\ARFIVEDef}{brookshear2005}{2}{1}
+    \ARFIVEAllTopics
+    \ARFIVEAllObjectives
+\end{unit}
+
+\begin{unit}{\OSONEDef}{brookshear2005}{2}{1}
+    \OSONEAllTopics
+    \OSONEAllObjectives
+\end{unit}
+
+\begin{unit}{\NCIntroductionDef}{brookshear2005}{2}{1}
+   \NCIntroductionAllTopics
+   \NCIntroductionAllObjectives
+\end{unit}
+
+\begin{unit}{\PLONEDef}{brookshear2005}{2}{1}
+    \PLONEAllTopics
+    \PLONEAllObjectives
+\end{unit}
+
+\begin{unit}{\PLVirtualMachinesDef}{brookshear2005}{2}{1}
+    \PLVirtualMachinesAllTopics
+    \PLVirtualMachinesAllObjectives
+\end{unit}
+
+\begin{unit}{\PLSIXDef}{brookshear2005}{1}{1}
+    \PLSIXAllTopics
+    \PLSIXAllObjectives
+\end{unit}
+
+\begin{unit}{\PLSEVENDef}{brookshear2005}{1}{1}
+    \PLSEVENAllTopics
+    \PLSEVENAllObjectives
+\end{unit}
+
+\begin{unit}{\PLEIGHTDef}{brookshear2005}{1}{1}
+    \PLEIGHTAllTopics
+    \PLEIGHTAllObjectives
+\end{unit}
+
+\begin{unit}{\HCONEDef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \HCONETopicMotivation
+      \item \HCONETopicContext
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \HCONEObjONE
+      \item \HCONEObjTWO
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\ISONEDef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \ISONETopicHistory%
+      \item \ISONETopicPhilosophical%
+      \item \ISONETopicTheTuring%
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \ISONEObjONE
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\IMTWODef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \IMTWOTopicHistory
+      \item \IMTWOTopicComponents
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \IMTWOObjONE
+      \item \IMTWOObjTWO
+      \item \IMTWOObjTHREE
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\IMTHREEDef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \IMTHREETopicData
+      \item \IMTHREETopicConceptual
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \IMTHREEObjTWO
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\IMFOURDef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \IMFOURTopicRelational
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \IMFOURObjFOUR
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\SPTWODef}{brookshear2005}{4}{1}
+    \SPTWOAllTopics
+    \SPTWOAllObjectives
+\end{unit}
+
+\begin{unit}{\SPSIXDef}{brookshear2005}{2}{1}
+    \SPSIXAllTopics
+    \SPSIXAllObjectives
+\end{unit}
+
+\begin{unit}{\SEONEDef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \SEONETopicFundamental
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \SEONEObjONE
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\SETWODef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \SETWOTopicProgramming
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \SETWOObjONE
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\SETHREEDef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \SETHREETopicProgramming
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \SETHREEObjTWO
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\SEFOURDef}{brookshear2005}{2}{1}
+   \begin{topics}
+      \item \SEFOURTopicSoftwareLife
+   \end{topics}
+
+   \begin{unitgoals}
+      \item \SEFOURObjONE
+   \end{unitgoals}
+\end{unit}
+
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS100}
+\end{coursebibliography}
+\end{syllabus}
+%\end{document}

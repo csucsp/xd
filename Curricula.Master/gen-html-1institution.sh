@@ -1,0 +1,1 @@
+../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/gen-html-1institution.sh

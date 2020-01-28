@@ -1,0 +1,127 @@
+\course{1}{Mandatory}{AF}{CS111}{}{Programación de Video Juegos}{4}{2}{2}{2}{}{4}{Basic}{}{}{CS1D1}{}{CS}%SPC,UCSP,UTEC
+\course{1}{Mandatory}{AF}{CS1D1}{}{Estructuras Discretas I}{4}{2}{4}{}{}{6}{}{}{}{}{}{MC}%SPC,UCSP,UTEC
+\course{1}{Mandatory}{AB}{MA100}{}{Matemática I}{5}{2}{6}{}{}{8}{}{}{}{}{}{CB}%SPC,UCSP,UTEC
+\course{1}{Mandatory}{AF}{FG102}{}{Metodología del Estudio}{3}{2}{2}{}{}{4}{}{}{}{}{}{FG}%SPC,UCSP,UTEC
+\course{1}{Mandatory}{AB}{FG103}{}{Introducción a la Vida Universitaria}{3}{3}{}{}{}{3}{}{}{}{}{}{FG}%UCSPUTEC
+\course{1}{Mandatory}{AC}{FG101}{}{Comunicación}{3}{2}{2}{}{}{4}{}{}{}{}{}{FG}%SPC,UCSP,UTEC
+\course{1}{Mandatory}{AC}{ID101}{}{Inglés técnico profesional}{3}{2}{2}{}{}{4}{}{}{}{}{}{FG}%UNSA
+
+
+
+\course{2}{Mandatory}{AF}{CS100}{}{Introducción de Ciencia de la Computación}{3}{2}{2}{}{}{4}{}{}{}{}{}{CS,IT}%SPC,UCSP,UTEC
+\course{2}{Mandatory}{AF}{CS112}{}{Ciencia de la Computación I}{5}{2}{2}{4}{4}{8}{Basic}{CS111}{}{}{}{CS,SE}%SPC,UCSP,UTEC
+\course{2}{Mandatory}{AF}{CS1D2}{}{Estructuras Discretas II}{4}{2}{2}{2}{2}{6}{Basic}{CS1D1}{}{}{}{MC}%SPC,UCSP,UTEC
+\course{2}{Mandatory}{AB}{MA101}{}{Matemática II}{4}{2}{4}{}{}{6}{}{MA100}{}{}{}{CB}%SPC,UCSP,UTEC
+\course{2}{Mandatory}{AC}{FG104}{}{Introducción a la Filosofía}{3}{3}{}{}{}{3}{}{}{}{}{}{FG}%UCSP
+\course{2}{Elective}{AC}{FG105}{}{Apreciación Musical}{2}{1}{2}{}{}{3}{}{}{}{}{1}{FG}%UCSP
+\course{2}{Elective}{AC}{FG112}{}{Persona, Matrimonio y Familia}{2}{1}{2}{}{}{3}{}{}{}{}{1}{FG}%UCSP
+\course{2}{Mandatory}{AC}{ID102}{}{Lengua Extranjera II}{3}{2}{2}{}{}{4}{}{ID101}{}{}{}{FG}%UNSA
+
+
+
+\course{3}{Mandatory}{AF}{CS113}{}{Ciencia de la Computación II}{4}{2}{2}{2}{2}{6}{Advanced}{CS112}{}{}{}{CS,SE}%SPC,UTEC
+\course{3}{Mandatory}{AF}{CS113}{}{Ciencia de la Computación II}{4}{2}{2}{2}{2}{6}{Advanced}{CS112}{}{}{}{CS,SE}%UCSP
+\course{3}{Mandatory}{AF}{CS1D3}{}{Álgebra Abstracta}{3}{2}{}{2}{2}{4}{Advanced}{CS1D1,CS112}{}{}{}{MC}%SPC,UCSP,UTEC
+\course{3}{Mandatory}{AB}{MA102}{}{Cálculo I}{4}{2}{4}{}{}{6}{}{MA100}{}{}{}{CB}%UNSA,UCSP,UTEC
+\course{3}{Mandatory}{AF}{CS2B1}{}{Desarrollo Basado en Plataformas}{3}{1}{2}{2}{2}{5}{Advanced}{CS112}{}{}{}{IT}%SPC,UCSP,UTEC
+\course{3}{Mandatory}{AF}{CS221}{}{Arquitectura de Computadores}{3}{2}{}{2}{2}{4}{Networks}{CS1D2}{}{}{}{HW}%SPC,UCSP,UTEC
+\course{3}{Mandatory}{AC}{FG107}{}{Antropología Filosófica y Teológica}{3}{3}{}{}{}{3}{}{FG104}{}{}{}{FG}%UCSP
+\course{3}{Elective}{AC}{FG201}{}{Apreciación Artística}{2}{1}{2}{}{}{3}{}{}{}{}{1}{FG}%UCSP
+\course{3}{Elective}{AC}{FG202}{}{Apreciación Literaria}{2}{1}{2}{}{}{3}{}{}{}{}{1}{FG}%UCSP
+\course{3}{Mandatory}{AC}{ID103}{ID201}{Lengua Extranjera III}{3}{2}{2}{}{}{4}{}{ID102}{}{}{}{FG}%UNSA
+
+
+
+
+\course{4}{Mandatory}{AF}{CS210}{}{Algoritmos y Estructuras de Datos}{4}{2}{2}{2}{2}{6}{Advanced}{CS113, CS100}{}{}{}{CS}%SPC,UCSP,UTEC
+\course{4}{Mandatory}{AF}{CS211}{}{Teoría de la Computación}{4}{2}{2}{2}{2}{6}{Basic}{CS1D2}{}{}{}{CS}%SPC,UCSP,UTEC
+\course{4}{Mandatory}{AF}{CS271}{}{Bases de Datos I}{4}{2}{}{4}{4}{6}{Advanced}{CS1D3}{}{}{}{CS,IT}%SPC,UCSP,UTEC
+\course{4}{Mandatory}{AB}{MA203}{}{Estadística y Probabilidades}{4}{2}{2}{2}{2}{6}{Basic}{MA102}{}{}{}{MC}%SPC,UCSP,UTEC
+\course{4}{Mandatory}{AB}{MA201}{}{Cálculo II}{4}{2}{4}{}{}{6}{}{MA101,MA102}{}{}{}{CB}%UNSA,UCSP,UTEC
+\course{4}{Mandatory}{AC}{FG204}{}{Teología}{2}{1}{2}{}{}{3}{}{FG107}{}{}{}{FG}%UCSP
+
+
+
+
+\course{5}{Mandatory}{AF}{CS291}{}{Ingeniería de Software I}{4}{2}{2}{2}{2}{6}{Advanced}{CS113,CS271}{}{}{}{SE}%SPC,UCSP,UTEC
+\course{5}{Mandatory}{AF}{CS212}{}{Análisis y Diseño de Algoritmos}{4}{2}{2}{2}{2}{6}{Advanced}{CS210}{}{}{}{CS}%SPC,UCSP,UTEC
+\course{5}{Mandatory}{AF}{CS272}{}{Bases de Datos II}{3}{1}{2}{2}{2}{5}{Advanced}{CS271}{}{}{}{CS}%SPC,UTEC
+\course{5}{Mandatory}{AF}{CS272}{}{Bases de Datos II}{3}{1}{2}{2}{2}{5}{Advanced}{CS271,UCSP=Inglés (300)}{}{}{}{CS}%UCSP
+\course{5}{Mandatory}{AB}{MA306}{}{Análisis Numérico}{3}{1}{2}{2}{2}{5}{Basic}{MA201}{}{}{}{MC}%SPC,UCSP,UTEC
+\course{5}{Mandatory}{AB}{MA306}{}{Análisis Numérico}{4}{2}{2}{2}{2}{6}{Basic}{MA201}{}{}{}{MC}%UNSA
+\course{5}{Mandatory}{AB}{CB111}{}{Física Computacional}{4}{2}{2}{2}{2}{6}{Physic}{MA102}{}{}{}{CB}%SPC,UCSP,UTEC
+\course{5}{Mandatory}{AC}{FG106}{}{Teatro}{2}{1}{2}{}{}{3}{}{}{}{}{}{FG}%UCSP,UTEC
+\course{5}{Mandatory}{AC}{FG210}{}{Moral}{2}{1}{2}{}{}{3}{}{FG204}{}{}{}{FG}%UCSP
+\course{5}{Mandatory}{AC}{ID104}{ID202}{Inglés Técnico IV}{3}{}{}{}{}{0}{}{ID201}{}{}{}{FG}%USGP
+\course{5}{Mandatory}{AC}{ID104}{ID202}{Lengua Extranjera IV}{3}{2}{2}{}{}{4}{}{ID201}{}{}{}{FG}%UNSA
+
+
+
+
+\course{6}{Mandatory}{AF}{CS292}{}{Ingeniería de Software II}{4}{2}{2}{2}{2}{6}{Advanced}{CS291}{}{}{}{SE}%SPC,UCSP,UTEC
+\course{6}{Mandatory}{AF}{CS311}{}{Programación Competitiva}{4}{2}{2}{2}{2}{6}{Basic}{CS212}{}{}{}{MC}%SPC,UCSP,UTEC
+\course{6}{Mandatory}{AF}{CS312}{}{Estructuras de Datos Avanzadas}{4}{2}{2}{2}{2}{6}{Advanced}{CS212}{}{}{}{CS}%SPC,UCSP,UTEC
+\course{6}{Mandatory}{AF}{CS2S1}{}{Sistemas Operativos}{4}{2}{2}{2}{2}{6}{Advanced}{CS221}{}{}{}{CS,IT}%SPC,UCSP,UTEC
+\course{6}{Mandatory}{AB}{MA307}{}{Matemática aplicada a la computación}{4}{2}{2}{2}{2}{6}{Basic}{MA201}{}{}{}{MC}%SPC,UCSP,UTEC
+\course{6}{Mandatory}{AB}{MA307}{}{Matemática aplicada a la computación}{3}{2}{}{2}{2}{4}{Basic}{MA201}{}{}{}{MC}%UNSA
+\course{6}{Mandatory}{AC}{FG203}{}{Oratoria}{2}{1}{2}{}{}{3}{}{FG106}{}{}{}{FG}%SPC,UCSP,UTEC
+\course{6}{Mandatory}{AC}{ID105}{ID301}{Lengua Extranjera V}{3}{2}{2}{}{}{4}{}{ID202}{}{}{}{FG}%UNSA
+
+
+
+
+\course{7}{Mandatory}{AF}{CS341}{}{Lenguajes de Programación}{4}{2}{2}{2}{2}{6}{Advanced}{CS211}{}{}{}{CS}%SPC,UCSP,UTEC
+\course{7}{Mandatory}{AE}{CS231}{}{Redes y Comunicación}{3}{1}{2}{2}{2}{5}{Advanced}{CS2S1, UCSP=Inglés (400)}{}{}{}{CS,IT}%SPC,UCSP,UTEC
+\course{7}{Mandatory}{AF}{CS401}{}{Metodología de la Investigación en Computación}{3}{2}{2}{}{}{4}{}{CS212}{}{}{}{CS,SE,IS}%SPC,UTEC
+\course{7}{Mandatory}{AF}{CS401}{}{Metodología de la Investigación en Computación}{2}{1}{2}{}{}{3}{}{CS212,UCSP=100 Cr}{}{}{}{CS,SE,IS}%UCSP
+\course{7}{Mandatory}{AF}{CS251}{}{Computación Gráfica}{4}{2}{2}{2}{2}{6}{Advanced}{CS312,MA306}{}{}{}{CS}%SPC,UCSP,UTEC
+\course{7}{Mandatory}{AF}{CS261}{}{Inteligencia Artificial}{4}{2}{2}{2}{2}{6}{Advanced}{MA203}{}{}{}{CS}%SPC,UCSP,UTEC
+\course{7}{Mandatory}{AC}{FG204A}{}{Teología II}{2}{1}{2}{}{}{3}{}{FG204,FG210}{}{}{}{FG}%
+\course{7}{Mandatory}{AE}{CS391}{}{Ingeniería de Software III}{3}{2}{2}{}{}{4}{}{CS292}{}{}{}{SE}%SPC,UCSP,UTEC
+\course{7}{Mandatory}{AC}{FG350}{}{Liderazgo}{3}{2}{2}{}{}{4}{}{FG203}{}{}{}{FG}%UNSA
+\course{7}{Mandatory}{AC}{FG350}{}{Liderazgo}{2}{1}{2}{}{}{3}{}{FG203}{}{}{}{FG}%SPC,UCSP,UTEC
+
+
+
+
+\course{8}{Mandatory}{AF}{CS342}{}{Compiladores}{4}{2}{2}{2}{2}{6}{Advanced}{CS341}{}{}{}{CS}%SPC,UCSP,UTEC
+\course{8}{Mandatory}{AF}{CS402}{}{Proyecto de Final de Carrera I}{3}{2}{2}{}{}{4}{}{CS401}{}{}{}{CS,SE,IS}%SPC,UCSP,UTEC
+\course{8}{Mandatory}{AE}{CS3I1}{}{Seguridad en Computación}{3}{1}{2}{2}{2}{5}{Advanced}{CS231}{}{}{}{IT}%SPC,UCSP,UTEC
+\course{8}{Mandatory}{AE}{CS2H1}{}{Interacción Humano Computador}{3}{1}{2}{2}{2}{5}{Basic}{CS251}{}{}{}{CS,IT,SE}%SPC,UTEC
+\course{8}{Mandatory}{AE}{CS2H1}{}{Interacción Humano Computador}{3}{1}{2}{2}{2}{5}{Basic}{CS251}{}{}{}{CS,IT,SE}%UCSP
+\course{8}{Mandatory}{AF}{CS3P1}{}{Computación Paralela y Distribuída}{4}{2}{2}{2}{2}{6}{Advanced}{CS212,CS231}{}{}{}{CS}%SPC,UCSP,UTEC
+\course{8}{Mandatory}{AF}{CS281}{}{Computación en la Sociedad}{2}{2}{}{}{}{2}{}{FG210}{}{}{}{CS,IT}%SPC,UCSP
+\course{8}{Mandatory}{AF}{CS281}{}{Computación en la Sociedad}{2}{2}{}{}{}{2}{}{}{}{}{}{CS,IT}%UTEC
+\course{8}{Mandatory}{AC}{ET201}{}{Formación de Empresas de Base Tecnológica I}{3}{2}{2}{}{}{4}{}{FG350}{}{}{}{OG}%SPC,UTEC
+\course{8}{Mandatory}{AC}{FG205}{}{Historia de la Cultura}{3}{3}{}{}{}{3}{}{}{}{}{}{FG}%UCSP
+
+
+
+
+\course{9}{Mandatory}{AE}{CS370}{}{Big Data}{3}{1}{2}{2}{2}{5}{Advanced}{CS272,CS3P1}{}{}{}{CS}%SPC,UCSP,UTEC
+\course{9}{Mandatory}{AE}{CB309}{}{Computación Molecular Biológica}{2}{1}{}{2}{2}{3}{Basic}{CS212,MA307}{}{}{}{CS}%SPC,UTEC
+\course{9}{Elective}{AE}{CB309}{}{Computación Molecular Biológica}{4}{2}{2}{2}{2}{6}{Basic}{CS212,MA307}{}{}{2}{CS}%UCSP
+\course{9}{Elective}{AE}{CS392}{}{Tópicos Avanzados en Ingeniería de Software}{4}{2}{2}{2}{2}{6}{Advanced}{CS391}{}{}{2}{SE}%SPC,UCSP,UTEC
+\course{9}{Mandatory}{AF}{CS403}{}{Proyecto de Final de Carrera II}{3}{2}{2}{}{}{4}{}{CS402}{}{}{}{CS,SE,IS}%SPC,UCSP,UTEC
+\course{9}{Mandatory}{AC}{ET201}{}{Formación de Empresas de Base Tecnológica I}{3}{2}{2}{}{}{4}{}{FG350}{}{}{}{OG}%UCSP
+\course{9}{Mandatory}{AC}{ET301}{}{Formación de Empresas de Base Tecnológica II}{3}{2}{2}{}{}{4}{}{ET201}{}{}{}{OG}%SPC,UTEC
+\course{9}{Elective}{AE}{CS351}{}{Tópicos en Computación Gráfica}{4}{2}{2}{2}{2}{6}{Advanced}{CS251}{}{}{1}{CS}%SPC,UCSP,UTEC
+\course{9}{Elective}{AE}{CS361}{}{Tópicos en Inteligencia Artificial}{4}{2}{2}{2}{2}{6}{Advanced}{CS261}{}{}{1}{CS}%SPC,UCSP,UTEC
+\course{9}{Mandatory}{AC}{FG221}{}{Historia de la Ciencia y Tecnología}{2}{1}{2}{}{}{3}{}{FG205}{}{}{}{FG}%UCSP
+\course{9}{Mandatory}{AC}{FG301}{}{Enseñanza Social de la Iglesia}{3}{3}{}{}{}{3}{}{FG210}{}{}{}{FG}%UCSP
+
+
+
+
+\course{10}{Elective}{AE}{CS362}{}{Robótica}{4}{2}{}{4}{4}{6}{Advanced}{CS361}{}{}{1}{HW,CS}%SPC,UCSP,UTEC
+\course{10}{Elective}{AE}{CS393}{}{Sistemas de Infomación}{4}{2}{2}{2}{2}{6}{Advanced}{CS292}{}{}{1}{SE}%SPC,UCSP,UTEC
+\course{10}{Mandatory}{AE}{CS3P2}{}{Cloud Computing}{3}{1}{2}{2}{2}{5}{Advanced}{CS370}{}{}{}{CS,IT}%SPC,UCSP,UTEC
+\course{10}{Mandatory}{AF}{CS404}{}{Proyecto de Final de Carrera III}{6}{2}{8}{}{}{10}{}{CS403}{}{}{}{CS,SE,IS}%SPC,UTEC
+\course{10}{Mandatory}{AF}{CS404}{}{Proyecto de Final de Carrera III}{3}{2}{2}{}{}{4}{}{CS403}{}{}{}{CS,SE,IS}%UCSP
+\course{10}{Mandatory}{AC}{ET301}{}{Formación de Empresas de Base Tecnológica II}{3}{2}{2}{}{}{4}{}{ET201}{}{}{}{OG}%UCSP
+\course{10}{Mandatory}{AC}{FG220}{}{Análisis de la Realidad Peruana}{3}{3}{}{}{}{3}{}{FG221}{}{}{}{FG}%UCSP
+\course{10}{Mandatory}{AC}{FG211}{}{Ética Profesional}{3}{2}{2}{}{}{4}{}{}{}{}{}{FG}%SPC,UTEC
+\course{10}{Mandatory}{AC}{FG211}{}{Ética Profesional}{3}{3}{}{}{}{3}{}{FG301}{}{}{}{FG}%UCSP
+\course{10}{Elective}{AC}{FG209}{}{Psicología}{2}{1}{2}{}{}{3}{}{}{}{}{2}{FG}%
+\course{10}{Elective}{AC}{FG206}{}{Sociología}{2}{1}{2}{}{}{3}{}{}{}{}{2}{FG}%
+\course{10}{Mandatory}{AC}{ID101}{}{Inglés técnico profesional}{3}{2}{2}{}{}{4}{}{}{}{}{}{FG}%UCSP

@@ -1,0 +1,169 @@
+\begin{syllabus}
+
+\course{FG107. Antropología Filosófica y Teológica}{Obligatorio}{FG107}
+
+\begin{justification}
+El estudio de la antropología filosófica (o psicología filosófica) es necesario a la filosofía y a cualquier
+profesión relacionada con las ciencias sociales en general; sobre todo si se tiene la intención de constituir
+una cosmovisión. Ella constituye la base para la reflexión en ética y política, así como en los diversos
+estudios de las ciencias del hombre (economía, derecho, sociología, psicología, pedagogía, etc.).
+\end{justification}
+
+\begin{goals}
+\item Ser capaz de comprender la naturaleza humana (es decir, las facultades y las finalidades de cada facultad,
+su jerarquización y posible dominio); la condición de persona humana y su dignidad.
+\end{goals}
+
+\begin{outcomes}
+    \item \ShowOutcome{e}{3}
+    \item \ShowOutcome{g}{3}
+    \item \ShowOutcome{ñ}{3}
+    \item \ShowOutcome{o}{3}
+\end{outcomes}
+\begin{competences}
+    \item \ShowCompetence{C10}{g,ñ,o}
+    \item \ShowCompetence{C20}{e,g,ñ,o}
+    \item \ShowCompetence{C21}{e}
+\end{competences}
+
+\begin{unit}{Estatuto científico de la antropología filosófica}{Estatuto científico de la antropología filosófica}{GarciaCuadrado}{3}{C20}
+\begin{topics}
+	\item Epistemología general:
+	\begin{subtopics}
+		\item Noción y objeto de la ciencia.
+		\item Filosofía y ciencias particulares.
+		\item La filosofía y las ciencias.
+		\item División y Jerarquización de las ciencias.	
+	\end{subtopics}
+	\item Delimitación del objeto y método de la antropología filosófica:
+	\begin{subtopics}
+		\item Diversas antropologías: física, cultural, filosófica.
+		\item Reduccionismos y extrapolaciones ilícitas.
+		\item Dificultades en el objeto.
+		\item El término ?naturaleza?, sus acepciones y dificultades.
+		\item Antropología teológica.
+	\end{subtopics}
+\end{topics}
+
+\begin{learningoutcomes}
+	\item Entender las distinciones entre las distintas ciencias  [\Usage]. 
+	\item Delimitar el estudio científico de la antropología filosófica [\Usage].
+	\item Comprender la noción de naturaleza desde la filosofía clásica y su centralidad [\Usage].
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Naturaleza humana I ? El hombre: ANIMAL racional}{Naturaleza humana I ? El hombre: ANIMAL racional}{GarciaCuadrado}{12}{C20}
+\begin{topics}
+	\item El hombre como viviente: 
+		\begin{subtopics} 
+			\item La jerarquía del mundo natural: la vida como un «modo de ser. 
+			\item Principio vital: el alma.
+			\item Características de la vida.
+			\item Tipos de alma.
+			\item Operaciones vegetativas (operaciones básicas vitales).
+		\end{subtopics}
+	\item El hombre como viviente animal: 
+		\begin{subtopics} 
+			\item Semejanzas y diferencias con los vivientes:La sensibilidad interna y externa.Las tendencias sensibles: deseos (apetito concupiscible) e impulsos (apetito irascible).Pasiones (afectividad humana).
+		\end{subtopics}
+\end{topics}
+\begin{learningoutcomes}
+	\item Analizar y comprender la naturaleza humana utilizando una metodología ?ascendente?: Comprender el fenómeno de «la vida», las semejanzas y diferencias que tenemos con los vivientes como animales. [\Usage]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Naturaleza del hombre II ? El hombre: animal RACIONAL}{Naturaleza del hombre II ? El hombre: animal RACIONAL}{GarciaCuadrado}{9}{C10, C20}
+\begin{topics}
+	\item Facultades superiores en el hombre:
+	\item La Inteligencia:
+		\begin{subtopics}
+			\item El objeto de la inteligencia.
+			\item Verdad y conocimiento.
+			\item Naturaleza de la inteligencia.
+			\item Relación mente-cerebro.
+			\item Operaciones de la razón teórica y práctica.
+			\item El lenguaje humano.
+			\item Hábitos intelectuales.
+		\end{subtopics}
+	\item La Voluntad:
+		\begin{subtopics}
+			\item Lo voluntario e involuntario.
+			\item La naturaleza de la voluntad y objeto de la voluntad.
+			\item Especificación de la voluntad: la felicidad.
+			\item Descripción del acto voluntario: volición, decisión y acción.
+			\item 
+			\item 			
+		\end{subtopics}
+\end{topics}
+\begin{learningoutcomes}
+	\item Analizar y comprender qué es significa ser Â«persona humanaÂ», desde los orígenes de la noción hasta el aporte definitivo del cristianismo; comprender la fundamentación de la dignidad de la persona humana desde una perspectiva metafísica y cristiana; comprender las manifestaciones de la persona humana a través de su naturaleza en un plano dinámico-existencial. [\Usage].
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{}{Cuarta Unidad: La persona humana: aproximación existencial y fenomenológica}{GarciaQuesada,Frankl}{3}{C20}
+\begin{topics}
+	\item Aproximación existencial y fenomenológica a la persona humana.
+	\item El sentido de la vida: fines objetivos y fines subjetivos.
+	\item La necesidad de una misión particular.
+	\item Quién soy? La perenne pregunta.
+	\item Visión tripartita - fenomenológica de la persona humana: unidad biológica, psicológica y espiritual.
+	\item Diferencia entre el yo psicológico y el yo personal.
+		\begin{subtopics}
+			\item Personalidad, mismidad e identidad.Persona y sexualidad: Ser varón y ser mujer.
+			\item Sexualidad y matrimonio.
+			\item La cuestión homosexual.
+		\end{subtopics}
+	\item Complementariedad entre las visiones dualista y tripartita de la persona.
+		\begin{subtopics}
+			\item Teocentrismo y Antropocentrismo 
+		\end{subtopics}
+	\item Dinamismos de la persona: permanencia y despliegue  necesidad de seguridad y significación.
+\end{topics}
+\begin{learningoutcomes}
+	\item Presentar la antropología desde una perspectiva fenomenológica existencial. 
+Analizar el aporte de dicho enfoque frente a los vistos anteriormente y frente el hombre moderno. [\Usage].
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{}{Quinta Unidad: Destino de la Persona Humana - Antropología Teológica}{GarciaCuadrado}{3}{C20,C21}
+\begin{topics}
+ 	 \item Finitud y trascendencia de la persona humana.
+ 	 \item El deseo de eternidad.
+ 	 \item Aproximación metafísica desde la inmortalidad del alma humana.
+ 	 \item Aproximación existencial y fenomenológica desde la experiencia de finitud:
+		\begin{subtopics}
+			\item Nostalgia de infinito.
+		\end{subtopics}	
+ 	 \item Antropología Teológica:
+ 	 	\begin{subtopics}
+			\item El hombre como imagen de Dios.
+			\item El pecado original y la redención.
+			\item Resurrección.	
+			\item Vida en Cristo (vida sobrenatural). 
+		\end{subtopics}
+\end{topics}
+\begin{learningoutcomes}
+	\item Comprensión ontológica del ser personal desde sus dinamismos fundamentales y otros dinamismos [\Usage].
+	\item Comprensión de la fe, enraizada en el ser personal [\Usage].
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{}{La persona: ser en relación}{GarciaQuesada,GarciaCuadrado,Congregacion,Edith}{6}{C22}
+\begin{topics}
+ 	 \item Relacionalidad, encuentro y comunión en la persona.
+ 	 \item La persona como ser sexuado y como ser social.
+ 	 \item La familia.
+ 	 \item La sociedad.
+\end{topics}
+\begin{learningoutcomes}
+	\item Comprensión de la persona desde su dimensión ontológica relacional con Dios, consigo mismo, con lo demás y con la Creación [\Usage].
+\end{learningoutcomes}
+\end{unit}
+
+
+
+\begin{coursebibliography}
+\bibfile{GeneralEducation/FG101}
+\end{coursebibliography}
+
+\end{syllabus}

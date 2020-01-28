@@ -1,0 +1,38 @@
+\begin{thebibliography}{}
+@Book{Altamirano2008,
+ title = {El arte de la oratoria},
+ author = {Yamandú Altamirano},
+ publisher = {Editorial San Marcos, Lima Perú},
+ year = {2008},
+}
+
+@Book{SaberHablar2008,
+ title = {Saber hablar},
+ publisher = {Editorial Aguilar, México},
+ year = {2008},
+ author = {Antonio Briz and Marta Albelda and Jose Maria Fernández and Antonio Hidalgo and Raquel Pinilla and Salvador Pons},
+}
+
+@Book{ManuelOratoria2008,
+ title = {Manual de Oratoria},
+ publisher = {Editorial Palomino, Lima Per},
+ year = {2008},
+ ALTALTauthor = {},
+ ALTALTeditor = {},
+ OPTkey = {},
+ OPTvolume = {},
+ OPTnumber = {},
+ OPTseries = {},
+ OPTaddress = {},
+ OPTedition = {},
+ OPTmonth = {},
+ OPTnote = {},
+ OPTannote = {},
+ OPTurl = {},
+ OPTdoi = {},
+ OPTissn = {},
+ OPTlocalfile = {},
+ OPTabstracts = {},
+}
+
+\end{thebibliography}

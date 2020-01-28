@@ -1,0 +1,207 @@
+\begin{syllabus}
+
+\course{CS112. Ciencia de la Computación I}{Obligatorio}{CS112}
+
+\begin{justification}
+Este es el segundo curso en la línea de programación de los cursos introductorios a la Ciencia de la Computación.
+El curso servirá como puente entre el paradigma imperativo y el orientado a objetos, además introducirá a
+los participantes en los diversos temas del área de computación como: algoritmos, estructuras de datos, ingeniería del
+software, etc.
+\end{justification}
+
+\begin{goals}
+\item Introducir al alumno a los fundamentos del paradigma orientado a objetos, permitiendo asimilar los conceptos
+necesarios para desarrollar sistemas de información.
+\end{goals}
+
+\begin{outcomes}
+    \item \ShowOutcome{a}{3}
+    \item \ShowOutcome{c}{3}
+    \item \ShowOutcome{h}{1}
+    \item \ShowOutcome{i}{2}
+\end{outcomes}
+
+\begin{competences}
+    \item \ShowCompetence{C1}{a} 
+    \item \ShowCompetence{C2}{h} 
+    \item \ShowCompetence{C3}{c} 
+    \item \ShowCompetence{C23}{i}
+    \item \ShowCompetence{C24}{i}
+    \item \ShowCompetence{CS1}{c}
+    \item \ShowCompetence{CS2}{c}
+    \item \ShowCompetence{CS6}{a}
+\end{competences}
+
+\begin{unit}{\SPHistory}{Visión General de los Lenguajes de Programación}{Stroustrup2013,Deitel2017}{1}{C1}
+    \begin{topics}%
+        \item Breve revisión de los paradigmas de programación.
+        \item Comparación entre programación funcional y programación imperativa.
+        \item Historia de los lenguajes de programación.
+    \end{topics}
+    \begin{learningoutcomes}%Familiarity,Usage,Assessment
+        \item \SPHistoryLODiscussTheForLanguage [\Familiarity]
+    \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\OSVirtualMachines}{}{Stroustrup2013,Deitel2017}{1}{C2, CS6}
+    \begin{topics}%
+        \item El concepto de máquina virtual.
+        \item \OSVirtualMachinesTopicTypes.
+        \item Lenguajes intermedios.
+    \end{topics}
+    \begin{learningoutcomes}%Familiarity,Usage,Assessment
+        \item \OSVirtualMachinesLOExplainTheVirtual [\Familiarity]
+        \item \OSVirtualMachinesLODifferentiateEmulation [\Familiarity]
+        \item \OSVirtualMachinesLOEvaluateVirtualization [\Assessment]
+    \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\PLBasicTypeSystems}{}{Stroustrup2013,Deitel2017}{2}{C1,C2,CS1}
+    \begin{topics}%
+        \item \PLBasicTypeSystemsTopicA        
+        \item Declaración de modelos (enlace, visibilidad, alcance y tiempo de vida).
+        \item Vista general del chequeo de tipos.
+    \end{topics}
+    \begin{learningoutcomes}
+        \item \PLBasicTypeSystemsLOForBoth [\Familiarity] 
+        \item \PLBasicTypeSystemsLOForA [\Familiarity] 
+        \item \PLBasicTypeSystemsLODescribeExamples [\Familiarity] 
+        \item \PLBasicTypeSystemsLOForMultiple [\Usage] 
+        \item \PLBasicTypeSystemsLOGiveAnThat [\Familiarity] 
+        \item \PLBasicTypeSystemsLOUseTypes [\Usage] 
+        \item \PLBasicTypeSystemsLOExplainHowDefine [\Familiarity] 
+        \item \PLBasicTypeSystemsLOWriteDown [\Usage] 
+        \item \PLBasicTypeSystemsLOExplainWhyType [\Familiarity] 
+        \item \PLBasicTypeSystemsLODefineAndPieces [\Usage] 
+        \item \PLBasicTypeSystemsLODiscussTheGenerics [\Familiarity] 
+        \item \PLBasicTypeSystemsLOExplainMultiple [\Familiarity] 
+    \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\SDFFundamentalProgrammingConcepts}{}{Stroustrup2013,Deitel2017}{6}{C1,C2,CS2}
+    \begin{topics}%
+        \item \SDFFundamentalProgrammingConceptsTopicBasic
+        \item \SDFFundamentalProgrammingConceptsTopicVariables
+        \item \SDFFundamentalProgrammingConceptsTopicExpressions
+        %\item \SDFFundamentalProgrammingConceptsTopicSimple
+        \item \SDFFundamentalProgrammingConceptsTopicConditional
+        %\item \SDFFundamentalProgrammingConceptsTopicFunctions
+    \end{topics}
+    \begin{learningoutcomes}
+        \item \SDFFundamentalProgrammingConceptsLOAnalyzeAndBehavior [\Assessment]
+        \item \SDFFundamentalProgrammingConceptsLOIdentifyAndOf [\Familiarity]
+        \item \SDFFundamentalProgrammingConceptsLOWritePrograms [\Usage]
+        \item \SDFFundamentalProgrammingConceptsLOModify [\Usage]
+        \item \SDFFundamentalProgrammingConceptsLODesignImplement [\Usage]
+        %\item \SDFFundamentalProgrammingConceptsLOWriteAUses [\Usage]
+        \item \SDFFundamentalProgrammingConceptsLOChooseAppropriateIteration [\Assessment]
+        %\item \SDFFundamentalProgrammingConceptsLODescribeTheRecursion [\Familiarity]
+        %\item \SDFFundamentalProgrammingConceptsLOIdentifyTheAndCase [\Assessment]
+    \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Funciones}{}{Stroustrup2013,Deitel2017}{10}{C1,C2,CS2}
+    \begin{topics}%
+        \item \SDFFundamentalProgrammingConceptsTopicFunctions
+        \item Paso de parámetros
+        \item Sobrecarga en funciones
+        \item Fundamentos de la recursidad 
+        \item Conceptos de plantillas en funciones
+      
+
+    \end{topics}
+    \begin{learningoutcomes}
+        \item  \SDFFundamentalProgrammingConceptsLODesignImplement [\Usage]
+        \item  Entiende y aplica el concepto de paso de parámetros a una función, tanto por valor como por referencia.[\Usage]
+        \item  Identifica y aplica el concepto de sobrecarga de funciones.[\Usage]
+        \item  \SDFFundamentalProgrammingConceptsLODescribeTheRecursion [\Familiarity]
+        \item  Diseña, implementa y aplica el concpeto de plantillas asociado a la ncesidad de crear funciones genéricas.[\Usage]
+
+    \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Arreglos y Punteros}{}{Stroustrup2013,Deitel2017}{10}{C1,C2,CS2}
+    \begin{topics}%
+        \item Definición de arreglos
+        \item Arreglos multidimensionales
+        \item Fundamentos sobre punteros
+        \item Administración dinámica de memoria 
+        \item Conceptos avanzados de Punteros 
+      
+
+    \end{topics}
+    \begin{learningoutcomes}
+        \item  Entiende e implementa arreglos unidimensionales. [\Familiarity]
+        \item  Diseña y aplica el concepto de arreglos multidimensionales.[\Usage]
+        \item  Entiende y aplica el concepto de referencias y punteros.[\Familiarity]
+        \item  Entiende, aplica y evalua la relación entre punteros y arreglos.[\Assessment]
+        \item  Entiende e implementa la gestión dinámica de la memoria. Diferenciando las regiones de memoria: heap y stack. [\Assessment]
+        \item  Diseña, implementa y evalua el concepto de puntero a puntero, puntero a función, entre otros conceptos.[\Assessment]
+
+    \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{\PLObjectOrientedProgramming}{}{Stroustrup2013,Deitel2017}{10}{C2,C24,CS1,CS2}
+    \begin{topics}%
+        \item \PLObjectOrientedProgrammingTopicObject
+        \item \PLObjectOrientedProgrammingTopicObjectOriented
+        \item \PLObjectOrientedProgrammingTopicDefinition
+        \item \PLObjectOrientedProgrammingTopicSubclasses
+        \item \PLObjectOrientedProgrammingTopicSubtyping
+        \item \PLObjectOrientedProgrammingTopicUsing
+        \item \PLObjectOrientedProgrammingTopicDynamic
+
+    \end{topics}
+    \begin{learningoutcomes}
+        \item \PLObjectOrientedProgrammingLODesignAndClass [\Usage]
+        \item \PLObjectOrientedProgrammingLOUseSubclassing [\Usage]
+        \item \PLObjectOrientedProgrammingLOCorrectly [\Usage]
+        \item \PLObjectOrientedProgrammingLOCompareAndThe [\Assessment]
+        \item \PLObjectOrientedProgrammingLOExplainTheObject [\Familiarity]
+        \item \PLObjectOrientedProgrammingLOUseObject [\Usage]
+        \item \PLObjectOrientedProgrammingLODefineAndAnd [\Usage]
+
+    \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Plantillas y STL}{}{Stroustrup2013,Deitel2017}{10}{C1,C2,CS2}
+    \begin{topics}%
+        \item Definición de plantillas en clases
+        \item Conceptos básicos sobre la Standard Template Library (STL)
+      
+    \end{topics}
+    \begin{learningoutcomes}
+        \item  Entiende los conceptos de plantillas en clases. [\Familiarity]
+        \item  Implementa y crea nuevos tipos de datos genéricos. [\Usage]
+        \item  Entiende las estructuras básicas de la STL. [\Familiarity]
+        \item  Usa las estructuras de datos básicas como: pila, cola, lista, vector contenidos en la STL. [\Usage]
+
+    \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Conceptos Avanzados}{}{Stroustrup2013,Deitel2017}{10}{C1,C2,CS2}
+    \begin{topics}%
+        \item Definición de sobrecarga de operadores
+        \item Manipulación de entrada y salida de datos (I/O)
+        \item Patrones de diseño
+      
+    \end{topics}
+    \begin{learningoutcomes}
+        \item  Entiende los conceptos de sobrecarga de operadores. [\Familiarity]
+        \item  Implementa la sobrecarga de operadores permitidos en el lenguaje de programación. [\Usage]
+        \item  Entiende los conceptos de manipulación de archivos. [\Familiarity]
+        \item  Crea programas de lectura y escrita en archivos. [\Usage]
+        \item  Entiende los conceptos de patrones de diseño. [\Familiarity]
+
+    \end{learningoutcomes}
+\end{unit}
+
+
+
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS112}
+\end{coursebibliography}
+
+\end{syllabus}
+
+%\end{document}

@@ -1,0 +1,161 @@
+\begin{syllabus}
+
+\course{MA100. Matemática I}{Obligatorio}{MA100}
+
+\begin{justification}
+Contribuye la formación matemática escolar e imparte conocimientos necesarios para iniciar al estudiante en el nivel universitario, permitiéndole adquirir herramientas básicas para cursos afines 
+como Cálculo y Estadística. El curso de Matemática I es base para el desarrollo de varias asignaturas.
+
+% The course aims to develop in students the skills to deal with models in science and engineering related to
+% single variable differential calculus skills. In the course it is studied and applied concepts related to calculation
+% limits, derivatives and integrals of real and vector functions of single real variables to be used as base and
+% support for the study of new contents and subjects. Also seeks to achieve reasoning capabilities and
+% applicability to interact with real-world problems by providing a mathematical basis for further professional
+% development activities.
+\end{justification}
+
+\begin{goals}
+\item Adquirir el hábito de razonar matemáticamente desde el punto de vista algebraico y geométrico.
+\item Desarrollar sus capacidades de análisis, abstracción y generalización.
+\item Efectuar correctamente las operaciones que se realizan con los números reales.
+\item Manejar los conceptos básicos de un sistema coordenado bidimensional, operaciones con funciones y obtener reglas de correspondencia que expresen modelos matemáticos simples.
+\end{goals}
+
+\begin{outcomes}
+    \item \ShowOutcome{a}{2}
+    \item \ShowOutcome{d}{2}
+    \item \ShowOutcome{h}{2}
+    \item \ShowOutcome{j}{3}
+\end{outcomes}
+
+\begin{competences}
+    \item \ShowCompetence{C1}{a}
+    \item \ShowCompetence{C20}{j}
+    \item \ShowCompetence{C24}{j}
+\end{competences}
+
+\begin{unit}{Lógica de Proposiciones}{Lógica de Proposiciones}{venero2006introduccion,venero2008matematica,figueroa2001matematica}{6}{C1}
+% begin{unit}{Complex number}{Stewart,RonLarson}{0}{3}
+   \begin{topics}
+    \item Lógica Proposicional
+    \item Enunciado y proposiciones lógicas
+    \item Conectivos lógicos
+    \item Leyes del algebra proposicional
+    \item Funciones proposicionales
+    \item Cuantificadores
+   \end{topics}
+
+   \begin{learningoutcomes}
+      \item Enunciar, identificar y habituarse a las nociones más importantes de la lógica proposicional.[\Assessment]
+      \item Reconocer, interpretar y emplear los cuantificadores universal y existencial.[\Assessment]
+      \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Sistema de números Reales}{Sistema de números Reales}{venero2008matematica,figueroa2001matematica,Lion2015matematica}{30}{C20}
+% begin{unit}{}{Functions of a single variable}{Stewart,RonLarson}{10}{C20}
+  
+  \begin{topics}
+    \item Sistema de números reales. Propiedades y axiomas de los números reales.
+    \item Ecuaciones lineales y cuadráticas.
+    \item Ecuaciones polinómicas y fraccionarias.
+    \item Aplicaciones de ecuaciones
+    \item Orden de los números reales. Desigualdades y propiedades.    
+    \item Inecuaciones: inecuaciones lineales. Inecuaciones cuadráticas
+    \item Inecuaciones polinómicas. 
+    \item Inecuaciones fraccionarias.
+    \item Aplicaciones de inecuaciones
+    \item Valor absoluto. Propiedades. Ecuaciones e inecuaciones con valor absoluto.
+    \item Ecuaciones e Inecuaciones con radicales.
+    \item Máximo entero: Ecuaciones 
+    \item Aplicaciones
+   \end{topics}
+
+   \begin{learningoutcomes}
+      \item Enunciar los diferentes axiomas de los números reales.[\Assessment]
+      \item Resolver ecuaciones lineales.[\Assessment]
+      \item Aplicar diversos métodos para la solución de ecuaciones cuadráticas y polinómicas.[\Assessment]
+      \item Determinar la naturaleza de las raíces de las ecuaciones.[\Assessment]
+      \item Resolver inecuaciones algebraicas.[\Assessment]
+      \item Definir valor absoluto. Dar una interpretación geométrica. Resolver ecuaciones e inecuaciones con valor absoluto. [\Assessment]
+      \item Resolver ecuaciones e inecuaciones con radicales.[\Assessment]
+      \item Resolver ecuaciones con máximo entero.[\Assessment]
+      \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Funciones}{Funciones}{venero2008matematica,figueroa2001matematica,Lion2015matematica,zill2012algebra,espinoza2012matematica}{36}{C1}
+% begin{unit}{}{Limits and derivate}{Stewart,RonLarson}{20}{C1}
+   \begin{topics}
+      \item Relaciones: Gráfica de una relación de R en R.
+      \item Funciones. Representación de las funciones. Dominio y rango.
+      \item Evaluación de una función.  
+      \item Funciones reales de variable real. Modelación. Criterio para el cálculo de Dominio y Rango de una Función.
+      \item Gráfica de una función. 
+      \item Funciones elementales: Función constante, función identidad, función lineal, función cuadrática, función poli nómica, función racional, función valor absoluto, función raíz cuadrada, función máximo entero, función signo, función definida por tramos.
+      \item Aplicaciones de funciones elementales.
+      \item Álgebra de funciones. Composición de funciones.
+      \item Funciones Crecientes, Decrecientes y Monótonas. Función Par e Impar. Función inyectiva, sobreyectiva y biyectiva. Función inversa
+   \end{topics}
+
+   \begin{learningoutcomes}
+      \item Definir Relación y Función. Establecer la diferencia entre relación y función. [\Assessment].
+      \item Analizar las nociones básicas de funciones.[\Assessment].
+      \item Identificar los diferentes tipos de funciones elementales.[\Assessment].
+      \item Representar gráficamente las funciones de variable real.[\Assessment].
+      \item Identificar en el plano cartesiano el área formada por dos o más funciones de variable real.[\Assessment].
+      \item Efectuar operaciones entre funciones.[\Assessment].
+      \item Definir e interpretar geométricamente la función inversa. [\Assessment].
+    \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Funciones Trascendentes}{Funciones Trascendentes}{venero2008matematica,figueroa2001matematica,Lion2015matematica,zill2012algebra,espinoza2012matematica}{12}{C20}
+% begin{unit}{}{Integrals}{Stewart,RonLarson}{22}{C20}
+   \begin{topics}
+    \item Función exponencial y función logarítmica: Propiedades y aplicaciones
+    \item Ecuaciones exponenciales y logarítmicas: Propiedades.
+    \item Funciones trigonométricas.
+    \item Ecuaciones trigonométricas.
+    \item Funciones trigonométricas inversas.
+
+   \end{topics}
+
+   \begin{learningoutcomes}  
+      \item Trazar la gráfica de una función exponencial y logarítmica.[\Assessment].
+      \item Resolver ecuaciones exponenciales y logarítmicas.[\Assessment].
+      \item Trazar la gráfica de las funciones trigonométricas y aplicar sus propiedades a problemas específicos.[\Assessment].
+      \item Resolver ecuaciones trigonométricas.[\Assessment].
+    \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{Funciones Trascendentes}{Funciones Trascendentes}{sullivan1997precalculo,demana2007matematica,figueroa2001matematica,espinoza2012matematica}{6}{C20}
+% begin{unit}{}{Integrals}{Stewart,RonLarson}{22}{C20}
+   \begin{topics}
+    \item Número complejo. Conjunto de Número complejos.
+    \item Axiomas del sistema de números complejos.
+    \item Operaciones fundamentales con números complejos
+    \item Plano complejo.
+    \item Módulo de un número complejo.
+    \item Representación gráfica de los números complejos. Forma polar.
+    \item Fórmula de Euler, forma exponencial de los números complejos.
+    \item Teorema de Moivre.
+
+   \end{topics}
+
+   \begin{learningoutcomes}  
+      \item Identificar el sistema de números complejos..[\Assessment].
+      \item Enunciar y analizar propiedades del sistema de números complejos..[\Assessment].
+      \item Resolver operaciones básicas con números complejos.[\Assessment].
+      \item Determinar el módulo de un número complejo y representar en forma gráfica los números complejos.[\Assessment].
+      \item Expresar los números complejos en su forma polar.[\Assessment].
+      \item Escribir en forma exponencial los números complejos.[\Assessment].
+    \end{learningoutcomes}
+\end{unit}
+
+
+
+\begin{coursebibliography}
+\bibfile{BasicSciences/MA100}
+\end{coursebibliography}
+
+\end{syllabus}
+
+%\end{document}

@@ -1,0 +1,21 @@
+#!/bin/csh
+
+#--BEGIN-FILTERS--
+set area        = $1
+set institution = $2
+set country     = $3
+set MainFile	= $4
+set Compiler    = $5
+set OutputFile  = "$6"
+echo OutputFile=$OutputFile
+exit;
+
+#--END-FILTERS--
+set OutputDir = "out/$country/$area-$institution"
+set current_dir = `pwd`
+
+set InfoFile	= "in/country.$country/$area-$institution/institution-info.tex"
+# set semester = `grep -e "\Semester}" $InfoFile | cut -d"{" -f3 | cut -d\\ -f1`
+
+echo "./scripts/CompileTexFile.sh $area $institution pdflatex $MainFile $OutputDir"
+./scripts/CompileTexFile.sh $area $institution $Compiler $MainFile $OutputDir "$OutputFile"

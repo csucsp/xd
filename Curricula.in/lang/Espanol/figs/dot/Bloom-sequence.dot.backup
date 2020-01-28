@@ -1,0 +1,29 @@
+digraph Bloom
+{
+     start [label="inicio"];
+     start->1;
+     1   [shape=polygon,sides=4,skew=.4,label="1. Conocimiento"];
+     Q1  [shape=diamond,label=""];
+     1->Q1;
+     Q1->2 [label="Si"];
+     
+     2   [shape=polygon,sides=4,skew=.4,label="2. Comprensión"];
+     Q2  [shape=diamond,label=""];
+     2->Q2;
+     
+     3   [shape=polygon,sides=4,skew=.4,label="3. Aplicación"];
+     Q3  [shape=diamond,label=""];
+     3->Q3;
+     
+     4   [shape=polygon,sides=4,skew=.4,label="4. Análisis"];
+     Q4  [shape=diamond,label=""];
+     4->Q4;
+     
+     5   [shape=polygon,sides=4,skew=.4,label="5. Síntesis"];
+     Q5  [shape=diamond,label=""];
+     5->Q5;
+     
+     6   [shape=polygon,sides=4,skew=.4,label="6. Evaluación\nCreación"];
+     Q6  [shape=diamond,label=""];
+     6->Q6;
+}

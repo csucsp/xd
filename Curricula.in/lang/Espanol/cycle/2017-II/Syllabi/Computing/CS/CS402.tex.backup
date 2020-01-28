@@ -1,0 +1,46 @@
+\begin{syllabus}
+
+\course{CS402. Proyecto II}{Obligatorio}{CS402}
+
+\begin{justification}
+Este curso tiene por objetivo que el alumno pueda realizar un estudio del estado del arte apropiado al tema que ha escogido para su tesis.
+\end{justification}
+
+\begin{goals}
+\item Que el alumno realice un estudio del estado del arte de un área específica de investigación en computación y que muestre dominio en el tema desde el origen de esa línea de investigación.
+\item Los entregables de este curso son:
+	\begin{description}
+		\item [Avance parcial:] Bibliografía sólida y avance de un Reporte Técnico.
+		\item [Final:] Reporte Técnico concluído y experimentos comparativos entre dos o tres técnicas.
+	\end{description}
+\end{goals}
+
+\begin{outcomes}
+\ExpandOutcome{a}{1}
+\ExpandOutcome{b}{1}
+\ExpandOutcome{c}{1}
+\ExpandOutcome{d}{1}
+\ExpandOutcome{e}{1}
+\ExpandOutcome{f}{1}
+\ExpandOutcome{h}{1}
+\ExpandOutcome{i}{1}
+\ExpandOutcome{l}{1}
+\end{outcomes}
+
+\begin{unit}{Levantamiento del estado del arte}{ieee,acm,citeseer}{60}{1}
+  \begin{topics}
+      \item Realizar un estudio profundo del estado del arte en un determinado tópico del área de Computación.
+      \item Redacción de artículos técnicos en computación.
+  \end{topics}
+  \begin{unitgoals}
+      \item Hacer un levantamiento bibliográfico del estado del arte del tema escogido (esto significa muy probablemente 1 o 2 capítulos de marco teórico además de la introducción que es el capítulo I de la tesis)
+      \item Redactar un documento en latex con mayor calidad que en Proyecto I (dominar tablas, figuras, ecuaciones, índices, bibtex, referencias cruzadas, citaciones, pstricks)
+      \item Tratar de hacer las presentaciones utilizando prosper
+      \item Mostrar experimentos básicos
+   \end{unitgoals}
+\end{unit}
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS401}
+
+\end{coursebibliography}
+\end{syllabus}

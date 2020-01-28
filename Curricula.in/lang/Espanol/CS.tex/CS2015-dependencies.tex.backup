@@ -1,0 +1,34 @@
+\course{1}{Mandatory}{CS111}{}{Programación de Video Juegos}{4}{2}{2}{2}{}{4}{Basic}{}{}{CS1D1}{}{CS}%SPC,UCSP
+\course{1}{Mandatory}{CS1D1}{}{Estructuras Discretas I}{4}{2}{4}{}{}{6}{}{}{}{}{}{MC}%SPC,UCSP
+\course{1}{Mandatory}{MA101}{}{Álgebra y Geometría}{5}{4}{2}{}{}{6}{}{}{}{}{}{CB}%SPC,UCSP
+\course{1}{Mandatory}{FG102}{}{Metodología del Estudio}{3}{2}{2}{}{}{4}{}{}{}{}{}{FG}%SPC,UCSP
+\course{1}{Mandatory}{FG103}{}{Introducción a la Vida Universitaria}{3}{3}{}{}{}{3}{}{}{}{}{}{FG}%UCSP
+\course{1}{Mandatory}{FG101}{}{Comunicación}{3}{2}{2}{}{}{4}{}{}{}{}{}{FG}%SPC,UCSP
+
+
+
+
+
+\course{2}{Mandatory}{CS112}{}{Ciencia de la Computación I}{5}{2}{2}{4}{4}{8}{Basic}{CS111}{}{}{}{CS,SE}%SPC,UCSP
+
+\course{2}{Mandatory}{MA102}{}{Análisis Matemático I}{5}{4}{2}{}{}{6}{}{MA101}{}{}{}{CB}%SPC,UCSP
+
+\course{2}{Mandatory}{FG104}{}{Introducción a la Filosofía}{3}{3}{}{}{}{3}{}{}{}{}{}{FG}%UCSP
+\course{2}{Elective}{FG105}{}{Apreciación de la Música}{2}{1}{2}{}{}{3}{}{}{}{}{G1}{FG}%UCSP
+\course{2}{Elective}{FG106}{}{Teatro}{2}{1}{2}{}{}{3}{}{}{}{}{G1}{FG}%UCSP
+\course{2}{Elective}{FG112}{}{Matrimonio y Familia}{2}{1}{2}{}{}{3}{}{}{}{}{G1}{FG}%UCSP
+
+
+
+
+
+\course{3}{Mandatory}{CS113}{}{Ciencia de la Computación II}{4}{2}{2}{2}{2}{6}{Advanced}{CS112,UCSP=Inglés (200)}{}{}{}{CS,SE}%UCSP
+
+
+\course{3}{Mandatory}{MA103}{}{Cálculo en varias variables}{5}{4}{2}{}{}{6}{}{MA102}{}{}{}{CB}%UNSA
+
+\course{3}{Mandatory}{CS221}{}{Arquitectura de Computadores}{3}{2}{}{2}{2}{4}{Networks}{CS1D2}{}{}{}{HW}%SPC,UCSP
+\course{3}{Mandatory}{FG107}{}{Fundamentos Antropológicos de la Ciencia}{2}{1}{2}{}{}{3}{}{FG104}{}{}{}{FG}%UCSP
+\course{3}{Elective}{FG201}{}{Artes Plásticas}{2}{1}{2}{}{}{3}{}{}{}{}{G1}{FG}%UCSP
+\course{3}{Elective}{FG202}{}{Apreciación Literaria}{2}{1}{2}{}{}{3}{}{}{}{}{G1}{FG}%UCSP
+\course{3}{Mandatory}{FG203}{}{Oratoria y Expresión Personal}{2}{1}{2}{}{}{3}{}{}{}{}{}{FG}%SPC,UCSP

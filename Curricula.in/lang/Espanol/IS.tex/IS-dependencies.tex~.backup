@@ -1,0 +1,129 @@
+\curso{1}{Obligatorio}{CS100}{IS100}{Introducción a la Computación}{2}{2}{}{3}{}{}{}{CS}%SPC,UCSP
+\curso{1}{Obligatorio}{CS101F}{}{Introducción a la Programación}{2}{2}{2}{4}{}{}{}{CS}%SPC,NT,UCSP
+\curso{1}{Obligatorio}{CB101}{}{Álgebra y Geometría}{3}{4}{}{5}{}{}{}{CB}%SPC,NT,UCSP
+\curso{1}{Obligatorio}{HU101}{}{Comunicación}{2}{2}{}{3}{}{}{}{HU}%SPC,NT,UCSP
+\curso{1}{Obligatorio}{HU101}{}{Comunicación}{3}{}{}{3}{}{}{}{HU}%SPC,NT,UCSP
+\curso{1}{Obligatorio}{ID101}{}{Inglés I}{2}{2}{}{3}{}{}{}{HU}%UNSA,UTEA
+\curso{1}{Obligatorio}{HU102}{}{Metodología del Estudio}{2}{2}{}{3}{}{}{}{HU}%SPC,NT,UCSP
+\curso{1}{Obligatorio}{HU103}{}{Introducción a la Vida Universitaria}{1}{2}{}{2}{}{}{}{HU}%UCSP
+\curso{1}{Electivo}{HU105}{}{Apreciación de la Música}{1}{2}{}{2}{}{}{}{HU}%UCSP
+\curso{1}{Electivo}{HU106}{}{Teatro}{1}{2}{}{2}{}{}{}{HU}%UCSP
+
+
+
+\curso{2}{Obligatorio}{IS100A}{IT100}{Productividad Personal  con Tecnología de Sistemas de Información}{2}{}{4}{4}{CS100}{}{}{IT}%SPC,UCSP
+\curso{2}{Obligatorio}{CS101O}{}{Introducción a la Programación Orientada a Objetos}{2}{2}{4}{5}{CS101F}{}{}{CS}%SPC,NT,UCSP
+\curso{2}{Obligatorio}{CS105}{}{Estructuras Discretas I}{2}{2}{2}{4}{CS101F}{}{}{MC}%SPC,2E,NT,UCSP
+\curso{2}{Obligatorio}{CB102}{}{Análisis Matemático I}{3}{2}{}{4}{CB101}{}{}{CB}%SPC,NT,UCSP
+\curso{2}{Obligatorio}{HU104}{}{Fundamentos de Filosofía}{3}{}{}{3}{}{}{}{HU}%UCSP
+\curso{2}{Obligatorio}{HU220}{}{Análisis de la Realidad Peruana}{1}{2}{}{2}{}{}{}{HU}%UCSP
+\curso{2}{Obligatorio}{ID102}{}{Inglés II}{1}{2}{}{2}{ID101}{}{}{HU}%UNSA
+\curso{2}{Obligatorio}{CS181}{}{Historia de la Computación}{1}{2}{}{2}{}{}{}{CS}%
+
+
+
+
+
+
+\curso{3}{Obligatorio}{IS201}{}{Fundamentos de Sistemas de Información}{3}{2}{}{4}{IS100A}{}{}{IS}%SPC,UCSP
+\curso{3}{Obligatorio}{CS106}{}{Estructuras Discretas II}{2}{2}{2}{4}{CS105}{}{}{MC}%SPC,NT,UCSP
+\curso{3}{Obligatorio}{CS102O}{}{Objetos y Abstracción de Datos}{2}{2}{2}{4}{CS101O,InglesUCSP=200}{}{}{CS}%SPC,NT,UCSP
+
+\curso{3}{Obligatorio}{CB103}{}{Análisis Matemático II}{2}{2}{}{3}{CB102}{}{}{CB}%SPC,NT,UCSP
+\curso{3}{Obligatorio}{ID103}{}{Inglés III}{3}{}{}{3}{ID102}{}{}{HU}%UNSA
+
+
+\curso{3}{Obligatorio}{CS130}{IT130}{Introducción a Internet}{2}{}{2}{3}{IS100A}{}{}{IT}%SPC,NT,UCSP
+\curso{3}{Obligatorio}{HU107}{}{Fundamentos Antropológicos de la Ciencia de la Computación}{1}{2}{}{2}{}{}{}{HU}%UCSP
+\curso{3}{Electivo}{HU201}{}{Artes Plásticas}{1}{2}{}{2}{}{}{}{HU}%UCSP
+\curso{3}{Electivo}{HU202}{}{Apreciación Literaria}{1}{2}{}{2}{}{}{}{HU}%UCSP
+\curso{3}{Electivo}{HU203}{}{Oratoria y Expresión Personal}{1}{2}{}{2}{}{}{}{HU}%UCSP
+
+
+
+
+
+\curso{4}{Obligatorio}{CS103O}{IS205}{Algoritmos y Estructuras de Datos}{2}{2}{2}{4}{IS201,CS102O}{}{}{CS}%SPC,UCSP
+\curso{4}{Obligatorio}{IS202}{}{Negocios Electrónicos}{2}{2}{2}{4}{IS201,CS130}{}{}{IS}%SPC,UCSP
+\curso{4}{Obligatorio}{IS204}{IT204}{Hardware y Software de TI}{2}{}{4}{4}{IS201}{}{}{IT}%SPC,UCSP
+\curso{4}{Obligatorio}{CB203}{}{Estadística y Probabilidades}{2}{2}{2}{4}{CB103}{}{}{MC}%SPC,NT,UCSP
+\curso{4}{Obligatorio}{ID104}{}{Inglés IV}{3}{}{}{3}{ID103}{}{}{HU}%UNSA
+
+
+
+\curso{4}{Obligatorio}{CS220T}{}{Arquitectura de Computadores}{2}{}{2}{3}{CS106}{}{}{HW}%SPC,NT,UCSP
+\curso{4}{Obligatorio}{HU204}{}{Formación Cristiana}{3}{}{}{3}{}{}{}{HU}%UCSP
+
+
+
+
+\curso{5}{Obligatorio}{CB210}{}{Investigación Operativa I}{2}{2}{2}{4}{CB103}{}{}{CB}%SPC
+\curso{5}{Obligatorio}{CS250W}{IS319}{Interacción Humano Computador}{1}{2}{2}{3}{IS205}{}{}{CS}%SPC,UCSP
+\curso{5}{Obligatorio}{HU350}{IS350}{Liderazgo y Desempeño}{1}{4}{}{3}{}{}{}{OG}%SPC,UCSP
+\curso{5}{Obligatorio}{CS231W}{IT311}{Infraestructura de Tecnología de la Información}{2}{2}{2}{4}{IS204}{}{}{IT}%SPC,UCSP
+\curso{5}{Obligatorio}{IS203}{}{Teoría y Práctica de Sistemas de Información}{2}{2}{2}{4}{IS202}{}{}{IS}%SPC,UCSP
+\curso{5}{Obligatorio}{CS290T}{IS312A}{Análisis y Diseño de Sistemas I}{2}{2}{2}{4}{IS205,InglesUCSP=300}{}{}{SE}%SPC,2E,NT,UCSP
+
+\curso{5}{Obligatorio}{ID105}{}{Inglés V}{3}{}{}{3}{ID104}{}{}{HU}%UNSA
+\curso{5}{Obligatorio}{HU205}{}{Historia de la Cultura}{3}{}{}{3}{}{}{}{HU}%UCSP
+
+
+
+\curso{6}{Obligatorio}{IS207}{}{Análisis y Diseño Lógico}{2}{2}{2}{4}{CS103O}{}{}{SE}%SPC,UCSP
+\curso{6}{Obligatorio}{CB210}{}{Investigación Operativa I}{2}{2}{}{3}{CB103}{}{}{CB}%UCSP
+\curso{6}{Obligatorio}{CB211}{}{Investigación Operativa II}{2}{2}{2}{4}{CB210}{}{}{CB}%SPC
+\curso{6}{Obligatorio}{IS206}{IT206}{Redes y Telecomunicaciones}{2}{2}{4}{5}{CS231W}{}{}{IT}%SPC,UCSP
+\curso{6}{Obligatorio}{CS390}{IS312B}{Análisis y Diseño de Sistemas II}{2}{2}{2}{4}{IS312A, IS203}{}{}{SE}%SPC,NT,UCSP
+
+
+\curso{6}{Obligatorio}{CS225T}{}{Sistemas Operativos}{2}{2}{2}{4}{CS220T}{}{}{CS}%SPC,2E,NT,UCSP
+\curso{6}{Obligatorio}{HU221}{}{Historia de la Ciencia y Tecnología}{1}{2}{}{2}{}{}{}{HU}%UCSP
+
+
+
+
+\curso{7}{Obligatorio}{IS208}{}{Diseño Físico e Implementación con Bases de Datos}{2}{2}{2}{4}{IS207}{}{}{IS}%SPC,UCSP
+\curso{7}{Obligatorio}{IS210}{}{Gerencia de Proyectos de Información}{2}{2}{2}{4}{CS390,HU350,IS207}{}{}{IS}%SPC,UCSP
+\curso{7}{Obligatorio}{IS316}{}{Políticas y Estrategia}{3}{2}{0}{4}{IS312B}{}{}{OG}%SPC,UCSP
+
+\curso{7}{Obligatorio}{CS401}{IS401}{Proyecto I}{2}{2}{}{3}{IS312A,CB211}{}{}{SE}%SPC
+\curso{7}{Obligatorio}{CS401}{IS401}{Proyecto I}{2}{2}{}{3}{IS312A,CB210}{}{}{SE}%UCSP
+\curso{7}{Obligatorio}{IS313}{}{Modelos Empresariales}{2}{4}{}{4}{IS202,InglesUCSP=400}{}{}{OG}%SPC,UCSP
+
+\curso{7}{Obligatorio}{HU210}{}{Ética General}{3}{}{}{3}{}{}{}{HU}%SPC,UCSP
+\curso{7}{Obligatorio}{HU210}{}{Ética General}{3}{}{}{3}{HU104}{}{}{HU}%UCSP
+
+
+
+
+\curso{8}{Obligatorio}{CS271T}{IT301}{Gerenciamiento de Datos}{2}{2}{2}{4}{IS206,IS208}{}{}{IT}%SPC,NT,UCSP
+\curso{8}{Obligatorio}{IS315}{}{Gerencia de Cambios y de Proyectos de Sistemas de Información}{2}{2}{2}{4}{IS210}{}{}{IS}%SPC,UCSP
+\curso{8}{Obligatorio}{CS402}{IS402}{Proyecto II}{2}{2}{}{3}{IS401,CS390,CB211}{}{}{SE}%SPC
+\curso{8}{Obligatorio}{CS402}{IS402}{Proyecto II}{2}{2}{}{3}{IS401, CS390}{}{}{SE}%UCSP
+\curso{8}{Obligatorio}{ET101}{}{Formación de Empresas de Base Tecnológica I}{2}{4}{}{4}{IS316, IS313}{}{}{OG}%SPC,UCSP
+\curso{8}{Obligatorio}{HU211}{IS351}{Ética Profesional}{4}{}{}{4}{HU210}{}{}{IS}%SPC,UCSP
+\curso{8}{Obligatorio}{IS320}{}{Seguridad de la Información}{2}{}{2}{3}{IS313}{}{}{IS}%SPC,UCSP
+
+
+
+
+
+\curso{9}{Obligatorio}{IS209}{}{Diseño e Implementación en Ambientes Emergentes}{2}{2}{2}{4}{IS208,CS225T}{}{}{IS}%SPC,UCSP
+\curso{9}{Obligatorio}{CS391}{}{Calidad de Software}{3}{2}{}{4}{IS315}{}{}{SE}%SPC,UCSP
+\curso{9}{Obligatorio}{CS230W}{IT303}{Comunicación de Datos y Redes}{1}{2}{2}{3}{CS271T}{}{}{IT}%SPC,2E,UCSP
+\curso{9}{Obligatorio}{IS317}{IS403}{Proyecto Final Integrado}{3}{2}{0}{4}{IS315,IS402}{}{}{SE}%SPC,UCSP
+\curso{9}{Obligatorio}{ET102}{}{Formación de Empresas de Base Tecnológica II}{2}{4}{}{4}{ET101}{}{}{OG}%SPC,UCSP
+\curso{9}{Obligatorio}{HU301}{}{Doctrina Social de la Iglesia}{3}{}{}{3}{HU210}{}{}{HU}%UCSP
+\curso{9}{Obligatorio}{IS321}{}{Auditoría de Sistemas}{2}{}{2}{3}{IS320}{}{}{IS}%SPC,UCSP
+
+
+
+
+
+\curso{10}{Obligatorio}{CS370}{}{Tópicos en Bases de Datos}{2}{2}{2}{4}{CS271T}{}{}{CS}%SPC,2E,NT,UCSP
+\curso{10}{Obligatorio}{IS314}{IT314}{Tecnologías Emergentes}{3}{2}{0}{4}{IS312B}{}{}{IT}%SPC,UCSP
+\curso{10}{Obligatorio}{IS318}{}{Implicaciones de la Digitalización}{3}{2}{0}{4}{HU211}{}{}{IT}%SPC,UCSP
+\curso{10}{Obligatorio}{CS404}{IS404}{Seminario de Tesis}{2}{2}{}{3}{IS403}{}{}{SE}%SPC,UCSP
+
+\curso{10}{Obligatorio}{ET103}{}{Formación de Empresas de Base Tecnológica III}{2}{4}{}{4}{ET102}{}{}{OG}%SPC,UCSP
+\curso{10}{Obligatorio}{HU302}{}{Visión Cristiana de nuestro tiempo}{3}{}{}{3}{HU301}{}{}{HU}%UCSP

@@ -1,0 +1,115 @@
+\begin{syllabus}
+
+\course{CS392. Tópicos Avanzados en Ingeniería de Software}{Electivos}{CS392}
+
+\begin{justification}
+El desarrollo de software requiere del uso de mejores prácticas de desarrollo, gestión de proyectos de TI, manejo de equipos
+y uso eficiente y racional de frameworks de aseguramiento de la calidad y de Gobierno de Portfolios, estos elemento son pieza 
+clave y transversal para el éxito del proceso productivo.
+
+Este curso explora el diseño, selección, implementación y gestión de soluciones TI en las Organizaciones. El foco está en 
+las aplicaciones y la infraestructura y su aplicación en el negocio.
+
+\end{justification}
+
+\begin{goals}
+    \item Entender una variedad de frameworks para el análisis de arquitectura empresarial y la toma de decisiones
+	\item Utilizar técnicas para la evaluación y gestión del riesgo en el portfolio de la empresa
+	\item Evaluar y planificar la integraci­ón de Tecnologí­as emergentes
+    \item Entender el papel y el potencial de las TI para a apoyar la gestión de procesos empresariales
+	\item Entender los difentes enfoques para modelar y mejorar los procesos de negocio
+	\item Describir y comprender modelos de aseguramiento de la calidad como marco clave para el éxitos de los proyectos de TI.
+	\item Comprender y aplicar el framework de IT Governance como elemento clave para la gestión del portfolio de aplicaciones Empresariales
+\end{goals}
+
+\begin{outcomes}
+      \item \ShowOutcome{c}{2}
+      \item \ShowOutcome{d}{2}
+      \item \ShowOutcome{i}{2}
+      \item \ShowOutcome{j}{3}
+      \item \ShowOutcome{m}{3}
+      \item \ShowOutcome{o}{2}
+\end{outcomes}
+
+\begin{competences}
+      \item \ShowCompetence{C7}{c} 
+      \item \ShowCompetence{C11}{i,k} 
+      \item \ShowCompetence{C12}{j,m} 
+      \item \ShowCompetence{C13}{c,i,m} 
+      \item \ShowCompetence{C18}{d} 
+      \item \ShowCompetence{C19}{j}
+      \item \ShowCompetence{CS1}{c,i,k,m} 
+      \item \ShowCompetence{CS2}{c,i,k} 
+      \item \ShowCompetence{CS4}{c,i,k} 
+      \item \ShowCompetence{CS7}{c,i,k}
+\end{competences}
+
+\begin{unit}{Diseño y Arquitectura de Software}{Pressman2005,Sommerville2008,Larman2008}{18}{C7, C11, CS1, CS4, CS5, CS7}
+	\begin{topics}
+		\item Tecnologí­as de construcción.
+        \begin{subtopics}
+            \item Middleware.
+            \item Métodos de construcción de software distribuido.
+            \item La construcción de sistemas heterogéneos.
+        \end{subtopics}
+        \item Modelado.
+        \item Estructura de modelado.
+        \item Estrategias de diseño de software.
+        \item Diseño arquitectónico.
+        \item Diseño detallado.
+        \item Notaciones de diseño y herramientas de apoyo.
+        \item Evaluación de Diseño, Procesos, Actividades        
+	\end{topics}
+	\begin{learningoutcomes}
+		\item asdjask[\Familiarity]%
+	\end{learningoutcomes}
+\end{unit}
+
+
+\begin{unit}{}{Business Process Management}{Pressman2005,Sommerville2008,Larman2008}{14}{C7, C11, C12, C13, CS7}
+\begin{topics}
+    \item Visión General.
+    \item La comprensión de los procesos de la organización.
+    \item Proceso de evaluación.
+    \item La mejora de procesos.
+    \item El uso de la información para la gestión y mejora de procesos.
+    \item Cuestiones de organización sobre la gestión de procesos de negocio.
+\end{topics}
+\begin{learningoutcomes}
+  \item [\Familiarity] 
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{ITIL}{[Team, 2006], [Chrissis et al., 2007], [Kulpa and Johnson, 2008]}{14}{C7, C11, C13, CS7}
+\begin{topics}
+    \item Administración del Servicio como práctica.
+    \item Ciclo de Vida del Servicio.
+    \item Definiciones y conceptos genéricos.
+    \item Modelos y principios claves.
+    \item Procesos.
+    \item Tecnologí­a y Arquitectura.
+    \item Competencia y Entrenamiento.
+\end{topics}
+\begin{learningoutcomes}
+
+\end{learningoutcomes}
+\end{unit}
+
+
+\begin{unit}{COBIT{.....}{14}{C7, C11, C12, C13, CS7}
+\begin{topics}
+    \item Fundamentos e Introducción.
+    \item Frameworks de Control y IT Governance.
+\end{topics}
+\begin{learningoutcomes}
+	
+\end{learningoutcomes}
+\end{unit}
+
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS392}
+\end{coursebibliography}
+
+\end{syllabus}
+
+

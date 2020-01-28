@@ -1,0 +1,26 @@
+#!/bin/csh
+
+#--BEGIN-FILTERS--
+set institution=$1
+set filter=$2
+#--END-FILTERS--
+
+rm *.ps *.pdf *.log *.dvi *.aux *.bbl *.blg *.toc
+./scripts/gen-eps-files
+./scripts/gen-malla.pl $filter mallas-tmp/cs-dependencies.tex cs
+./scripts/gen-html-main.pl $institution $filter
+./scripts/gen-dvi-ps-pdf $institution-malla-main
+
+mkdir html
+rm -rf html/$institution
+
+latex2html \
+-t "Malla $institution" \
+-dir "html/$institution" -mkdir \
+-toc_stars -local_icons \
+-address "<A HREF='http://www.spc.org.pe/'>Sociedad Peruana de Computación</A>" \
+$institution-malla-main
+-split 3
+
+./scripts/gen-silabos
+

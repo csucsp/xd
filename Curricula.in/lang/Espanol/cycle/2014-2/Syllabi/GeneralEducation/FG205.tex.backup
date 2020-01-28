@@ -1,0 +1,100 @@
+\begin{syllabus}
+
+\course{HU205. Historia de la Cultura}{Obligatorio}{HU205}
+
+\begin{justification}
+Asignatura básica de carácter formativo y humanístico.  Su contenido debe ser parte de la cultura fundamental de un universitario.
+\end{justification}
+
+\begin{goals}
+\item \OutcomeFH
+\end{goals}
+
+\begin{outcomes}
+\ExpandOutcome{FH}
+\ExpandOutcome{HU}
+\end{outcomes}
+
+\begin{unit}{La Civilización Antigua}{KREBS,HERNADEZ,CHAPIN}{5}
+\begin{topics}
+	\item El mundo Helénico / El Mundo Romano
+\end{topics}
+\begin{unitgoals}
+	\item Conocer las bases de la cultura occidental.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{El Cristianismo}{KREBS,HERNADEZ,CHAPIN}{5}
+\begin{topics}
+	\item La Romanidad y la Iglesia: pilares básicos de la civilización occidental.
+\end{topics}
+\begin{unitgoals}
+	\item Estudiar el aporte del cristianismo a la humanidad.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{La Cultura Mediaval}{KREBS,HERNADEZ,CHAPIN}{5}
+\begin{topics}
+	\item Surgimiento y desarrollo de la edad Media
+\end{topics}
+\begin{unitgoals}
+	\item Conocer las principales características de la edad Media y su papel en la formación de la cultura occidental.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{El Renacimiento}{KREBS,HERNADEZ,CHAPIN}{5}
+\begin{topics}
+	\item El renacimiento y el nacimiento de la imagen moderna del mundo.
+\end{topics}
+\begin{unitgoals}
+	\item Conocer los hechos y las ideas que produjeron una renovación del pensamiento.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{La Revuelta Protestante}{KREBS,HERNADEZ,CHAPIN}{5}
+\begin{topics}
+	\item La época de las revueltas / La Reforma Católica.
+\end{topics}
+\begin{unitgoals}
+	\item Analizar la aparición de grupos  que quebraron la unidad cristiana y la consecuente Reforma.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{La Ilustración}{KREBS,HERNADEZ,CHAPIN}{5}
+\begin{topics}
+	\item La ilustración y el endiosamiento de la razón.
+\end{topics}
+\begin{unitgoals}
+	\item Valorar las nuevas ideas desarrolladas por este movimiento cultural y sus repercusiones.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{La Cuestión Social}{KREBS,HERNADEZ,CHAPIN}{7}
+\begin{topics}
+	\item La revolución industrial y las transformaciones político-sociales.
+	\item La tecnología industrial y los descubrimientos científicos.
+	\item Doctrina Social de la Iglesia.
+\end{topics}
+\begin{unitgoals}
+	\item Analizar el surgimiento del problema social y la repuesta de la Iglesia.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{El Mundo Contemporáneo}{KREBS,HERNADEZ,CHAPIN}{8}
+\begin{topics}
+	\item El Mundo Contemporáneo y el modernismo.
+	\item El comienzo de la crisis del siglo XX:  guerra y revolución.
+	\item La infructuosa búsqueda de una nueva estabilidad: Europa entre las guerras 1919-1939.
+	\item La profundidad de la crisis europea: La Segunda Guerra Mundial.
+	\item La Guerra Fría y la nueva Europa.
+	\item El mundo occidental contemporáneo a partir de 1970.
+\end{topics}
+\begin{unitgoals}
+	\item Analizar algunos de los cambios ocurridos en nuestro tiempo.
+\end{unitgoals}
+\end{unit}
+
+\begin{coursebibliography}
+\bibfile{GeneralEducation/HU101}
+\end{coursebibliography}
+\end{syllabus}

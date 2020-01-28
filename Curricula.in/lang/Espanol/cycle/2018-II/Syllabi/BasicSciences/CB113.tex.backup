@@ -1,0 +1,90 @@
+\begin{syllabus}
+
+\course{CB113. Termodinámica}{Obligatorio}{CB113}
+
+\begin{justification}
+Este es un curso general introductorio en Ingeniería termodinámica. 
+Se centra sobretodo en las propiedades termofísicas, las leyes de la termodinámica, 
+el concepto del balance de masa y energía, y en los sistemas de conversión de energía estándar.
+Aplicaciones ingenieriles y casos pertenecientes a diferentes carreras serán usados a lo largo del curso.
+Capacidad de conocimiento sobre los diferentes tópicos del curso, establecerá las bases para los estudiantes
+en buscar información más avanzada cuando sea necesario y poder participar en cursos más avanzados en termodinámica.
+\end{justification}
+
+\begin{goals}
+\item Capacidad para aplicar los conocimientos de Ingeniería.
+\item Capacidad de comunicarse por escrito.
+\item Capacidad para resolver problemas de Ingeniería.
+\end{goals}
+
+\begin{outcomes}
+\ShowOutcome{a}{3}
+\ShowOutcome{i}{3}
+\ShowOutcome{j}{3}
+\end{outcomes}
+
+\begin{unit}{FI1 Introducción}{Serway2002,Alonso94}{0}{3}
+\begin{topics}
+      \item Importancia de la termodinámica para las ciencias de la Ingeniería.
+      \item Concepto de equilibro (térmica, mecánica y química).
+   \end{topics}
+
+   \begin{learningoutcomes}
+      \item Resolver problemas.
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{FI1 Propiedades termofísicas}{}{0}{3}
+\begin{topics}
+      \item Evaluación de las propiedades de las sustancias puras.
+      \item Ecuaciones de estado y evaluación de las propiedades mediante el modelo de los gases ideales.
+      \item Sistemas cerrados, volúmenes de control y sistemas abiertos.
+      \item Estado de las funciones (energía interna, entalpía y entropía).
+   \end{topics}
+
+   \begin{learningoutcomes}
+      \item Resolver problemas.
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{FI1 1ra Ley y Procesos}{}{0}{3}
+\begin{topics}
+      \item 1ra Ley de la Termodinámica.
+      \item Balance de masa y energía de volúmenes de control.
+   \end{topics}
+
+   \begin{learningoutcomes}
+      \item Resolver problemas.
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{FI1 2da Ley y Sistemas}{}{0}{3}
+\begin{topics}
+      \item Motores térmicos. Ciclo de Carnot.
+      \item 2da Ley de la Termodinámica.
+      \item Eficiencia térmica. Coeficiente de rendimiento (COP).
+      \item Entropía.
+   \end{topics}
+
+   \begin{learningoutcomes}
+      \item Resolver problemas.
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{FI1 Conversión de Energía}{}{0}{3}
+\begin{topics}
+      \item Conceptos básicos sobre los ciclos de potencia: Otto, Diesel, Brayton y Rankine.
+      \item Ciclos combinados.
+      \item Concept básicos sobre los ciclos de refrigeración y bomba de calor.
+   \end{topics}
+
+   \begin{learningoutcomes}
+      \item Resolver problemas.
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{coursebibliography}
+\bibfile{BasicSciences/CB111}
+\end{coursebibliography}
+
+\end{syllabus}

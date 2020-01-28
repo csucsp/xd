@@ -1,0 +1,29 @@
+\documentclass[twosides,openright,a4paper,final]{book}
+\usepackage{ae}
+\usepackage[spanish]{babel}
+\usepackage{xspace}
+\usepackage{fancyhdr}
+\usepackage{paralist}
+\usepackage{tabularx}
+\usepackage{graphics}
+\usepackage{graphicx}
+
+\input{current-institution}
+\usepackage{\InStyDir/bok-macros}
+\usepackage{\InStyAllDir/config-hdr-foot}
+
+\newcommand{\BookTitle}{Compendio de Unidades por Curso\xspace}
+
+\begin{document}
+\input{\InInstDir/institution-info}
+\input{\InTexDir/outcomes-macros}
+\input{\InTexAllDir/expand-outcomes}
+\include{Book-Face}
+\tableofcontents
+
+\chapter{Información General}
+\input{\InTexDir/outcomes}
+\input{\InTexAllDir/learning-objectives}
+
+\input{list-of-units-by-course}
+\end{document}

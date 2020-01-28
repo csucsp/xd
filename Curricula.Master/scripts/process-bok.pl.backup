@@ -1,0 +1,336 @@
+#!/usr/bin/perl -w
+use strict;
+use Data::Dumper;
+use scripts::Lib::Common;
+use Cwd;
+
+$Common::command = shift or Util::halt("There is no command to process (i.e. AREA-INST)");
+my %bok = ();
+
+sub parse_bok()
+{
+	my ($bok_in_file) = (Common::get_template("in-bok-macros-V0-file"));
+	my $bok_in = Util::read_file($bok_in_file);
+	my $output_txt = "";
+	
+# 	Util::print_message("Processing $bok_in_file ...");
+	my %counts = ();
+	while($bok_in =~ m/\\(.*?){(.*?)}/g)
+	{
+	    my ($cmd, $ka)  = ($1, $2);
+	    if($cmd eq "KA") # \KA{AL}{<<Algoritmos y Complejidad>>}{crossref}
+	    {	
+		$bok_in =~ m/{<<(.*?)>>}{(.*?)}/g;
+		my ($body, $crossref)  = ($1, $2);
+		if( $body =~ m/(.*)\.$/ )
+		{	$body = $1;	}
+		
+		$bok{$ka}{name} 	= $body; 
+		my $KAorder		= scalar keys %bok;
+		$bok{$ka}{order} 	= $KAorder;
+		($bok{$ka}{nhTier1}, $bok{$ka}{nhTier2}) = (0, 0);
+		$counts{$cmd}++;
+
+		#if( not $crossref eq "" )
+		#{	Util::print_message("Area: $ka, crossref: \"$crossref\"");		}
+# 		Util::print_message("\nKA ($ka) order=$bok{$ka}{order} ...");
+	    }
+	    elsif( $cmd eq "KADescription")
+	    {	
+		$bok_in =~ m/{<<((.|\n)*?)>>}/g;
+		my ($body)  = ($1);
+# 		if( $body =~ m/(.*)\.$/ )
+# 		{	$body = $1;	}
+		
+		$bok{$ka}{description} = $body; 
+		$counts{$cmd}++;
+	    }
+	    elsif( $cmd eq "KU") # \KU{AL}{BasicAnalysis}{<<Análisis Básico>>}{}{#hours Tier1}{#hours Tier2}
+	    {	
+		$bok_in =~ m/{(.*?)}{<<(.*?)>>}{(.*?)}{(.*?)}{(.*?)}/g;
+		my ($p2, $body, $crossref, $nhTier1, $nhTier2)  = ($1, $2, $3, $4, $5);
+		if( $body =~ m/(.*)\.$/ )
+		{	$body = $1;	}
+		
+		my $ku 			= "$ka$p2";
+		%{$bok{$ka}{KU}{$ku}} 	= ();
+		my $KUPos 		= scalar keys %{$bok{$ka}{KU}};
+		$bok{$ka}{KU}{$ku}{name}= $ku;
+		$bok{$ka}{KU}{$ku}{order}= $KUPos;
+		$bok{$ka}{KU}{$ku}{body} = $body;
+		$bok{$ka}{KU}{$ku}{nhTier1} 	 = $nhTier1;
+		#Util::print_message("bok{$ka}{nhTier1} 		+= $nhTier1;");
+		$bok{$ka}{nhTier1} 		+= $nhTier1;
+		$bok{$ka}{KU}{$ku}{nhTier2} 	 = $nhTier2;
+		$bok{$ka}{nhTier2} 		+= $nhTier2;
+		$counts{$cmd}++;
+# 		Util::print_message("KU ($ka, $ku, $KUPos, $crossref, Tier1=$nhTier1, Tier2=$nhTier2) ...");
+	    }
+	    elsif( $cmd eq "KUDescription") # \KUDescription{AL}{BasicAnalysis}{<<~>>}
+	    {	
+		$bok_in =~ m/{(.*?)}{<<((.|\n)*?)>>}/g;
+		my ($p2, $body)  = ($1, $2);
+		#if( $body =~ m/(.*)\.$/ )
+		#{	$body = $1;	}
+		
+		my $ku			= "$ka$p2";
+		$bok{$ka}{KU}{$ku}{description}= $body;
+		$counts{$cmd}++;
+# 		Util::print_message("KU ($ka, $ku, KUDescription) ...");
+	    }
+	    elsif( $cmd eq "KUItem") # \KUItem{AL}{BasicAnalysis}{Core-Tier2}{Recurrence}{crossrefs}{<<Relaciones recurrentes \begion{topic} ... \n \end{topic}.>>}
+	    {	
+		$bok_in =~ m/{(.*?)}{(.*?)}{(.*?)}{(.*?)}{<<((.|\n)*?)>>}/g;
+		my ($kubase, $tier, $kuposfix, $crossref, $body)  = ($1, $2, $3, $4, $5);
+		#if( $body =~ m/(.*)\.$/ )
+		#{	$body = $1;	}
+		
+		my $ku 			= "$ka$kubase";
+		my $kuitem		= $ku."Topic".$kuposfix;
+		my $KUItemPos 		= scalar keys %{$bok{$ka}{KU}{$ku}{items}{$tier}};
+		$bok{$ka}{KU}{$ku}{items}{$tier}{$kuitem}{body}  = $body;
+		$bok{$ka}{KU}{$ku}{items}{$tier}{$kuitem}{order} = $KUItemPos;
+# 		$crossref =~ s/\s//g;
+		$bok{$ka}{KU}{$ku}{items}{$tier}{$kuitem}{crossref} = $crossref;
+# 		if( not $bok{$ka}{KU}{$ku}{items}{$tier}{$kuitem}{crossref} eq "" )
+# 		{	Util::print_message("kuitem = $kuitem, bok{$ka}{KU}{$ku}{items}{$tier}{$kuitem}{crossref} = $bok{$ka}{KU}{$ku}{items}{$tier}{$kuitem}{crossref} ... ");		
+# 			exit;
+# 		}
+		$counts{$cmd}++;
+		
+		#Util::print_message("$cmd, $ka, $kubase, $kuposfix, $tier, $body ...");
+	    }
+	    elsif( $cmd eq "LO") # \LO{AL}{BasicAnalysis}{Core-Tier1}{Familiarity}{State}{<<Indique la definicion formal de Big O.>>}
+	    {	
+		$bok_in =~ m/{(.*?)}{(.*?)}{(.*?)}{(.*?)}{<<((.|\n)*?)>>}/g;
+		my ($kubase, $tier, $lolevel, $kuposfix, $body)  = ($1, $2, $3, $4, $5);
+		if( $body =~ m/(.*)\.$/ )
+		{	$body = $1;	}
+		
+		my $ku 			= "$ka$kubase";
+		my $LOitem		= $ku."LO".$kuposfix;
+		my $LOItemPos 		= scalar keys %{$bok{$ka}{KU}{$ku}{LO}{$tier}};
+		$bok{$ka}{KU}{$ku}{LO}{$tier}{$LOitem}{body}  	= $body; 		# $tier = Core-Tier1, Core-Tier2, Elective
+		$bok{$ka}{KU}{$ku}{LO}{$tier}{$LOitem}{lolevel} = $lolevel; 		# $lolevel = Familiarity
+		$bok{$ka}{KU}{$ku}{LO}{$tier}{$LOitem}{order} 	= $LOItemPos;
+		$counts{$cmd}++;
+		#Util::print_message("$cmd, $ka, $kubase, $kuposfix, $tier, $lolevel ...");
+		#Util::print_message("KU ($ka, $ku, $KUPos) ...");
+	    }
+	    #Util::print_message("Processing macro #$count: $cmd ...");
+	}
+	foreach (keys %counts)
+	{	Util::print_message("counts{$_} = $counts{$_} ...");	}	
+	Util::check_point("parse_bok");
+	#print Dumper(\%bok);
+	#Util::print_message("parse_bok($bok_in_file) $count macros processed ... OK!");
+	#Util::print_message("bok{SE}{order} = $bok{SE}{order}");
+}
+
+sub gen_bok()
+{
+	Util::precondition("parse_bok");
+	my $bok_macros_output_file = Common::get_template("in-bok-macros-file");
+	my $bok_output_file = Common::get_template("out-bok-body-file");
+	#foreach my $key (sort {$config{degrees}{$b} <=> $config{degrees}{$a}} keys %{$config{faculty}{$email}{fields}{shortcvline}})
+	my $macros_txt = "";
+	my $bok_index_file = Common::get_template("out-bok-index-file");
+	my $bok_index_txt = "";
+	my $bok_output_txt = "";
+	
+	$bok_index_txt .= "\\begin{multicols}{2}\n";
+	$bok_index_txt .= "\\scriptsize\n";
+	$bok_index_txt .= "\\noindent\n";
+	
+	foreach my $ka (sort {$bok{$a}{order} <=> $bok{$b}{order}} keys %bok)
+	{
+		#Util::print_message("Generating KA: $ka (order=$bok{$ka}{order} ...)");
+		my $macro = $ka."BOKArea";
+		$macros_txt .= "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
+		$macros_txt .= "% Knowledge Area: $ka\n";
+		$macros_txt .= "\\newcommand{\\$macro}{$bok{$ka}{name} ($ka)}\n";
+		
+		$bok_output_txt .= "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
+		$bok_output_txt .= "% Knowledge Area: $ka\n";
+		$bok_output_txt .= "\\section{\\$macro}\\label{sec:BOK:$ka}\n"; 
+		$bok_index_txt .= "{\\bf \\ref{sec:BOK:$ka} \\htmlref{\\$macro}{sec:BOK:$ka}\\xspace (Pág.~\\pageref{sec:BOK:$ka})}\n";
+		my $hours_by_ku_file = "$ka-hours-by-ku";
+		
+		$macro = $ka."BOKDescription";
+		$macros_txt .= "\\newcommand{\\$macro}{$bok{$ka}{description}}\n\n";
+		$bok_output_txt .= "\\$macro\n\n";
+		
+		my $hours_by_ku_rows = "";
+		$bok_output_txt .= "\\input{\\OutputTexDir/$hours_by_ku_file}\n";
+		
+# 		my $ku 			= "$ka$p2";
+# 		%{$bok{$ka}{KU}{$ku}} 	= ();
+# 		my $KUPos 		= scalar keys %{$bok{$ka}{KU}};
+# 		$bok{$ka}{KU}{$ku}{name}= $ku;
+# 		$bok{$ka}{KU}{$ku}{order}= $KUPos;
+		#Util::print_message("");
+		$bok_index_txt .= "\\begin{itemize}\n";
+		foreach my $ku (sort {$bok{$ka}{KU}{$a}{order} <=> $bok{$ka}{KU}{$b}{order}} 
+				keys %{$bok{$ka}{KU}})
+		{
+		      #print Dumper(\%{$bok{$ka}{KU}{$ku}});
+		      #Util::print_message("bok{$ka}{KU}{$ku}{order} = $bok{$ka}{KU}{$ku}{order}");
+		      my $ku_macro = "$bok{$ka}{KU}{$ku}{name}";
+		      $macros_txt .= "% KU: $bok{$ka}{KU}{$ku}{body}\n";
+		      $macros_txt .= "\\newcommand{\\$ku_macro}{$bok{$ka}{KU}{$ku}{body}}\n";
+		      
+		      my ($nhours_txt, $sep) = ("", "");
+		      #Util::print_message("bok{$ka}{KU}{$ku}{nhTier1}=$bok{$ka}{KU}{$ku}{nhTier1} ...");
+		      my $ku_line = "\\ref{sec:BOK:$ku_macro} \\htmlref{\\$ku_macro}{sec:BOK:$ku_macro}\\xspace (Pág.~\\pageref{sec:BOK:$ku_macro}) & <CORETIER1> & <CORETIER2> & <ELECTIVES> \\\\ \\hline\n";
+		      $bok_index_txt .= "\\item \\ref{sec:BOK:$ku_macro} \\htmlref{\\$ku_macro}{sec:BOK:$ku_macro}\\xspace (Pág.~\\pageref{sec:BOK:$ku_macro})\n";
+		      if( $bok{$ka}{KU}{$ku}{nhTier1} > 0 )
+		      {		$nhours_txt .= "$sep$bok{$ka}{KU}{$ku}{nhTier1} $Common::config{dictionary}{hours} Core-Tier1";	$sep = ",~";	
+				$ku_line     =~ s/<CORETIER1>/$bok{$ka}{KU}{$ku}{nhTier1}/g;
+		      }
+		      if( $bok{$ka}{KU}{$ku}{nhTier2} > 0 )
+		      {		$nhours_txt .= "$sep$bok{$ka}{KU}{$ku}{nhTier2} $Common::config{dictionary}{hours} Core-Tier2";	$sep = ",~";	
+				$ku_line     =~ s/<CORETIER2>/$bok{$ka}{KU}{$ku}{nhTier2}/g;
+		      }
+		      
+		      if( defined($bok{$ka}{KU}{$ku}{items}{Elective}) )
+		      {		$ku_line     =~ s/<ELECTIVES>/$Common::config{dictionary}{Yes}/g;      }
+		      else{ 	$ku_line     =~ s/<ELECTIVES>/$Common::config{dictionary}{No}/g;	}      
+		      $ku_line =~ s/<CORETIER.?>/~/g;
+
+		      $hours_by_ku_rows .= $ku_line;
+
+		      if( not $nhours_txt eq "" )
+		      {		$nhours_txt = "~($nhours_txt)";	}
+		      
+		      $bok_output_txt .= "\\subsection{\\$ku_macro$nhours_txt}\\label{sec:BOK:$ku_macro}\n";
+		      
+		      my $ku_description_macro = "$bok{$ka}{KU}{$ku}{name}Description";
+		      $bok{$ka}{KU}{$ku}{description} =~ s/_/\\_/g;
+
+		      $macros_txt .= "\\newcommand{\\$ku_description_macro}{$bok{$ka}{KU}{$ku}{description}}\n";
+		      if( not $bok{$ka}{KU}{$ku}{description} eq "~" )
+		      {  	$bok_output_txt .= "\\$ku_description_macro\\\\\n";	}
+		      
+		      #my $kuitem		= $ku."Topic".$p3;
+# 		      $bok{$ka}{KU}{$ku}{items}{$tier}{$kuitem}{body}  = $body;
+# 		      $bok{$ka}{KU}{$ku}{items}{$tier}{$kuitem}{order} = $KUItemPos;
+		      my $level 	= "";
+		      my $level_txt 	= "";
+		      #$bok{$ka}{KU}{$ku}{items}{$tier}{$kuitem}{body}
+		      my $alltopics = "";
+		      $bok_output_txt .= "\\noindent {\\bf $Common::config{dictionary}{Topics}:}\\\\\n";
+		      foreach my $level (sort {$a cmp $b} 
+				         keys %{$bok{$ka}{KU}{$ku}{items}})
+		      {
+				#Util::print_message("Generating $level ...");
+				$bok_output_txt .= "{\\bf $Common::config{dictionary}{$level}}\n";
+				$bok_output_txt .= "\\begin{itemize}\n";
+			       	foreach my $kuitem (sort { $bok{$ka}{KU}{$ku}{items}{$level}{$a}{order} <=> $bok{$ka}{KU}{$ku}{items}{$level}{$b}{order} }
+						    keys %{$bok{$ka}{KU}{$ku}{items}{$level}} )
+				{
+					$bok{$ka}{KU}{$ku}{items}{$level}{$kuitem}{crossref} =~ s/\s//g;
+					my $xref_txt = "";
+					if( not $bok{$ka}{KU}{$ku}{items}{$level}{$kuitem}{crossref} eq "" )
+					{	
+						#Util::print_message("bok{$ka}{KU}{$ku}{items}{$level}{$kuitem}{crossref} = $bok{$ka}{KU}{$ku}{items}{$level}{$kuitem}{crossref} ... ");
+						my $sep = "";
+						foreach my $xref (split(",", $bok{$ka}{KU}{$ku}{items}{$level}{$kuitem}{crossref}))	
+						{	$xref_txt .= "$sep\\xref{$xref}";
+							$sep = ", ";
+						}
+						#Util::print_message("xref_txt = $xref_txt"); exit;
+					}
+					if( not $xref_txt eq "" )
+					{	$xref_txt = "(Ref: $xref_txt)";		}
+					$bok_output_txt .= "\t\\item \\$kuitem$xref_txt\\label{sec:BOK:$kuitem}\n";
+					$macros_txt	.= "\\newcommand{\\$kuitem}{$bok{$ka}{KU}{$ku}{items}{$level}{$kuitem}{body}}\n";
+					$alltopics 	.= "\t\\item \\$kuitem%\n";
+					#$macros_txt	.= "\\newcommand{\\$kuitem"."Level}{$level}\n";
+				}
+				$bok_output_txt .= "\\end{itemize}\n";
+				$macros_txt	.= "\n";
+		      }
+		      $macros_txt	.= "\\newcommand{\\$ku_macro"."AllTopics}{%\n";
+		      $macros_txt	.= "\\begin{topics}%\n";
+		      $macros_txt	.= $alltopics;
+		      $macros_txt	.= "\\end{topics}\n}\n";
+		      $bok_output_txt .= "\n";
+		      
+		      #$bok{$ka}{KU}{$ku}{LO}{$p4}{$LOitem}{body}  = $body; 	# $p4 = Familiarity
+		      #$bok{$ka}{KU}{$ku}{LO}{$p4}{$LOitem}{order} = $LOItemPos;
+		      my $all_lo = "";
+		      $bok_output_txt .= "\\noindent {\\bf $Common::config{dictionary}{LearningOutcomes}:}\\\\\n";
+		      my $count_of_items = 0;
+		      foreach my $level (sort {	$bok{$ka}{KU}{$ku}{LO}{$a} cmp $bok{$ka}{KU}{$ku}{LO}{$b} } 
+				         keys %{$bok{$ka}{KU}{$ku}{LO}})
+		      {
+				$bok_output_txt .= "{\\bf $level}\n";
+				my $all_the_items = "";
+				my $count_of_items_local = 0;
+			       	foreach my $loitem (sort { $bok{$ka}{KU}{$ku}{LO}{$level}{$a}{order} <=> $bok{$ka}{KU}{$ku}{LO}{$level}{$b}{order} }
+						    keys %{$bok{$ka}{KU}{$ku}{LO}{$level}} )
+				{
+					$all_the_items .= "\t\\item \\$loitem.~[\\".$loitem."Level]\\label{sec:BOK:$loitem}\n";
+					$macros_txt	.= "\\newcommand{\\$loitem}{$bok{$ka}{KU}{$ku}{LO}{$level}{$loitem}{body}}\n";
+					my $loitemlevel  = $loitem."Level";
+					my $thisloitemlevel = $Common::config{dictionary}{learning_outcomes}{$bok{$ka}{KU}{$ku}{LO}{$level}{$loitem}{lolevel}};
+					$macros_txt	.= "\\newcommand{\\$loitemlevel}{$thisloitemlevel}\n";
+					$all_lo 	.= "\t\\item~\\$loitem~[\\".$loitem."Level] %\n";
+					$count_of_items_local++;
+				}
+				$bok_output_txt .= "\\begin{learningoutcomes}\n";
+				$bok_output_txt .= "\t\\setcounter{enumi}{$count_of_items}\n";
+				$bok_output_txt .= $all_the_items;
+				$bok_output_txt .= "\\end{learningoutcomes}\n";
+				$count_of_items += $count_of_items_local;
+				$macros_txt	.= "\n";
+		      }
+		      $macros_txt	.= "\\newcommand{\\$ku_macro"."AllLearningOutcomes}{%\n";
+		      $macros_txt	.= "\\begin{learningoutcomes}%\n";
+		      $macros_txt	.= "$all_lo";
+		      $macros_txt	.= "\\end{learningoutcomes}%\n}\n";
+		      $bok_output_txt .= "\n";
+		} # ku loop
+		$bok_index_txt .= "\\end{itemize}\n\n";
+		
+		$macros_txt     .= "\n\n";
+		$bok_output_txt .= "\n\n";
+		
+		$hours_by_ku_file = Common::get_template("OutputTexDir")."/$hours_by_ku_file.tex";
+		#Util::print_message("Generating $hours_by_ku_file ...");
+		my $hours_by_ku_table = "\\begin{center}\n";
+		$hours_by_ku_table .= "\\begin{tabularx}{\\textwidth}{|X|p{1cm}|p{1cm}|p{1.4cm}|}\\hline\n";
+		$hours_by_ku_table .=  "{\\bf \\acf{KA}} & {\\bf ".$Common::config{dictionary}{"Core-Tier1"}."} & {\\bf ".$Common::config{dictionary}{"Core-Tier2"}."} & {\\bf $Common::config{dictionary}{Elective}} \\\\ \\hline\n";
+		$hours_by_ku_table .=  $hours_by_ku_rows;
+		$hours_by_ku_table .= "\\end{tabularx}\n";
+		$hours_by_ku_table .= "\\end{center}\n";
+		
+		Util::write_file($hours_by_ku_file, $hours_by_ku_table);
+	}
+	$bok_index_txt .= "\\end{multicols}\n";
+	Util::print_message("Creating BOK index file ($bok_index_file) ...");
+	Util::write_file($bok_index_file, $bok_index_txt);
+	Util::print_message("Creating BOK file ($bok_output_file) ...");
+	Util::write_file($bok_output_file, $bok_output_txt);
+	Util::print_message("Creating BOK macros file ($bok_macros_output_file) ...");
+	Util::write_file($bok_macros_output_file, $macros_txt);
+
+# 	Util::write_file();
+ 	#print Dumper(\%{$Common::config{dictionary}});
+}
+
+sub main()
+{	
+	Common::set_initial_configuration($Common::command);
+# 	read_bok(); 
+# 	read_bok_order();
+	
+	Util::print_message("Check1 ...\n");
+	parse_bok();
+# 	print Dumper(\%{$bok{AL}{KU}}); exit;
+	
+	gen_bok();
+	Util::print_message("End process-bok ...\n");
+}
+
+main();

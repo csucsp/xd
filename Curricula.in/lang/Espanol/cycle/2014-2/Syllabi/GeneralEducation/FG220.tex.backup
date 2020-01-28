@@ -1,0 +1,92 @@
+\begin{syllabus}
+
+\course{HU220. Análisis de la Realidad Peruana}{Obligatorio}{FG220}
+
+\begin{justification}
+Las perspectivas dominantes durante el último siglo en el análisis de la realidad nacional están evidenciando claros signos de agotamiento y caducidad para plantear soluciones plausibles al dilema cultural del Perú, más aún, para proporcionar una recta e integral comprensión de la compleja realidad y proponer soluciones de unidad, solidaridad e integración para los pueblos del Perú. 
+En este contexto, este curso responde a la necesidad de vincular a los estudiantes con la realidad de nuestro país desde un enfoque que contribuya a la integración y a la reconciliación dentro de la diversidad cultural de los pueblos del Perú. Se pretende generar reflexiones e investigación crítica que luego pueda ser  posteriormente desplegada en el ejercicio profesional de los estudiantes y el bien de la sociedad.
+\end{justification}
+
+\begin{goals}
+\item Analizar y comprender la situación actual del Perú desde una perspectiva histórica y sociológica, que permita a los alumnos identificarse con una visión reconciliada e integral de la realidad nacional, y de ese modo, asumir la responsabilidad su rol en la construcción de una sociedad más justa, integrada y reconciliada
+\end{goals}
+
+\begin{outcomes}
+\ExpandOutcome{e}{3}
+\ExpandOutcome{g}{4}
+\end{outcomes}
+
+\begin{unit}{Los orígenes de la peruanidad y de la formación de la conciencia nacional}{VAB1965,Pease1999}{9}{2}
+\begin{topics}
+      \item Aproximaciones críticas a la realidad peruana: Víctor Andrés Belaúnde, José Carlos Mariátegui, Víctor Raúl Haya de la Torre.
+	\item Aspectos conceptuales relevantes para elaboración de las matrices analíticas: Cultura, Identidad, Nación, Sociedad y Estado. Normas para elaboración de matrices. 
+	\item El imperio de los Incas. Repaso de aspectos socio-culturales más importantes. Elaboración de la matriz del imperio Inca. 
+	\item Decadencia y fin del Tahuantinsuyo.
+	\item Conquista española. ¿Encuentro o choque de las culturas? Hacia una comprensión integral del fenómeno. Debate conceptual. Elaboración de matriz: cultura española.
+	\item Visión Crítica del encuentro entre España y América.
+	\item Virreinato. Repaso de aspectos socio-culturales más importantes. Surgimiento de la identidad nacional peruana al calor de la Fe Católica. Elaboración de matriz: cultura virreinal.
+\end{topics}
+
+\begin{unitgoals}
+      \item Comprender adecuadamente el proceso histórico que determina la  formación de nuestra identidad nacional, a partir de la síntesis cultural del virreinato.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{Procesos de integración y desintegración en el siglo XIX}{Pease1999}{9}{2}
+\begin{topics}
+      \item Primeros cambios culturales: inicio del proceso secularizador de la cultura. Primera República y Militarismo. Repaso de aspectos socio-culturales más importantes.
+      \item Prosperidad Falaz. Repaso de aspectos socio-culturales más importantes.
+      \item Guerra con Chile. Repaso de aspectos socio-culturales más importantes.
+\end{topics}
+
+\begin{unitgoals}
+      \item Caracterizar los procesos socio-culturales de integración y desintegración acaecidos durante el siglo XIX.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{Procesos de integración y desintegración del siglo XX}{Pease1999}{9}{2}
+\begin{topics}
+      \item Principales doctrinas políticas del siglo XX. La Doctrina Social de la Iglesia
+      \item Ciclo liberal y neoliberal. Repaso de aspectos socio-culturales más importantes.
+      \item Ciclo Nacional-populista. Repaso de aspectos socio-culturales más importantes.
+      \item Ciclo Democratizador (1990 en adelante). Repaso de aspectos socio-culturales más importantes
+\end{topics}
+\begin{unitgoals}
+      \item Identificar y caracterizar los procesos socio-culturales de integración y desintegración acaecidos durante el siglo XX.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{El Perú en la actualidad: Análisis del sector político}{Contreras2002,Estenos2009}{9}{2}
+\begin{topics}
+      \item Análisis del sistema político peruano
+      \item Balance del Estado peruano: centralismo y corrupción.
+	\item Revisión del sistema de partidos políticos del Perú.
+	\item Bases para plantear un sistema político eficiente.
+\end{topics}
+\begin{unitgoals}
+      \item Conocer y analizar la situación actual de la política en el Perú, su problemática y alternativas de solución.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{El Perú en la actualidad: Análisis de los procesos sociales y económicos}{Abusada2007,BenedictoXVI2009}{9}{2}
+\begin{topics}
+      \item Marginación y exclusión: proceso de migración y pobreza en el Perú.
+      \item Violencia social, terrorismo y narcotráfico en el Perú.
+      \item Transformaciones culturales de la sociedad peruana: la educación como crisis y posibilidad.
+      \item Economía y desarrollo social..
+      \item Bases para un desarrollo social basado en la promoción humana.
+\end{topics}
+\begin{unitgoals}
+      \item Comprender las características de las décadas de los '80 y '90 que permitieron el surgimiento de los grupos terroristas.
+      \item Profundizar en la ideología y el accionar de estos movimientos y la reacción del Estado frente a la violencia interna.
+      \item Analizar la lectura que sobre este proceso hizo la CVR.
+\end{unitgoals}
+\end{unit}
+
+\begin{coursebibliography}
+\bibfile{GeneralEducation/FG220}
+\end{coursebibliography}
+
+\end{syllabus}
+
+%\end{document}

@@ -1,0 +1,53 @@
+
+% Semester #1 .
+% CS1D1(CS1D1). Estructuras Discretas I (Obligatorio)
+CS1D1->gmezal@ucsp.edu.pe
+% MA100(MA100). Matemática I (Obligatorio)
+MA100->cortiz@ucsp.edu.pe
+%IGNORED MA100->,acanog@ucsp.edu.pe
+% FG102(FG102). Metodología del Estudio (Obligatorio)
+FG102->ccastelo@ucsp.edu.pe,achavezc@ucsp.edu.pe
+% FG101(FG101). Comunicación (Obligatorio)
+FG101->lparedesv@ucsp.edu.pe
+% FG103(FG103). Introducción a la Vida Universitaria (Obligatorio)
+FG103->glinares@ucsp.edu.pe
+
+
+% Semester #2 .
+% CS1D2(CS1D2). Estructuras Discretas II (Obligatorio)
+CS1D2->lvasquez@ucsp.edu.pe
+% CS100(CS100). Introducción de Ciencia de la Computación (Obligatorio)
+CS100->ecuadros@ucsp.edu.pe
+% MA101(MA101). Matemática II (Obligatorio)
+MA101->lvasquez@ucsp.edu.pe
+% FG104(FG104). Introducción a la Filosofía (Obligatorio)
+FG104->hcalderon@ucsp.edu.pe
+% FG105(FG105). Apreciación Musical (Electivos)
+FG105->gmaldonado@ucsp.edu.pe
+% FG112(FG112). Persona, Matrimonio y Familia (Electivos)
+FG112->gportugal@ucsp.edu.pe
+
+
+% Semester #3 .
+
+
+% Semester #4 .
+
+
+% Semester #5 .
+
+
+% Semester #6 .
+
+
+% Semester #7 .
+
+
+% Semester #8 .
+
+
+% Semester #9 .
+
+
+% Semester #10 .
+

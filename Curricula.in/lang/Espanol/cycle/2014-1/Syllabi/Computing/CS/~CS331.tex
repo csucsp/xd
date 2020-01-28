@@ -1,0 +1,126 @@
+\begin{syllabus}
+
+\course{CS331. Cloud Computing}{Obligatorio}{CS331}
+
+\begin{justification}
+La capacidad de procesamiento de una sola máquina es limitada y la Ley de Moore se ha encontrado 
+con barreras antes de lo previsto, a pesar de esto la necesidad de mayor poder computacional es cresciente. 
+
+El uso de las computadoras como elementos conectados entre sí es cada vez más común y cada vez en mayor escala, 
+la capacidad de comunicación entre dispositivos (computadoras, celulares, pdas, etc.), abre las puertas 
+a la existencia de una única plataforma donde la información de los usuarios
+esté disponible siempre, sin importar el medio de acceso a esta (\textit{Cloud computing}).
+
+La computación en la nube de internet o un grupo de computadores 
+permite conseguir ambos objetivos, traspasando la barrera de una sola máquina para poder
+integrar las capacidades de distintos dispositivos y permitirles interactuar en un entorno que
+el usuario perciba como unificado; además, al conectarlos, el tope de desempeño
+del sistema ya no es la capacidad de un sólo elemento (e.g. CPU) sino la cantidad de participantes en este,
+por lo cual existe una escalabilidad del poder computacional muchísimo mayor.
+\end{justification}
+
+\begin{goals}
+\item Conocer los elementos básicos del diseño de Sistemas Distribuídos
+\item Comprender, en el contexto de sistema distribuidos, conceptos fundamentales como transparencia y tolerancia a fallos.
+\item Evaluar las ventajas y 
+\item Aprender a instalar y usar aplicaciones en Sistemas Distribuídos
+\end{goals}
+
+\begin{outcomes}
+\ExpandOutcome{a}{3}
+\ExpandOutcome{b}{4}
+\ExpandOutcome{c}{4}
+\ExpandOutcome{d}{3}
+\ExpandOutcome{i}{3}
+\ExpandOutcome{j}{4}
+\ExpandOutcome{k}{4}
+\end{outcomes}
+
+\begin{unit}{\ARDistributedArchitecturesDef}{tanenbaum1996,coulouris2005}{3}{2}
+    \ARDistributedArchitecturesAllTopics
+    \ARDistributedArchitecturesAllObjectives
+\end{unit}
+
+\begin{unit}{Modelos de sistema}{orfali1999,tanenbaum2003}{3}{2}
+   \begin{topics}
+        \item \SESpecializedSystemsTopicDistributed%
+        \item \SESpecializedSystemsTopicClient%
+        \item \NCIntroductionTopicClient%
+        \item \SESpecializedSystemsTopicParallel%
+        \item \SESpecializedSystemsTopicWeb%
+   \end{topics}
+
+   \begin{unitgoals}
+        \item Entender distintos modelos de computación distribuida.
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{Soporte del Sistema Operativo}{orfali1999,tanenbaum2003}{3}{3}
+   \begin{topics}
+      \item Procesos e Hilos.
+      \item Modelos.
+   \end{topics}
+
+   \begin{unitgoals}
+      \item Conocer el soporte del Sistema Operativo a los Sistemas Distribuídos.
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\ALDistributedAlgorithmsDef}{tanenbaum1996,coulouris2005}{3}{4}
+    \ALDistributedAlgorithmsAllTopics
+    \ALDistributedAlgorithmsAllObjectives
+\end{unit}
+
+\begin{unit}{\NCNetworkedApplicationsDef}{tanenbaum1996,coulouris2005}{3}{3}
+    \NCNetworkedApplicationsAllTopics
+    \NCNetworkedApplicationsAllObjectives
+\end{unit}
+
+\begin{unit}{Middleware}{sheldon1995,tanenbaum2003,sheldon1994}{3}{3}
+   \begin{topics}
+      \item Llamada a un procedimiento remoto (RPC).
+      \item Middleware Orientado a Mensajes (MOM).
+      \item Peer-to-Peer.
+      \item Servicio de directorio.
+      \item Seguridad.
+   \end{topics}
+
+   \begin{unitgoals}
+      \item Entender los principios del middleware.
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{Objetos Distribuídos: Modelos de Componentes}{tanenbaum1996,hoque1998,coulouris2005,sheldon1995}{3}{3}
+   \begin{topics}
+      \item Objetos y Componentes.
+      \item Beneficios.
+      \item Modelos de Componentes CORBA, COM, EJB, RMI.
+   \end{topics}
+
+   \begin{unitgoals}
+      \item Conocer diferentes casos de objetos distribuidas.
+      \item Entender los conceptos del modelo de componentes.
+      \item Entender las similitudes y diferencias, ventajas y desventajas de los diferentes modelos de componentes.
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{Sistemas Distribuídos de Archivos}{tanenbaum1996,coulouris2005}{3}{2}
+   \begin{topics}
+          \item \OSFileSystemsTopicFiles%
+          \item \OSFileSystemsTopicFile%
+          \item \OSFileSystemsTopicStandard%
+          \item \OSFileSystemsTopicSpecial%
+          \item \OSFileSystemsTopicNaming%
+          \item Replicación y Tolerancia a Fallos.
+   \end{topics}
+
+   \begin{unitgoals}
+      \item Entender el funcionamiento de los Sistemas Distribuídos de Archivos
+   \end{unitgoals}
+\end{unit}
+
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS314}
+\end{coursebibliography}
+
+\end{syllabus}

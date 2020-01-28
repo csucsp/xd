@@ -1,0 +1,143 @@
+#!/bin/csh
+set pdfparam=$1
+set htmlparam=$2
+set pdf=0
+set html=0
+
+if($pdfparam == "y" || $pdfparam == "Y" || $pdfparam == "yes" || $pdfparam == "Yes" || $pdfparam == "YES") then
+    set pdf=1
+else if($pdfparam == "n" || $pdfparam == "N" || $pdfparam == "no" || $pdfparam == "No" || $pdfparam == "NO") then
+    set pdf=0
+else
+    echo "Error in pdf param"
+    exit
+endif
+
+if($htmlparam == "y" || $htmlparam == "Y" || $htmlparam == "yes" || $htmlparam == "Yes" || $htmlparam == "YES") then
+    set html=1
+else if($htmlparam == "n" || $htmlparam == "N" || $htmlparam == "no" || $htmlparam == "No" || $htmlparam == "NO") then
+    set html=0
+else
+    echo "Error in html param"
+    exit
+endif
+echo "pdf=$pdf, html=$html"
+
+set LogDir=../Curricula.out/log
+date > ../Curricula.out/log/Peru-CS-UCSP-time.txt
+#--BEGIN-FILTERS--
+set institution=UCSP
+setenv CC_Institution UCSP
+set filter=UCSP
+setenv CC_Filter UCSP
+set version=final
+setenv CC_Version final
+set area=CS
+setenv CC_Area CS
+set CurriculaParam=CS-UCSP
+#--END-FILTERS--
+set curriculamain=curricula-main
+setenv CC_Main curricula-main
+set current_dir = `pwd`
+
+set Country=Peru
+set OutputDir=../Curricula.out
+set OutputInstDir=../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016
+set OutputTexDir=../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/tex
+set OutputScriptsDir=../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts
+set OutputHtmlDir=../Curricula.out/html/Peru/CS-UCSP/Plan2016
+
+./clean
+# ls IS*.tex | xargs -0 perl -pi -e 's/CATORCE/UNOCUATRO/g' 
+
+mkdir -p ../Curricula.out/log
+./scripts/process-curricula.pl CS-UCSP ;
+../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/gen-eps-files.sh;
+../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/gen-graph.sh small &
+
+if($pdf == 1) then
+      # latex -interaction=nonstopmode curricula-main
+      latex curricula-main;
+      bibtex curricula-main1;
+      
+      ./scripts/compbib.sh curricula-main > ../Curricula.out/log/Peru-CS-UCSP-errors-bib.txt;
+
+      latex curricula-main;
+      latex curricula-main;
+
+      echo CS-UCSP;
+      dvips curricula-main.dvi -o CS-UCSP.ps;
+      echo CS-UCSP;
+      ps2pdf CS-UCSP.ps CS-UCSP.pdf;
+      
+#     Generate the first page and place it at html dir
+      pdftk A=CS-UCSP.pdf cat A1-1 output CS-UCSP-P1.pdf;
+      convert CS-UCSP-P1.pdf CS-UCSP-P1.png;
+      rm CS-UCSP-P1.pdf;
+      mv CS-UCSP-P1.png ../Curricula.out/html/Peru/CS-UCSP/Plan2016/CurriculaMain-P1.png;
+      cp CS-UCSP.pdf ../Curricula.out/html/Peru/CS-UCSP/Plan2016/CurriculaMain.pdf;
+      
+      mv CS-UCSP.pdf "../Curricula.out/pdfs/CS-UCSP Plan2016.pdf";
+      rm -rf CS-UCSP.ps;
+endif
+
+./scripts/update-outcome-itemizes.pl CS-UCSP &
+./scripts/update-page-numbers.pl CS-UCSP;
+../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/gen-graph.sh big &
+../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/gen-map-for-course.sh &
+
+if($html == 1) then
+      rm unified-curricula-main* ;
+      ./scripts/gen-html-main.pl CS-UCSP;
+
+      latex unified-curricula-main;
+      bibtex unified-curricula-main;
+      latex unified-curricula-main;
+      latex unified-curricula-main;
+
+      dvips -o unified-curricula-main.ps unified-curricula-main.dvi;
+      ps2pdf unified-curricula-main.ps unified-curricula-main.pdf;
+      rm unified-curricula-main.ps unified-curricula-main.dvi;
+
+      rm -rf ../Curricula.out/html/Peru/CS-UCSP/Plan2016;
+      mkdir -p ../Curricula.out/html/Peru/CS-UCSP/Plan2016;
+      mkdir ../Curricula.out/html/Peru/CS-UCSP/Plan2016/figs;
+      cp ./in/lang.Espanol/figs/pdf.jpeg ./in/lang.Espanol/figs/star.gif ./in/lang.Espanol/figs/none.gif ../Curricula.out/html/Peru/CS-UCSP/Plan2016/figs/.;
+
+      latex2html -t "Curricula CS-UCSP" \
+      -dir "../Curricula.out/html/Peru/CS-UCSP/Plan2016/" -mkdir \
+      -toc_stars -local_icons -no_footnode -show_section_numbers -long_title 5 \
+      -address "Generado por <A HREF='http://socios.spc.org.pe/ecuadros/'>Ernesto Cuadros-Vargas</A> <ecuadros AT spc.org.pe>,               <A HREF='http://www.spc.org.pe/'>Sociedad Peruana de Computaci&oacute;n-Peru</A>,               <A HREF='http://www.ucsp.edu.pe/'>Universidad Cat&oacute;lica San Pablo, Arequipa-Peru</A><BR>              basado en el modelo de la Computing Curricula de               <A HREF='http://www.computer.org/'>IEEE-CS</A>/<A HREF='http://www.acm.org/'>ACM</A>" \
+      -white unified-curricula-main;
+      cp "../Curricula.out/html/Peru/CS-UCSP/Plan2016/Curricula_CS_UCSP.html" "../Curricula.out/html/Peru/CS-UCSP/Plan2016/index.html";
+      #-split 3 -numbered_footnotes -images_only -timing -html_version latin1 -antialias -no_transparent \
+
+      ./scripts/update-analytic-info.pl CS-UCSP
+      ./scripts/gen-faculty-info.pl CS-UCSP
+endif
+
+../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/compile-simple-latex.sh small-graph-curricula CS-UCSP-small-graph-curricula ../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/tex;
+../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/compile-simple-latex.sh Computing-poster CS-UCSP-poster ../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/tex;
+convert ../Curricula.out/pdfs/CS-UCSP-poster.pdf ../Curricula.out/html/Peru/CS-UCSP/Plan2016/CS-UCSP-poster.png;
+
+../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/gen-syllabi.sh all;
+
+# Generate Books
+../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/gen-book.sh  BookOfSyllabi       	pdflatex "CS-UCSP 2020-I BookOfSyllabi (Plan2016) 1-9";
+../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/gen-book.sh  BookOfDescriptions  	pdflatex "CS-UCSP 2020-I BookOfDescriptions (Plan2016) 1-9";
+../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/gen-book.sh  BookOfBibliography  	pdflatex "CS-UCSP 2020-I BookOfBibliography (Plan2016) 1-9";   
+#       ../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/gen-book.sh  BookOfUnitsByCourse 	latex    "CS-UCSP 2020-I BookOfUnitsByCourse (Plan2016) 1-9";
+#       ../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/scripts/gen-book.sh  BookOfDeliveryControl  pdflatex "CS-UCSP 2020-I BookOfDeliveryControl (Plan2016) 1-9";
+
+if($html == 1) then
+      #../Curricula.out/scripts/gen-syllabi.sh
+      mkdir -p ../Curricula.out/html/Peru/CS-UCSP/Plan2016/syllabi;
+      cp ../Curricula.out/Peru/CS-UCSP/cycle/2020-I/Plan2016/syllabi/* ../Curricula.out/html/Peru/CS-UCSP/Plan2016/syllabi/.;
+endif
+
+date >> ../Curricula.out/log/Peru-CS-UCSP-time.txt;
+more ../Curricula.out/log/Peru-CS-UCSP-time.txt;
+#./scripts/testenv.pl
+beep;
+beep;
+

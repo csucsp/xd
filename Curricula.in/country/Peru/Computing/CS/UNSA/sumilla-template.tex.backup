@@ -1,0 +1,40 @@
+\begin{syllabus}
+
+\course{--COURSE_CODE--. --COURSE_NAME--}{Obligatorio}{--COURSE_CODE--}
+
+\begin{competences}
+--COMPETENCES_ITEMS--
+\end{competences}
+
+\begin{outcomes}
+--OUTCOMES_ITEMS--
+\end{outcomes}
+
+% \begin{justification}
+% JUSTIFICATION--
+% \end{justification}
+
+% \begin{goals}
+% GOALS_ITEMS
+% \end{goals}
+
+ \begin{unit}{\DSSetsRelationsandFunctions}{}{Grimaldi03,Rosen2007}{13}{C1,C20}
+   \begin{topics}
+        \item \DSSetsRelationsandFunctionsTopicSets
+        \item \DSSetsRelationsandFunctionsTopicRelations
+        \item \DSSetsRelationsandFunctionsTopicFunctions
+   \end{topics}
+   \begin{learningoutcomes}
+	\item \DSSetsRelationsandFunctionsLOExplainWith [\Assessment]
+	\item \DSSetsRelationsandFunctionsLOPerformThe [\Assessment]
+	\item \DSSetsRelationsandFunctionsLORelate [\Assessment]
+   \end{learningoutcomes}
+ \end{unit}
+
+ \begin{coursebibliography}
+\bibfile{--BIBFILE--}
+\end{coursebibliography}
+
+\end{syllabus}
+
+%\end{document}

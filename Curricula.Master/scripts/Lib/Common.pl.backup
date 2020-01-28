@@ -1,0 +1,253 @@
+package Lib::Common;
+
+sub replace_special_chars($)
+{
+	my ($text) = (@_);
+	$text =~ s/\\/\\\\/g;
+	$text =~ s/\(/\\(/g;	$text =~ s/\)/\\)/g;
+	$text =~ s/\[/\\[/g;	$text =~ s/\]/\\]/g;
+	$text =~ s/\+/\\\+/g;
+	$text =~ s/\$/\\\$/g;
+	$text =~ s/\^/\\\^/g;
+	#$text =~ s/\-/\\\-/g;
+	$text =~ s/\?/\\\?/g;
+	$text =~ s/\*/\\\*/g;
+	return $text;
+}
+
+sub read_macros()
+{
+	my (@macro_files) = (@_);
+	my %macros = ();
+	foreach my $filename (@macro_files)
+	{
+		open(IN, "<$filename") or die "read_macros: $filename no abre \n";
+		my $key = "";
+		my $body = "";
+		while(<IN>)
+		{
+			my $linea = $_;
+			if( $linea =~ m/(.*)%/ )
+			{	$linea = "$1\n";	}
+			if( $linea =~ m/\\newcommand{\\(.*?)}(.*)/ )
+			{
+				if(not $key eq "") #previous key being loaded?
+				{
+					$macros{$key} = $body;
+				}
+				$key  = $1;
+				#print "key = $key\n" if( $verbose == 1 );
+				$body = "$2\n";
+			}
+			else
+			{	$body .= $linea;	}
+		}
+		if(not $key eq "") 	#previous key being loaded?
+		{	$macros{$key} = $body;		}
+		#print "1;;;SPUNOAllTopics->>$macros{SPUNOAllTopics};;;";
+		close(IN);
+	}
+	foreach my $key (keys %macros)
+	{
+		if( $macros{$key} =~ m/{((?:.|\n)*)}/ )
+		{	$macros{$key} = $1; 	}
+		#print "****************************\n";
+		#print "\"$key\"=$macros{$key}...\n" if( $verbose == 1 );
+		#print "----------------------------\n";
+	}
+	return %macros;
+}
+
+sub remove_only_env($)
+{
+	my ($text_in) = (@_);
+	while($text_in =~ m/((?:.|\n)*?)\\Only([A-Z]*?){/g)
+	{
+		my $prev_text = $1;
+		my $type      = $2;
+		print "\t\ttype =  \"$type\"\n";
+		my $count = 1;
+		my $body1  = "";
+		while($count > 0 and $text_in =~ m/(.|\n)/g)
+		{
+			my $this_char = $1;
+			++$count if( $this_char eq "{" );
+			--$count if( $this_char eq "}" );
+			$body1 .= $this_char if($count > 0 );
+		}
+		
+		#print "*********************************\n";
+		#print "body=<$body>\n";
+		#print "*********************************\n";
+		my $body2 = Lib::Common::replace_special_chars($body1);
+		if( $type eq $institution )
+		{
+			my $text = "\\\\Only$institution"."{$body2}";
+			$text_in =~ s/$text/$body1/g;
+		}
+		else
+		{
+			my $_text = "\\\\Only$type"."{$body2}";
+			$text_in =~ s/$_text//g;
+		}
+	}
+	return $text_in;
+}
+
+sub replace_Pag_pagerefs($)
+{
+	my ($text) = (@_);
+	my $count  = 0;
+	$text =~ s/\(Pág\.~\\pageref{.*?}\)//g;
+	return ($text, $count);
+}
+
+sub replace_bok_pagerefs($)
+{
+	my ($text) = (@_);
+	my $count  = 0;
+	if($text =~ m/\\item\s(.*?)\s\(Pág\.\s\\pageref{(.*?)}\)/g)
+	{	
+		#my ($label1) = ($1);
+		#print "label=\"$label1\" ... ";
+		my ($title1, $label1) = ($1, $2);
+		#print "title=\"$title1\"->\"$label1\"\n";
+		my $title2 = replace_special_chars($title1);
+		my $label2 = replace_special_chars($label1);
+		$text =~ s/\\item\s$title2\s\(Pág\.\s\\pageref{$label2}\)/\\item \\htmlref{$title1}{$label1}/g;
+		$count++;
+	}
+	return ($text, $count);
+}
+
+sub readfile($$)
+{
+	my ($filename, $area) = (@_);
+	my $line;
+	
+	if(not -e "$filename")
+	{
+		print "readfile: \"$filename\" no existe\n";
+		return "";
+	}
+	open(IN, "<$filename") or die "readfile: $filename no abre \n";
+	my @lines = <IN>;
+	close(IN);
+	my $changes;
+	my $count = 0;
+	foreach $line (@lines)
+	{	
+		my $extratxt = "";
+		if( $lines[$count] =~ m/^%/)
+		{	$lines[$count] = "\n"; }
+		elsif($filename eq "cs-bok-body.tex")
+		{	($lines[$count], $changes)        = replace_bok_pagerefs($line);
+		}
+		elsif($filename eq "cs-tabla.tex" or $filename =~ m/pre\-requisitos/)
+		{	
+			($lines[$count], $changes)        = replace_Pag_pagerefs($line);
+		}
+		elsif( $lines[$count] =~ m/(^.*)(.)%(.*)/)
+		{	if($2 eq "\\")
+			{}
+			else
+			{
+				$lines[$count] = "$1$2\n" ; 
+				#print "$line";
+			}
+		}
+		$count++;
+	}
+	my $filetxt = join("", @lines);
+	$filetxt =~ s/\\setmyfancyheader\s*\n//g;
+	$filetxt =~ s/\\setmyfancyfoot\s*\n//g;
+	$filetxt =~ s/\\hrulefill\s*//g;
+	$filetxt =~ s/\\newcommand{\\siglas}{\\currentinstitution}//g;
+	$filetxt =~ s/\\renewcommand{\\Only.*\n//g;
+	$filetxt =~ s/\\renewcommand{\\OtherKeyStones/\\newcommand{\\OtherKeyStones/g;
+	$filetxt =~ s/\\include{empty}//g;
+	$filetxt =~ s/\\input{caratula}/\\input{caratula-web}/g;
+	$filetxt =~ s/\\newcommand{\\currentarea}{.*?}//g;
+	$filetxt =~ s/\\currentarea/$area/g;
+	#$filetxt =~ s/\\begin{landscape}//g;
+	#$filetxt =~ s/\\end{landscape}//g;
+	$filetxt =~ s/cs-topics-by-course/cs-all-topics-by-course/g;
+	$filetxt =~ s/cs-outcomes-by-course/cs-all-outcomes-by-course/g;
+	return $filetxt;
+}
+
+sub expand_macros($%)
+{
+	my ($text, %macros) = (@_);
+	my $count = 0;
+	
+	print "siglas = $macros{siglas} x5\n";
+	#print "@";
+	if(not defined($macros{siglas}))
+	{
+		print "no existe !!!!\n";
+	}
+	$text =~ s/\\siglas/$macros{siglas}/g;
+	foreach my $key (sort {length($b) <=> length($a)} keys %macros)
+	{
+		#print "\"$key\"\n" if( $verbose == 1 );
+		if($text =~ m/\\$key/)
+		{	$text =~ s/\\$key/$macros{$key}/g;	
+			#print "\\$key, ";
+			#print "\n\\$key->$macros{$key}";
+			$count++;
+		}
+	}
+	$text =~ s/\\spcbibstyle/$bibstyle/g;
+	return ($text, $count);
+}
+
+sub expand_sub_file($$$%%)
+{
+	my ($text, $temptype, $area, %macros, %except_file) = (@_);
+	my $matchstr = "\\\\".$temptype."{(.*?)}";
+	my $count = 0;
+	
+	#while($filetxt =~ m/\\begin{unit}{(.*)}{(.*)}\s*\n((?:.|\n)*?)\\end{unit}/g)
+	my $prefix = "";
+	#my $source_txt = "";
+	while($text =~ m/$matchstr/)
+	{
+		my $sub_file = $1;
+		my $source_txt = "\\\\$temptype"."{$sub_file}";		#print "\n\"$source_txt\"\n";
+		if($temptype eq "\\include")
+		{	$prefix = "\\newpage\n";	}
+		my $sub_file_text = "";
+		$sub_file_text = readfile("$sub_file".".tex", $area);
+		if( defined($except_file{"$sub_file.tex"}) )
+		{	print " $sub_file (X)\n";
+			$text =~ s/$source_txt//g;
+			next;
+		}
+		my $macros_changed = 0;
+		#print "$institution: $sub_file ";
+		($sub_file_text, $macros_changed) = expand_macros($sub_file_text, %macros);
+		$count += $macros_changed;
+		print " ($macros_changed)" if($macros_changed > 0);
+		print "\n";
+		$text =~ s/$source_txt/$prefix$sub_file_text/g;
+		$count++;
+	}
+	return ($text, $count);
+}
+
+sub expand_sub_files($$%%)
+{
+	my ($text, $area, %macros, %except_file) = (@_);
+	my ($count1, $count2) = (0, 0);
+	($text, $count1) = expand_sub_file($text, "input"  , $area, %macros, %except_file);
+	($text, $count2) = expand_sub_file($text, "include", $area, %macros, %except_file);
+	return ($text, $count1+$count2);
+}
+
+sub test(%)
+{
+   my %test = (@_);
+   print "siglasx = $test{siglas}\n";
+}
+1;

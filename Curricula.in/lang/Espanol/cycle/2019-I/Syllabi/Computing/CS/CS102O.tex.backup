@@ -1,0 +1,139 @@
+\begin{syllabus}
+
+\course{CS102O. Objetos y Abstracción de Datos}{Obligatorio}{CS102O}
+
+\begin{justification}
+Este es el tercer curso en la secuencia de los cursos introductorios a la informática. En este curso se pretende cubrir los conceptos señalados por la \textit{Computing Curricula} IEEE(c)-ACM 2001, bajo el enfoque \textit{functional-first}. 
+
+El paradigma orientado a objetos nos permite combatir la
+complejidad haciendo modelos a partir de abstracciones de los elementos del problema y utilizando técnicas como encapsulamiento,
+modularidad, polimorfismo y herencia. El dominio de estos temas permitirá que los participantes puedan dar soluciones computacionales a problemas de diseño sencillos del mundo real.
+\end{justification}
+
+\begin{goals}
+\item Introducir al alumno a los fundamentos del paradigma de orientación a objetos, permitiendo asimilar los conceptos necesarios para desarrollar un sistema de información.
+\end{goals}
+
+\begin{outcomes}
+\ExpandOutcome{a}{1}
+\ExpandOutcome{b}{1}
+\ExpandOutcome{c}{1}
+\ExpandOutcome{d}{1}
+\ExpandOutcome{i}{1}
+\ExpandOutcome{k}{1}
+\end{outcomes}
+
+\begin{unit}{\DSGraphsAndTreesDef}{Johnsonbaugh99}{7}{1}
+    \DSGraphsAndTreesAllTopics
+    \DSGraphsAndTreesAllObjectives
+\end{unit}
+
+\begin{unit}{\PFFundamentalConstructsDef}{Stroustrup97}{5}{1}
+    \PFFundamentalConstructsAllTopics
+    \PFFundamentalConstructsAllObjectives
+\end{unit}
+
+\begin{unit}{\PFAlgorithmsAndProblemSolvingDef}{Stroustrup97}{5}{1}
+    \PFAlgorithmsAndProblemSolvingAllTopics
+    \PFAlgorithmsAndProblemSolvingAllObjectives
+\end{unit}
+
+\begin{unit}{\PFFundamentalDataStructuresDef}{Stroustrup97}{9}{1}
+   \PFFundamentalDataStructuresAllTopics
+   \PFFundamentalDataStructuresAllObjectives
+\end{unit}
+
+\begin{unit}{\PFRecursionDef}{Stroustrup97}{2}{1}
+    \PFRecursionAllTopics
+    \PFRecursionAllObjectives
+\end{unit}
+
+\begin{unit}{\PFEventDrivenProgrammingDef}{Stroustrup97}{2}{1}
+   \PFEventDrivenProgrammingAllTopics
+   \PFEventDrivenProgrammingAllObjectives
+\end{unit}
+
+\begin{unit}{\ALBasicAnalysisDef}{Stroustrup97}{3}{1}
+   \begin{topics}
+      \item \ALBasicAnalysisTopicAsymptotic
+      \item \ALBasicAnalysisTopicIdentifying
+   \end{topics}
+   \begin{unitgoals}
+      \item \ALBasicAnalysisObjTHREE
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\ALFundamentalAlgorithmsDef}{Stroustrup97}{3}{1}
+    \ALFundamentalAlgorithmsAllTopics
+    \ALFundamentalAlgorithmsAllObjectives
+\end{unit}
+
+\begin{unit}{\PLVirtualMachinesDef}{Stroustrup97, Meyer98}{2}{1}
+    \PLVirtualMachinesAllTopics
+    \PLVirtualMachinesAllObjectives
+\end{unit}
+
+\begin{unit}{\PLDeclarationsAndTypesDef}{Meyer98}{2}{1}
+    \PLDeclarationsAndTypesAllTopics
+    \PLDeclarationsAndTypesAllObjectives
+\end{unit}
+
+\begin{unit}{\PLAbstractionMechanismsDef}{Stroustrup97}{5}{1}
+    \PLAbstractionMechanismsAllTopics
+    \PLAbstractionMechanismsAllTopics
+\end{unit}
+
+\begin{unit}{\PLObjectOrientedProgrammingDef}{Stroustrup97, Meyer98}{7}{1}
+    \PLObjectOrientedProgrammingAllTopics
+    \PLObjectOrientedProgrammingAllObjectives
+\end{unit}
+
+\begin{unit}{\SEONEDef}{Stroustrup97}{5}{1}
+   \begin{topics}
+	\item \SEONETopicFundamental%
+	\item \SEONETopicTherole%
+	\item \SEONETopicDesignPatterns%
+   \end{topics}
+   \begin{unitgoals}
+      \item \SEONEObjONE
+      \item \SEONEObjFIVE
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\SETWODef}{Stroustrup97}{1}{1}
+   \SETWOAllTopics
+   \SETWOAllObjectives
+\end{unit}
+
+\begin{unit}{\SEFIVEDef}{Stroustrup97}{1}{1}
+   \begin{topics}
+   	\item \SEFIVETopicRequeriments
+	\item \SEFIVETopicPrototyping
+	\item \SEFIVETopicBasic
+   \end{topics}
+   \begin{unitgoals}
+   	\item \SEFIVEObjTWO
+	\item \SEFIVEObjTHREE
+	\item \SEFIVEObjFIVE
+   \end{unitgoals}
+\end{unit}
+
+\begin{unit}{\SESIXDef}{Stroustrup97}{2}{1}
+   \begin{topics}
+   	\item \SESIXTopicTesting
+	\item \SESIXTopicObject
+   \end{topics}
+   \begin{unitgoals}
+   	\item \SESIXObjONE
+	\item \SESIXObjTWO
+	\item \SESIXObjSIX
+   \end{unitgoals}
+\end{unit}
+   
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS102O}
+\end{coursebibliography}
+
+\end{syllabus}
+
+%\end{document}

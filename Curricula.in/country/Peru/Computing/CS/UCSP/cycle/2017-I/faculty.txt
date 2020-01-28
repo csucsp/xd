@@ -1,0 +1,547 @@
+--BEGIN-PROFESSOR--
+\email{ggdelgado@ucsp.edu.pe}
+\prefix{Mg.}
+\name{Gustavo Delgado Ugarte}
+\begin{titles}
+\Master{Computing}{Ingeniería del Software}{}{Escuela Universitaria de Ingeniería Industrial, Informática y Sistemas - UTA}{Chile}{2009}
+\Degree{Computing}{Ingeniero de Sistemas}{}{UCSM}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{ }
+\Phone{+51-54-}
+\Mobile{+51-959370481}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Ingeniería del Software}
+\courses{}
+--END-PROFESSOR--
+	
+
+--BEGIN-PROFESSOR--
+\email{mleguen@ucsp.edu.pe}
+\prefix{Mag.}
+\name{Marc-Antoine Le Guen}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{Computación Gráfica}{Université Aix-Marseille}{Francia}{2013}
+\Degree{Computing}{Ciencia de la Computación}{Computación Gráfica}{IUT Arles}{Francia}{2011}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{}
+\Mobile{+51-930185816}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Computación Gráfica}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ydyari@ucsp.edu.pe} 
+\prefix{Mg.}
+\name{Yessenia Deysi Yari Ramos}
+\begin{titles}
+\Master{Computing}{Ciencias de la Computación}{}{UFRGS}{Brasil}{2011}
+\Degree{Computing}{Ingeniera de Sistemas}{}{UNSA}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-984445118}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Procesamiento de Imágenes, Visión Computacional, Inteligencia Artificial}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{ana.maria.cuadros@ucsp.edu.pe}
+\prefix{}
+\name{Ana María Cuadros Valdivia}
+\begin{titles}
+\Doctor{Computing}{Ciencia de la Computación}{}{Universidad Nacional San Agustín}{Perú}{2015}
+\Master{Computing}{Ciencia de la Computación}{}{ICMC-USP}{Brasil}{2007}
+\Degree{Computing}{Ingeniería Informática}{}{Universidad Católica San Pablo}{Perú}{2008}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958808756}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Visualización Científica}
+\courses{}
+--END-PROFESSOR--
+
+
+
+--BEGIN-PROFESSOR--
+\email{cjdelgado@ucsp.edu.pe}
+\prefix{}
+\name{Christian Jorge Delgado Polar}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{DCC-UFMG}{Brasil}{2007}
+\Degree{Computing}{Bachiller en Ingeniería Informática}{}{Universidad Católica San Pablo}{Perú}{2004}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-992045088}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Agentes Inteligentes}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ahmamani@ucsp.edu.pe}
+\prefix{}
+\name{Alvaro Henry Mamani Aliaga}
+\begin{titles}
+\Degree{Computing}{Bachiller Ingeniería de Sistemas}{}{UNSA}{Perú}{2006}
+\Master{Computing}{Ciencia de la Computación}{Sistemas Distribuídos}{IME-USP}{Brasil}{2011}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-268783}
+\Mobile{+51-959529733}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+--BEGIN-PROFESSOR--
+\email{gmezal@ucsp.edu.pe}
+\prefix{}
+\name{Graciela Lecireth Meza Lovón}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{UFMS-MS}{Brasil}{2007}
+\Degree{Computing}{Bachiller en Ingeniería Informática}{}{Universidad Católica San Pablo}{Perú}{2004}
+\Doctor{Computing}{Ciencia de la Computación}{}{Universidad Nacional San Agustín}{Perú}{2016}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-986271224}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Inteligencia Artificial, Imágenes}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{rpatino@ucsp.edu.pe}
+\prefix{}
+\name{Raquel Patiño Escarcina}
+\begin{titles}
+\Doctor{Computing}{Ingeniería Eléctrica y de Computación}{}{Universidade Federal do Rio Grande do Norte}{Brasil}{2009}
+\Master{Computing}{Ingeniería Eléctrica y de Computación}{}{Universidade Federal do Rio Grande do Norte}{Brasil}{2004}
+\Degree{Computing}{Ingeniero de Sistemas}{}{Universidad Nacional San Agustín}{Perú}{2000}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959449409}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Reconocimiento de Patrones}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{hjneyra@ucsp.edu.pe}
+\prefix{}
+\name{Jorge Homero Neyra Araoz}
+\begin{titles}
+\Bachelor{Computing}{Bachiller de Ingeniería de Sistemas}{}{Universidad Nacional San Agustín}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-952610034}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ccastelo@ucsp.edu.pe}
+\prefix{}
+\name{César Christian Castelo Fernández}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{Universidad Estadual de Campinas-Unicamp}{Brasil}{2011}
+\Degree{Computing}{Ingeniería de Sistemas}{}{Universidad Católica Santa María}{Perú}{2009}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-973241607}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Procesamiento de Imágenes}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{lparedesv@ucsp.edu.pe}
+\prefix{}
+\name{Libertad Alejandra Paredes Valdivia}
+\begin{titles}
+\Master{Humanities}{Educación Superior}{}{Universidad Católica Santa María}{Perú}{1990}
+\Degree{Humanities}{Licenciada en Lengua Literatura y Filosofía}{}{Universidad Católica Santa María}{Perú}{1975}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959857104}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{ytupac@ucsp.edu.pe}
+\prefix{}
+\name{Yván Jesús Túpac Valdivia}
+\begin{titles}
+\Doctor{Computing}{Ingeniería Eléctrica}{}{Pontificia Universidad Católica de Rio de Janeiro}{Brasil}{2005}
+\Master{Computing}{Ingeniería Eléctrica}{}{Pontificia Universidad Católica de Rio de Janeiro}{Brasil}{2000}
+\Degree{Computing}{Bachiller en Ingeniería Eléctrica}{}{Universidad Nacional San Agustín}{Perú}{1994}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958686787}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Inteligencia Artificial, Optimización}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{lvasquez@ucsp.edu.pe}
+\prefix{}
+\name{Luz Marina Vásquez Quispe}
+\begin{titles}
+\Degree{Mathematics}{Licenciada en Matemática}{}{Universidad Nacional de San Agustín}{Perú}{2000}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-954735600}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{gmaldonado@ucsp.edu.pe}
+\prefix{}
+\name{Gonzalo Omar Maldonado Chauca}
+\begin{titles}
+\Degree{Humanities}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959302019}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{rsilva@ucsp.edu.pe}
+\prefix{}
+\name{Roger Silva Miller}
+\begin{titles}
+\Master{Humanities}{Filosofía}{}{Pontificie Universidad Católica de Río de Janeiro}{Brasil}{}
+\Degree{Humanities}{Licenciado en Filosofia}{} {Universidad Católica de Petrópolis}{Brasil}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958541163}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{gportugal@ucsp.edu.pe}
+\prefix{}
+\name{Gonzalo Max Portugal Yábar}
+\begin{titles}
+\Degree{Humanities}{Licenciado en Comunicación Social}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{achavezc@ucsp.edu.pe}
+\prefix{}
+\name{Angel Evaristo Chávez Contreras}
+\begin{titles}
+\Master{Humanities}{Asesoramiento educativo familiar}{}{Centro universitario Villanueva Adscrito a la Complutense de Madrid España}{España}{2004}
+\Degree{Humanities}{Bachiller en Educación}{}{Universidad Nacional de San Agustín}{Perú}{2002}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959626381}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{mlrodriguez@ucsp.edu.pe}
+\prefix{}
+\name{María Lourdes Rodríguez Manrique}
+\begin{titles}
+\Degree{Humanities}{Lic.en Educación}{}{Universidad Nacional San Agustín}{Perú}{2000}
+\Degree{Humanities}{Lic.en Antropología}{}{Universidad Nacional San Agustín}{Perú}{1990}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959085874}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{glinares@ucsp.edu.pe}
+\prefix{}
+\name{Gail Mar Linares Pomareda De Bocchio}
+\begin{titles}
+\Degree{Humanities}{Licenciada en Enfermería}{}{Universidad Peruana Cayetano Heredia}{Perú}{1999}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-959308526}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{hcalderon@ucsp.edu.pe}
+\prefix{}
+\name{Hugo Calderón Mestas}
+\begin{titles}
+\Degree{Humanities}{}{}{}{}{}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958086960}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{cagallegos@ucsp.edu.pe}
+\prefix{}
+\name{César Alberto Gallegos Esquivias}
+\begin{titles}
+\Degree{Mathematics}{Lic.en Educación (definir????)}{}{Universidad  (definir????)}{Perú  (definir????)}{2000  (definir????)}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{cortiz@ucsp.edu.pe}
+\prefix{}
+\name{Christian Paúl Ortiz Martinez}
+\begin{titles}
+\Degree{Mathematics}{Matemática}{}{Universidad Nacional de San Agustín}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-958193893}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{vsalass@ucsp.edu.pe}
+\prefix{}
+\name{Vidal Acevez Salas Segovia}
+\begin{titles}
+\Degree{Arts}{Artes}{}{Universidad Nacional de San Agustín}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-9}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{lilian.moscoso@ucsp.edu.pe}
+\prefix{}
+\name{Lilian Moscoso}
+\begin{titles}
+\Degree{Arts}{Artes}{}{Universidad Nacional de San Agustín}{Perú}{2006}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-9}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{cfvera@ucsp.edu.pe}
+\prefix{}
+\name{Claudio Francisco Vera Nina}
+\begin{titles}
+\Master{Mathematics}{Matemática}{}{Pontificia Universidad Católica del Perú}{Perú}{2004}
+
+\Degree{Mathematics}{Matemática}{}{Universidad Nacional de San Agustín}{Perú}{2004}
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{+51-54-}
+\Mobile{+51-9}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{}
+\courses{}
+--END-PROFESSOR--
+
+
+--BEGIN-PROFESSOR--
+\email{erick.gomez@ucsp.edu.pe} 
+\prefix{Dr.}
+\name{Erick Gomez Nieto}
+\begin{titles}
+\Doctor{Computing}{Ciencia
+ de la Computación y Matemática Computacional}{Data Visualization and Visual Analytics}{Universidad de Sao Paulo - USP}{Brasil}{2017}
+\Master{Computing}{Ciencia de la Computación}{Data Visualization and Visual Analytics}{Universidad de Sao Paulo - USP}{Brasil}{2012}
+\Degree{Ingeniero}{Ingeniería Informática}{Universidad Católica San Pablo - UCSP}{Perú}{2009}
+\end{titles}
+\Category{}
+\webpage{https://sites.google.com/site/erickgomeznieto/}
+\Office{}
+\Phone{}
+\Mobile{}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Data Visualization, Visual Analytics, Computer Graphics}
+\courses{}
+--END-PROFESSOR--
+
+--BEGIN-PROFESSOR--
+\email{jenny.copara@ucsp.edu.pe} 
+\prefix{Mg(c).}
+\name{Jenny Linet Copara Zea}
+\begin{titles}
+\Master{Computing}{Ciencia de la Computación}{}{Universidad Católica San Pablo}{Perú}{2017}
+\Degree{Ingenieria}{Ingeniería de Sistemas e Informática{}{Universidad Alas Peruanas}{Perú}{2014}
+
+\end{titles}
+\Category{}
+\webpage{}
+\Office{}
+\Phone{}
+\Mobile{+51-958 911 442}
+\facebook{}
+\Twitter{}
+\Blog{}
+\Research{Procesamiento de Lenguaje Natural}
+\courses{}
+--END-PROFESSOR--
+
+
+
+

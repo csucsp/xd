@@ -1,0 +1,118 @@
+
+% Semester #1 .
+% CS111(CS111). Programaciónn de Video Juegos (Obligatorio)
+CS111->mleguen@ucsp.edu.pe,cjdelgado@ucsp.edu.pe
+% CS1D1(CS1D1). Estructuras Discretas I (Obligatorio)
+CS1D1->gmezal@ucsp.edu.pe,jlcopara@ucsp.edu.pe
+% MA100(MA100). Matemática I (Obligatorio)
+MA100->zvillanueva@ucsp.edu.pe
+%IGNORED MA100->,egonzalezq@ucsp.edu.pe,jeachire@ucsp.edu.pe
+% FG103(FG103). Introducción a la Vida Universitaria (Obligatorio)
+FG103->lilian.moscoso@ucsp.edu.pe,glinares@ucsp.edu.pe,gmaldonado@ucsp.edu.pe
+% FG102(FG102). Metodología del Estudio (Obligatorio)
+FG102->achavezc@ucsp.edu.pe,cjdelgado@ucsp.edu.pe
+% FG101(FG101). Comunicación (Obligatorio)
+FG101->lparedesv@ucsp.edu.pe
+%IGNORED FG101->,lvelarde@ucsp.edu.pe
+
+
+% Semester #2 .
+% CS100(CS100). Introducción de Ciencia de la Computación (Obligatorio)
+CS100->ydyari@ucsp.edu.pe
+% CS1D2(CS1D2). Estructuras Discretas II (Obligatorio)
+CS1D2->lvasquez@ucsp.edu.pe
+% CS112(CS112). Ciencia de la Computación I (Obligatorio)
+CS112->meloaiza@ucsp.edu.pe,ahmamani@ucsp.edu.pe
+% MA101(MA101). Matemática II (Obligatorio)
+MA101->dnina@ucsp.edu.pe
+% FG112(FG112). Persona, Matrimonio y Familia (Electivos)
+FG112->jiangulo@ucsp.edu.pe
+
+
+% Semester #3 .
+% CS221(CS221). Arquitectura de Computadores (Obligatorio)
+CS221->ytupac@ucsp.edu.pe
+% CS1D3(CS1D3). Álgebra Abstracta (Obligatorio)
+CS1D3->ana.maria.cuadros@ucsp.edu.pe
+% CS2B1(CS2B1). Desarrollo Basado en Plataformas (Obligatorio)
+CS2B1->rticona@ucsp.edu.pe,ceatencio@ucsp.edu.pe
+% CS113(CS113). Ciencia de la Computación II (Obligatorio)
+CS113->ggdelgado@ucsp.edu.pe
+% MA102(MA102). Cálculo I (Obligatorio)
+MA102->saquise@ucsp.edu.pe
+% FG202(FG202). Apreciación Literaria (Electivos)
+FG202->lparedesv@ucsp.edu.pe
+% FG107(FG107). Antropología Filosófica y Teológica (Obligatorio)
+FG107->jdquiceno@ucsp.edu.pe
+
+
+% Semester #4 .
+% CS211(CS211). Teoría de la Computación (Obligatorio)
+CS211->mquispec@ucsp.edu.pe
+% CS210(CS210). Algoritmos y Estructuras de Datos (Obligatorio)
+CS210->acuadros@ucsp.edu.pe,ggdelgado@ucsp.edu.pe
+% CS271(CS271). Bases de Datos I (Obligatorio)
+CS271->rticona@ucsp.edu.pe
+% MA203(MA203). Estadística y Probabilidades (Obligatorio)
+MA203->ldiaz@ucsp.edu.pe
+% MA201(MA201). Cálculo II (Obligatorio)
+MA201->saquise@ucsp.edu.pe
+% FG204(FG204). Teología (Obligatorio)
+FG204->mrodriguez@ucsp.edu.pe
+
+
+% Semester #5 .
+% CS212(CS212). Análisis y Diseño de Algoritmos (Obligatorio)
+CS212->rvhmora@ucsp.edu.pe
+% CS291(CS291). Ingeniería de Software I (Obligatorio)
+CS291->gcalderon@ucsp.edu.pe,ggdelgado@ucsp.edu.pe
+% CS272(CS272). Bases de Datos II (Obligatorio)
+CS272->jtejadac@ucsp.edu.pe
+% CB111(CB111). Física Computacional (Obligatorio)
+CB111->rlinares@ucsp.edu.pe
+% MA306(MA306). Análisis Numérico (Obligatorio)
+MA306->saquise@ucsp.edu.pe
+% FG210(FG210). Moral (Obligatorio)
+FG210->fzegarra@ucsp.edu.pe
+% FG106(FG106). Teatro (Obligatorio)
+FG106->aiparraguirre@ucsp.edu.pe
+
+
+% Semester #6 .
+% CS2S1(CS2S1). Sistemas Operativos (Obligatorio)
+CS2S1->jsantisteban@ucsp.edu.pe
+% CS312(CS312). Estructuras de Datos Avanzadas (Obligatorio)
+CS312->emgomez@ucsp.edu.pe,mleguen@ucsp.edu.pe
+% CS311(CS311). Programación Competitiva (Obligatorio)
+CS311->rvhmora@ucsp.edu.pe
+% CS292(CS292). Ingeniería de Software II (Obligatorio)
+CS292->gcalderon@ucsp.edu.pe
+% MA307(MA307). Matemática aplicada a la computación (Obligatorio)
+MA307->saquise@ucsp.edu.pe
+% FG203(FG203). Oratoria (Obligatorio)
+FG203->mlrodriguez@ucsp.edu.pe
+
+
+% Semester #7 .
+% CS401(CS401). Metodología de la Investigación en Computación (Obligatorio)
+CS401->ytupac@ucsp.edu.pe,ana.maria.cuadros@ucsp.edu.pe,cjdelgado@ucsp.edu.pe
+% CS261(CS261). Inteligencia Artificial (Electivos)
+CS261->jcgutierrezc@ucsp.edu.pe
+% CS341(CS341). Lenguajes de Programación (Obligatorio)
+CS341->mquispec@ucsp.edu.pe,ceatencio@ucsp.edu.pe
+% CS251(CS251). Computación Gráfica (Electivos)
+CS251->mleguen@ucsp.edu.pe
+% CS231(CS231). Redes y Comunicación (Obligatorio)
+CS231->jsantisteban@ucsp.edu.pe
+
+
+% Semester #8 .
+
+
+% Semester #9 .
+
+
+% Semester #10 .
+% CS393(CS393). Sistemas de Infomación (Electivos)
+CS393->jcano@ucsp.edu.pe
+

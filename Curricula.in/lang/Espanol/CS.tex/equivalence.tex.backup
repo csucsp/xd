@@ -1,0 +1,7 @@
+\chapter{Equivalencias con otros planes curriculares}\label{chap:equivalence}
+A continuación se pueden observar las equivalencias de la presente malla con la malla curricular anterior. 
+Para ver mayores detalles de la malla anterior observar la sección: \ref{sec:tables-by-semester}
+
+\begin{landscape}
+\input{\OutputTexDir/equivalence}
+\end{landscape}

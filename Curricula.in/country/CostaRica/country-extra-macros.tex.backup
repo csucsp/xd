@@ -1,0 +1,44 @@
+\newcommand{\TableEvaluationWidth}{11cm}
+
+\newcommand{\CSLearningStrategies}{
+La metodología didáctica es operativa y participativa, en el que predominan sesiones tipo taller con técnicas de aprendizaje participativas y orientadas a la práctica. El aprendizaje basado en problemas y el método de proyectos son las técnicas de enseñanza en las que se sustenta el curso, se recurre con frecuencia a las discusiones grupales en el que se resuelven problemas y se discuten las notas técnicas de especialistas. Asimismo, se recurre con frecuencia a la práctica de laboratorios.
+
+Los estudiantes realizarán informes críticos de lecturas, exposiciones, discusiones controversiales, prácticas de laboratorio y un proyecto.}
+
+\newcommand{\CSEvaluation}{%
+\begin{center}%
+\begin{tabularx}{\TableEvaluationWidth}{|X|X|p{1cm}|}    \hline%
+                & Aporte de ideas: creatividad   &  5 \\ \cline{2-3}%
+Participación   & Actitud crítica                &  5 \\ \cline{2-3}%
+                & Asistencia: responsabilidad    &  5 \\ \hline%
+\multicolumn{2}{|l|}{Análisis de lecturas}       & 15 \\ \hline%
+\multicolumn{2}{|l|}{Prácticas de laboratorio}   & 40 \\ \hline%
+\multicolumn{2}{|l|}{Proyecto}                   & 30 \\ \hline%
+\end{tabularx}%
+\end{center}%
+
+La participación en clase se entenderá como la asistencia a las sesiones de trabajo donde se evaluará el aporte de ideas, la creatividad en la solución de problemas, la participación oral y la responsabilidad, para un total de 15 puntos.
+
+Se realizan 3 análisis de lectura que contiene un resumen de las principales ideas del autor (2), conclusiones personales (2) y preguntas para el diálogo (1), con valor de 5 puntos cada uno, para un total de 15 puntos.
+
+Se realizan 4 análisis de casos y se evalúa a través de una rúbrica, que mide los siguientes aspectos: cuestiones (2), perspectivas (2), conocimiento (2), acciones (2) y consecuencias (2), con un valor de 10 puntos cada uno, para un total de 40 puntos.
+
+El proyecto se evalúa a través de una rúbrica, que mide los siguientes aspectos: manejo y organización de la información (6), enfoque y creatividad (6), material y reporte final (6), habilidad expositiva (6) y producto final (6), para un total de 30 puntos.
+
+Todos los trabajos escritos y las tareas presentadas después de la fecha asignada para la entrega perderán hasta 2 puntos por cada día de retraso. Una semana después el profesor estará en todo su derecho de no aceptar el trabajo, excepto se presente una excusa válida por escrito: enfermedad o causa de fuerza mayor.
+}
+
+\newcommand{\FGLearningStrategies}{×}
+
+\newcommand{\FGEvaluation}{×}
+
+\newcommand{\CBLearningStrategies}{×}
+
+\newcommand{\CBEvaluation}{×}
+
+\newcommand{\ETLearningStrategies}{×}
+
+\newcommand{\ETEvaluation}{×}
+
+
+

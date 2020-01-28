@@ -1,0 +1,19 @@
+\documentclass[twosides,openright,a4paper,final]{book}
+\usepackage{ae}
+\usepackage[spanish]{babel}
+\usepackage[final]{pdfpages}
+\usepackage{xspace}
+\usepackage{bibtopic}
+\usepackage{fancyhdr}
+
+\input{current-institution}
+\usepackage{\InStyAllDir/config-hdr-foot}
+
+\newcommand{\BookTitle}{Compendio de Bibliografía por curso\xspace}
+
+\begin{document}
+\input{\InInstDir/institution-info}
+\include{Book-Face}
+\tableofcontents
+\include{bibliography-list}
+\end{document}

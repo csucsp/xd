@@ -1,0 +1,76 @@
+\newcommand{\DocumentVersion}{2016}
+\newcommand{\fecha}{\today}
+\newcommand{\city}{Arequipa\xspace}
+\newcommand{\country}{Perú\xspace}
+\newcommand{\dictionary}{Español\xspace}
+\newcommand{\GraphVersion}{2\xspace}
+
+%newcommand{\CurriculaVersion}{1\xspace} % Malla 2006: 1, Malla 2016: 2
+%newcommand{\YYYY}{2006\xspace}          % Plan 2006
+%newcommand{\Range}{7-10}                % Plan 2016 1-8, Plan 2006 7-10
+
+\newcommand{\CurriculaVersion}{2016\xspace} % Malla 2006: 1, Malla 2016: 2 i.e ../Curricula.in/lang/Espanol/CS.tex/CS2016-dependencies.tex
+\newcommand{\YYYY}{2016\xspace}          % Plan 2006, 2010, 2016
+\newcommand{\Range}{1-9}                % Plan 2016 1-8, Plan 2006 7-10
+
+\newcommand{\Semester}{2020-I\xspace}
+\newcommand{\equivalences}{2006,2010} %  {2006,2010}
+
+% convert ./fig/UCSP.jpg ./html/img3.png
+% cp ./fig/big-graph-curricula.png ./html/img18.png
+% convert ../Curricula2.0.out/Peru/CS-UCSP/cycle/2014-1/Plan2016/fig/UCSP.jpg ../Curricula2.0.out/Peru/CS-UCSP/cycle/2014-1/Plan2016/html/img3.png
+% cp ../Curricula2.0.out/Peru/CS-UCSP/cycle/2014-1/Plan2016/fig/big-graph-curricula.png ../Curricula2.0.out/Peru/CS-UCSP/cycle/2014-1/Plan2016/html/img18.png
+
+\newcommand{\OutcomesList}{a,b,c,d,e,f,g,h,i,j,k,l,m,n,ñ,o}
+\newcommand{\logowidth}{20cm}
+
+\newcommand{\University}{Universidad Católica San Pablo\xspace}
+\newcommand{\InstitutionURL}{\htmladdnormallink{http://www.ucsp.edu.pe}{http://www.ucsp.edu.pe}\xspace}
+\newcommand{\underlogotext}{}
+\newcommand{\FacultadName}{}
+\newcommand{\DepartmentName}{Ciencia de la Computación\xspace}
+\newcommand{\SchoolFullName}{Escuela Profesional de Ciencia de la Computación\xspace}
+\newcommand{\SchoolFullNameBreak}{Escuela Profesional de \\Ciencia de la Computación\xspace}
+\newcommand{\SchoolShortName}{Ciencia de la Computación\xspace}
+\newcommand{\SchoolAcro}{EPCC\xspace}
+\newcommand{\SchoolURL}{\href{http://cs.ucsp.edu.pe}{http://cs.ucsp.edu.pe}\xspace}
+
+\newcommand{\GradoAcademico}{Bachiller en Ciencia de la Computación\xspace}
+\newcommand{\TituloProfesional}{Licenciado en Ciencia de la Computación\xspace}
+\newcommand{\GradosyTitulos}%
+{\begin{description}%
+\item [Grado Académico: ] \GradoAcademico\xspace y%
+\item [Titulo Profesional: ] \TituloProfesional%
+\end{description}%
+}
+
+\newcommand{\doctitle}{Plan Curricular \YYYY\xspace del \SchoolFullName\\ \SchoolURL}
+
+\newcommand{\AbstractIntro}{Este documento representa el informe final de la nueva 
+malla curricular \YYYY de la \SchoolFullName de la \University (\textit{\InstitutionURL}) 
+en la ciudad de \city-\country.}
+
+\newcommand{\OtherKeyStones}%
+{Un pilar que merece especial consideración en el caso de la \University es el aspecto de 
+valores humanos, básicos y cristianos debido a que forman parte fundamental 
+de los lineamientos básicos de la existencia de la institución.\xspace}
+
+\newcommand{\profile}{%
+El perfil profesional puede ser mejor entendido a partir de
+\OnlyMainDoc{la Fig. \ref{fig.cs} (Pág. \pageref{fig.cs})}\OnlyPoster{las figuras del lado derecho}. 
+Este profesional tiene como objetivo principal ser el impulsor del desarrollo de nuevas 
+tecnologías computacionales con calidad internacional que puedan ser útiles a nivel local, nacional e internacional.
+Nuestro perfil profesional también está orientado a ser generador de puestos de empleo a través de la innovación permanente. 
+Nuestra formación profesional tiene 3 pilares fundamentales: 
+un contenido computacional de acuerdo a normas internacionales (CS2013), una orientación marcada a la innovación ambos enriquecidos por una sólida
+Formación Humana.
+}
+
+\newcommand{\mission}{La Universidad Católica San Pablo es una comunidad académica animada por las orientaciones y vida de la Iglesia Católica que, 
+a la luz de la fe y con el esfuerzo de la razón, busca la verdad y promueve la formación integral de la persona mediante actividades 
+como la investigación, la enseñanza y la extensión, para contribuir con la 
+configuración de la cultura conforme a la identidad y despliegue propios del ser humano.\xspace}
+
+\newcommand{\HTMLFootnote}{{Generado por <A HREF='http://socios.spc.org.pe/ecuadros/'>Ernesto Cuadros-Vargas</A>, <A HREF='http://www.ucsp.edu.pe/'>Universidad Católica San Pablo, Arequipa-Perú</A><BR> basado en el modelo de la <I>Computing Curricula CS2013</I> de <A HREF='http://www.computer.org/'>IEEE-CS</A>/<A HREF='http://www.acm.org/'>ACM</A> y el la propuesta de la <A HREF='http://www.spc.org.pe/'>Sociedad Peruana de Computación</A>,  }}
+
+\newcommand{\Copyrights}{Generado por Ernesto Cuadros-Vargas, Universidad Católica San Pablo, Arequipa-Perú basado en la propuesta curricular de la Sociedad Peruana de Computación (http://www.spc.org.pe/) y \\en la {\it Computing Curricula} CS2013 de IEEE-CS (http://www.computer.org) y ACM (http://www.acm.org/)}

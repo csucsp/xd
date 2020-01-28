@@ -1,0 +1,35 @@
+@BOOK{Cormen91,
+  AUTHOR =       "Thomas H. Cormen and Charles E. Leiserson and Ronald L. Rivest and Clifford Stein",
+  TITLE =        "Introduction to Algorithms, Second Edition",
+  PUBLISHER =    "MIT Press",
+  YEAR =         "2001",
+  ISBN =         "0262032937"
+ }
+
+@BOOK{Graham94,
+  AUTHOR =       "Ronald L. Graham and Donald E. Knuth and Oren Patashnik",
+  TITLE =        "Concrete Mathematics",
+  PUBLISHER =    "Addison Wesley Iberoamericana",
+  YEAR =         "1994",
+  ISBN =         "0-201-55802-5"
+  }
+
+@BOOK{Guerequeta98,
+  AUTHOR =       "Rosa Guerequeta and Antonio Vallecillo",
+  TITLE =        "Análisis Numérico",
+  PUBLISHER =    "Servicio de Publicaciones de la Universidad de Málaga",
+  YEAR =         "1998",
+  ISBN =         "84-7496-666-3"
+}
+
+@BOOK{DPV2006,
+  AUTHOR =       "Dasgupta, S. and Papadimitriou, C. and Vazirani, U.",
+  TITLE =        "Algorithms",  
+  PUBLISHER =    "McGraw-Hill Education",
+  YEAR =         "2006",
+  ISBN =         "9780073523408"
+}
+
+
+
+

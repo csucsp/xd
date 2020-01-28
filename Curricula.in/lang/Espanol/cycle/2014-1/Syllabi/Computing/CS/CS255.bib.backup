@@ -1,0 +1,41 @@
+\begin{thebibliography}{}
+
+@Book{Foley90,
+  author    = "J. Foley and A. van Dam",
+  publisher = "Addison-Wesley",
+  title     = "Computer Graphics: Principles and Practice",
+  year      = "1990"
+}
+
+@Book{HearnAndBaker94,
+  author    = "D Hearn and M P Baker",
+  year      = "1994",
+  keywords  = "GRAPHICS",
+  title     = "Computer Graphics in C",
+  publisher = "Prentice Hall"
+}
+
+@Book{DS4GameProgrammers,
+ title = {Data Structures for Game Programmers},
+ publisher = {},
+ year = {},
+ ALTALTauthor = {},
+ ALTALTeditor = {},
+ OPTkey = {},
+ OPTvolume = {},
+ OPTnumber = {},
+ OPTseries = {},
+ OPTaddress = {},
+ OPTedition = {},
+ OPTmonth = {},
+ note = {Premier Press Game Development},
+ OPTannote = {},
+ OPTurl = {},
+ OPTdoi = {},
+ OPTissn = {},
+ OPTlocalfile = {},
+ OPTabstracts = {},
+}
+
+
+\end{thebibliography}

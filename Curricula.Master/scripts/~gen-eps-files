@@ -1,0 +1,65 @@
+#!/bin/csh
+
+set area        = $1    # CS
+set institution = $2    # SPC
+set country	= $3	# Peru
+set lang	= $4	# Espanol
+
+set current_dir = `pwd`
+
+# # cd base-tex
+# # foreach tmptex ('Pregunta1'  'Pregunta2'  'Pregunta3' 'Pregunta4'  'Pregunta5'  'Pregunta6' 'Pregunta7'  'Pregunta8'  'Pregunta9' 'Pregunta10'  'Pregunta11'  'Pregunta12' 'Pregunta13' 'Pregunta14')
+# #         latex $tmptex
+# #         dvips -Ppdf -Pcmz -o $tmptex.ps $tmptex
+# # 	echo $area-$institution
+# #         ps2eps -f $tmptex.ps
+# #         rm -f $tmptex.aux $tmptex.dvi $tmptex.log $tmptex.ps
+# # 	./scripts/updatelog "$tmptex generated"
+# # 	mv $tmptex.eps ../fig/.
+# # end
+# # cd ..
+# 
+# cd in/lang/$lang/tex4fig
+# foreach tmptex ('CS' 'CS-course-number'  'IS' 'IS-course-number' 'course-levels')
+#         latex $tmptex
+#         dvips -Ppdf -Pcmz -o $tmptex.ps $tmptex
+# 	echo $area-$institution
+#         ps2eps -f $tmptex.ps
+#         convert $tmptex.eps $tmptex.png
+# 	cp $tmptex.eps $tmptex.png $current_dir/out/$country/$area-$institution/fig/.
+#         rm $tmptex.aux $tmptex.dvi $tmptex.log $tmptex.ps
+# 	./scripts/updatelog "$tmptex generated"
+# end
+# echo "Creating coding courses figures ... done !"
+# cd $current_dir
+# 
+# cd out/$country/$area-$institution/tex
+# foreach tmptex ('pie-credits' 'pie-by-levels') # 'pie-horas'
+#         latex $tmptex-main
+#         dvips -Ppdf -Pcmz -o $tmptex.ps $tmptex-main
+# 	echo $area-$institution
+#         ps2eps -f $tmptex.ps
+#         convert $tmptex.eps $tmptex.png
+# 	cp $tmptex.eps $tmptex.png $current_dir/out/$country/$area-$institution/fig/.
+#         rm $tmptex.aux $tmptex.dvi $tmptex.log $tmptex.ps $tmptex.eps $tmptex.png
+# 	./scripts/updatelog "$tmptex generated"
+# end
+# cd $current_dir
+# echo "Creating pies ... done !"
+
+cd out/$country/$area-$institution/tex
+foreach tmptex ('CE' 'CS' 'IS' 'IT' 'SE')
+	set file=$area-with-$tmptex
+        latex $file-main
+        dvips -Ppdf -Pcmz -o $file.ps $file-main.dvi
+        ps2eps -f $file.ps
+        convert $file.eps $file.png
+        cp $file.eps $file.png $current_dir/out/$country/$area-$institution/fig/.
+        rm -f $file.aux $file.dvi $file.log $file.ps $file.eps $file.png
+	./scripts/updatelog "$tmptex generated"
+end
+cd $current_dir
+echo "Compatibility phase done !"
+
+echo "gen-eps-files Done !"
+

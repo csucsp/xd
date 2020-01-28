@@ -1,0 +1,153 @@
+\usepackage{graphics}
+\usepackage{ae}
+\usepackage[spanish]{babel}
+
+%\setlength{\textwidth}{15.5cm}
+%\setlength{\textheight}{24cm}
+%\addtolength{\voffset}{-2.54cm}
+%\addtolength{\hoffset}{-1.9cm}
+
+\newcommand{\Bibliography}{Bibliografía}
+
+\newcounter{SyllabusSectionCount}
+\newcounter{SyllabusUnitCount}
+
+\newcommand{\spcbibstyle}{apalike}
+\newcommand{\secskip}{\medskip}
+
+\newcommand{\entrylabel}[1]{%
+                 \mbox{\textsf{#1}}\hfil:}
+
+\newenvironment{entry}%
+  {\begin{list}{}{%
+    \renewcommand{\makelabel}{\entrylabel}%
+    \setlength{\labelwidth}{160pt}%
+    \setlength{\leftmargin}%
+                 {\labelwidth}
+    \addtolength{\leftmargin}{\labelsep}}}%
+  {\end{list}}
+
+%Environment general, para todo el documento
+\newenvironment{syllabus}{%
+	\setcounter{SyllabusSectionCount}{0}%
+	\begin{center}{\noindent\Large\bf\University\\ \SchoolFullName\\ }\end{center}%
+	\begin{btUnit}
+}%
+{%
+	\end{btUnit}%
+}
+
+%course title
+\newcommand{\course}[3]{%
+\label{sec:#3}%
+\begin{center}
+\vspace{-0.6cm}%
+\Large SUMILLA%
+\vspace{-0.6cm}%
+\section*{#1 (#2)}
+\addcontentsline{toc}{subsection}{#1 (#2)}%
+\end{center}%
+\vspace{-0.6cm}%
+\begin{syllabus-section}{Información General}\end{syllabus-section}%
+\begin{itemize}
+    \input{\OutputPrereqDir/#3}%
+\end{itemize}
+}
+
+\newenvironment{syllabus-section}[1]%
+{%
+\addtocounter{SyllabusSectionCount}{1}%
+\subsection*{\arabic{SyllabusSectionCount}. #1}%
+}{}
+
+\newenvironment{syllabus-unit}[1]%
+{%
+\addtocounter{SyllabusUnitCount}{1}%
+\subsection*{\arabic{SyllabusSectionCount}.\arabic{SyllabusUnitCount} #1}
+}{}
+
+
+\newenvironment{justification}%
+{%
+    \begin{syllabus-section}{Fundamentación}%\addtocounter{SyllabusSectionCount}{1}
+    \end{syllabus-section}%
+}{\medskip}
+
+\newenvironment{goals}
+{\begin{syllabus-section}{Objetivos del curso}%
+ \end{syllabus-section}%
+ \begin{itemize}%
+}
+{\end{itemize}%
+ \begin{syllabus-section}{Contribución a los resultados}%
+ \end{syllabus-section}%
+}
+
+\newcommand{\Revisado}[2]{}
+
+\newenvironment{outcomes}%
+{\noindent\ContribInitMsg:%
+%
+\begin{description}}
+{\end{description}%\LUUNODef
+\begin{syllabus-section}{Contenidos}%
+ \end{syllabus-section}%
+ \medskip
+ \setcounter{SyllabusUnitCount}{0}%
+}
+
+\newenvironment{unit}[4]%
+{%
+	\begin{syllabus-unit}{#1 [Nivel Bloom #4]}%
+	%\begin{syllabus-unit}{#1 (#3 hr(s))}%
+ 	\noindent{\bf \Bibliography}: \cite{#2}%
+	\begin{description}%
+}
+{%
+   %\item[\Bibliography: ] \cite{#2}%
+	\end{description}%
+	\end{syllabus-unit}%
+}%
+
+%\newcommand{\biblio}[1]{}
+\newcommand{\biblio}[1]{%
+	\nocite{#1}%
+}
+
+\newenvironment{coursebibliography}
+{
+\begin{syllabus-section}{\Bibliography}
+\end{syllabus-section}%
+%\vspace{-1cm}
+}
+{
+%\end{syllabus-section}
+}
+
+\newcommand{\bibfile}[1]
+{
+	\begin{btSect}[\spcbibstyle]{\InSyllabiBaseDir/#1}
+	\btPrintCited
+	\end{btSect}
+}
+
+% Environments for syllabi
+\newenvironment{topics}
+{\item[Tópicos. ] \begin{inparaenum}[ \bf I:]}
+{\end{inparaenum}}
+
+\newenvironment{subtopics}%
+{\begin{inparaenum}[ \bf a)]}%
+{\end{inparaenum}}
+
+\newenvironment{unitgoals}
+{\item [Objetivos. ]\begin{inparaenum} }
+{\end{inparaenum} }
+
+\newenvironment{boktopic}%
+{\begin{itemize}}%
+{\end{itemize}}
+
+\newenvironment{boksubtopic}%
+{\begin{itemize}}%
+{\end{itemize}}

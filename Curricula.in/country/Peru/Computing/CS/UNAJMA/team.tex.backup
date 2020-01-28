@@ -1,0 +1,13 @@
+\begin{center}
+{\bf \Huge Equipo de trabajo}
+\end{center}
+\vspace{1cm}
+
+\input{\PeopleDir/ElipioMorenoANR}
+
+\input{\PeopleDir/JorgeLuisManriqueCienfuegos}
+
+\input{\PeopleDir/DorisMaravi}
+
+\input{\PeopleDir/ErnestoCuadrosVargas}
+

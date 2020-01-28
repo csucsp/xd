@@ -1,0 +1,34 @@
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\input{\OutputTexDir/macros-only}
+\usepackage{\InStyDir/bok-macros}
+\input{\InTexDir/other-packages}
+
+\usepackage{\InStyAllDir/syllabus}
+
+\usepackage{\InStyAllDir/macros-only-extra}
+\usepackage{\InStyAllDir/config-hdr-foot}
+
+\input{in/colors/custom-colors}
+\input{in/colors/custom-define-colors}
+
+\bibliographystyle{apalike}
+\input{\InInstDir/institution-info}
+
+\usepackage{\InCountryDir/country-extra-environments}
+\input{\InCountryDir/country-extra-macros}
+
+% \htmladdtonavigation{\htmladdnormallink{\htmladdimg{http://server/mybutton.gif}}{http://server/link}}
+
+\newenvironment{LearningUnit}%
+{\begin{description} }
+{\end{description} }
+
+\newenvironment{LUGoal}%
+{\item[Objetivos Generales. ] \begin{inparaenum}[ \bf I:]}%
+{\end{inparaenum}}
+
+\newenvironment{LUObjective}%
+{\item [Objetivos Específicos. ]\begin{inparaenum}[ \bf I:] }%
+{\end{inparaenum} }

@@ -1,0 +1,97 @@
+{1}{CS105}{Estructuras Discretas I}{4}{CS1D1}% Estructuras Discretas I, 4
+{1}{CS101}{Introducción a la Programación}{4}{CS111}% Fundamentos de Computación , 4
+{1}{CB101}{Álgebra y Geometría}{5}{MA100}% Matemática Básica , 5
+{1}{FG101}{Comunicación}{3}{FG101}% Comunicación Integral , 3
+{1}{FG102}{Metodología del Estudio}{3}{FG102}% Metodología del Estudio , 3
+{1}{ID101}{Lengua Extranjera I}{3}{ID101}% Inglés técnico profesional I , 3
+
+
+{2}{CS101O}{Introducción a la Programación Orientada a Objetos  }{3}{CS112}% Ciencia de la Computación I , 5
+{2}{CS106}{Estructuras Discretas II   }{5}{CS1D2}% Estructuras Discretas II , 5
+{2}{CB102}{Cálculo en una variable   }{4}{MA101}% Cálculo en una Variable , 5
+{2}{ID102}{Lengua Extranjera II}{5}{ID102}% Inglés técnico profesional II , 3
+{2}{CS100}{Introducción a la Ciencia de la Computación   }{3}{CS100}% Introducción a la Ciencia de la Computación, 3
+
+
+
+
+{3}{CS220T}{Arquitectura de Computadores}{3}{CS221}% Arquitectura de Computadores , 3
+{3}{CS130}{Introducción a Internet}{3}{CS2B1}% Desarrollo Basado en Plataformas , 3
+{3}{CS102O}{Objetos y Abstracción de Datos}{4}{CS113}% Ciencia de la Computación II, 5
+{3}{}{}{}{XD101}% Trabajo Interdisciplinar I, 2
+{3}{CB103}{Cálculo en Una Variable II}{5}{MA102}% Cálculo en varias Variables , 5
+{3}{ID201}{Lengua Extranjera III  }{3}{ID103}% Inglés técnico profesional III , 3
+
+
+
+
+
+{4}{CS270T}{Bases de Datos I }{5}{CS271}% Bases de Datos I, 4
+{4}{CS103O}{Algoritmos y Estructuras de Datos}{4}{CS210}% Algoritmos y Estructuras de Datos , 5
+{4}{CS211T}{Teoría de la Computación}{4}{CS211}% Teoría de la Computación , 4
+{4}{CB203}{Estadística y Probabilidades}{4}{MA203}% Estadística y Probabilidades , 5
+{4}{CB201}{Calculo en Varias Variables}{5}{MA311}% Algebra Linear Numérica , 4
+
+
+
+{5}{CS271T}{Bases de Datos II}{3}{CS272}%  Bases de Datos II, 3
+{5}{CS210T}{Análisis y Diseño de Algoritmos}{4}{CS212}% Análisis y Diseno de Algoritmos , 4
+{5}{CS290T}{Ingeniería de Software I}{4}{CS291}% Ingeniería de Software I , 3
+{8}{CS240S}{Compiladores}{}{CS342}% Compiladores , 3
+{5}{}{}{}{MA308}% Análisis Exploratorio de Datos Espaciales , 4
+{5}{}{}{}{MA312}% Ecuaciones Diferenciales , 4
+
+
+
+
+
+
+{6}{CS390}{Ingeniería de Software II}{4}{CS292}% Ingeniería de Software II, 4
+{6}{}{}{}{CS311}% Programación Competitiva, 3
+{6}{CS315}{Estructuras de Datos Avanzadas}{4}{CS312}% Estructuras de Datos Avanzadas, 4
+{6}{CS225T}{Sistemas Operativos}{4}{CS2S1}% Sistemas Operativos, 4
+{6}{CB307}{Matemática aplicada a la computación  }{4}{MA307}% Matemática aplicada a la computación, 3
+{6}{}{}{}{XD201}% Trabajo Interdiciplinar , 2
+
+
+
+
+
+{7}{CS261T}{Inteligencia Artificial   }{4}{CS261}% Inteligencia Artificial, 4
+{8}{CS230W}{Computación Centrada en Redes}{3}{CS231}% Redes y Comunicación, 3
+{7}{CS401}{Proyecto I}{2}{CS401}% Investigación en Ciencia de la Computación, 2
+{8}{CS255}{Computación Gráfica}{4}{CS251}% Computación Gráfica, 4
+{7}{}{}{}{CS393}% Desarrollo de Software Empresarial, 4
+{7}{}{}{}{FG106}% Taller de Arte y Tecnología, 2
+{8}{CS391}{Calidad de Software}{3}{CS391}% Ingeniería de Software III, 3
+{7}{}{}{}{CS281}% Computación en la Sociedad, 2
+
+
+{8}{CB111}{Fisica Computacional}{4}{CB111}% Fisica Computacional, 4
+{8}{CS402}{Proyecto II}{3}{CS402}% Proyecto de Final de Carrera I, 3
+{7}{CS336}{Seguridad en Computación   }{3}{CS3I1}% Seguridad en Computación, 3
+{7}{CS250W}{Interacción Humano Computador}{3}{CS2H1}% Interacción Humano Computador, 3
+{8}{}{}{}{FG203}% Oratoria, 2
+{7}{CS314}{Algoritmos Paralelos}{4}{CS3P1}% Computación Paralela y Distribuida, 4
+{7}{ET101}{Formación de Empresas de Base Tecnológica I}{3}{ET201}% Formación de Empresas de Base Tecnológica I, 3
+
+
+
+{9}{CS370}{Tópicos en Bases de Datos}{4}{CS370}% Big Data, 3
+{9}{CB309}{Computación Molecular Biológica}{4}{CB309}% Bioinformática, 2
+{9}{CS393}{Métodos Formales}{4}{CS392}% Tópicos Avanzados en Ingeniería de Software, 4
+{9}{CS403}{Proyecto de Tesis}{3}{CS403}% Proyecto de Final de Carrera II, 3
+{9}{ET102}{Formación de Empresas de Base Tecnológica II}{3}{ET301}% Formación de Empresas de Base Tecnológica II, 3
+{9}{CS355}{Tópicos en Computación Gráfica}{4}{CS351}% Tópicos en Computación Gráfica, 4
+{9}{CS361}{Tópicos en Inteligencia Artificial}{4}{CS361}% Tópicos en Inteligencia Artificial, 4
+{9}{FG350}{Liderazgo y Desempeño}{3}{FG350}% Liderazgo, 3
+{9}{ID202}{Lengua Extranjera IV}{3}{ID104}% Inglés técnico profesional IV, 3
+
+
+
+{10}{CS367}{Robótica}{4}{CS362}% Robótica, 4
+{10}{}{}{}{CS3P3}% Internet de las Cosas , 3
+{10}{CS331}{Cloud Computing}{3}{CS3P2}% Cloud Computing, 3
+{10}{CS404}{Seminario de Tesis}{3}{CS404}% Proyecto de Final de Carrera III, 6
+{10}{}{}{}{XD301}% Trabajo Interdisciplinar III , 2
+{10}{FG211}{Ética Profesional}{2}{FG211}% Ética Profesional, 3

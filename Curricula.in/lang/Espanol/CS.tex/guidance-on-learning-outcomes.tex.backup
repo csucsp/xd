@@ -1,0 +1,7 @@
+  \begin{tabularx}{10cm}{X}
+   \begin{itemize}
+    \item hola
+    \item chau
+   \end{itemize}
+
+  \end{tabularx}

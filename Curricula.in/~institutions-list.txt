@@ -1,0 +1,18 @@
+CS-CLEI   : CLEIC       : Computing  : CLEI,SPC   : final
+CS-SPC    : Peru	: Computing  : SPC        : final
+CS-UCSP   : Peru	: Computing  : UCSP       : final
+CS-UNSA   : Peru	: Computing  : UNSA,SPC   : final
+CS-UJPII  : CostaRica   : Computing  : UJPII      : final
+CS-UCR    : CostaRica   : Computing  : UCR        : final
+CS-UNAMBA : Peru        : Computing  : UNAMBA,SPC : final
+CS-UNA    : Peru        : Computing  : UNA,SPC    : final
+CS-UPN    : Peru        : Computing  : UPN,SPC    : final
+CS-UNI    : Peru	: Computing  : UNI        : final
+CS-UNU    : Peru	: Computing  : UNU,SPC    : final
+CS-ULS    : Peru	: Computing  : ULS,SPC    : draft
+CS-USGP   : Ecuador     : Computing  : USGP,SPC   : final
+CS-EAFIT  : Colombia    : Computing  : SPC,EAFIT  : final
+
+IS-SPC : Peru	: Computing  : SPC      : final
+IS-UCSP: Peru	: Computing  : UCSP     : final
+IS-UNSA: Peru	: Computing  : UNSA,SPC : final

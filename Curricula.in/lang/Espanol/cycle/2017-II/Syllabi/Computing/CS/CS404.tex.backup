@@ -1,0 +1,42 @@
+\begin{syllabus}
+
+\course{CS404. Seminario de Tesis}{Obligatorio}{CS404}
+
+\begin{justification}
+Este curso tiene por objetivo que el alumno entregue su borrador de tesis.
+\end{justification}
+
+\begin{goals}
+\item Que el alumno complete este curso con su tesis lista para una posible sustentación inmediata.
+\item Que el alumno presente formalmente el borrador de tesis ante las autoridades de la facultad.
+\item Los entregables de este curso son:
+	\begin{description}
+	\item [Avance parcial:] Avance del proyecto de tesis incluyendo introducción, marco teorico, estado del arte, experimentos, y bibliografía sólida.
+	\item [Final:] Proyecto de tesis completo y listo para sustentar en un plazo no mayor de quince días.
+	\end{description}
+\end{goals}
+
+\begin{outcomes}
+\ExpandOutcome{a}{4}
+\ExpandOutcome{b}{5}
+\ExpandOutcome{c}{5}
+\ExpandOutcome{e}{4}
+\ExpandOutcome{f}{5}
+\ExpandOutcome{h}{5}
+\ExpandOutcome{i}{5}
+\ExpandOutcome{l}{5}
+\end{outcomes}
+
+\begin{unit}{Escritura del Borrador de Tesis (indispensable para aprobar)}{ieee,acm,citeseer}{60}{1}
+\begin{unitgoals}
+      \item Concluir la parte experimental (si fuese adecuado al proyecto)
+      \item Verificar que el documento cumpla con el formato de tesis de la universidad
+      \item Entrega del borrador de tesis en su totalidad prácticamente listo para una sustentación pública del mismo
+   \end{unitgoals}
+\end{unit}
+
+\begin{coursebibliography}
+\bibfile{Computing/CS/CS401}
+
+\end{coursebibliography}
+\end{syllabus}

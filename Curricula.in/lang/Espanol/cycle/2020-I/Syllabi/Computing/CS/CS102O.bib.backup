@@ -1,0 +1,28 @@
+@BOOK{Meyer98,
+  AUTHOR =       "Bertran Meyer",
+  TITLE =        "Construcción de Software Orientado a Objetos",
+  PUBLISHER =    "Prentice Hall",
+  YEAR =         "1999",
+  ISBN =         "84-8322-040-7"
+  }
+
+
+@BOOK{Stroustrup97,
+  AUTHOR =       "Bjarne Stroustrup",
+  TITLE =        "The C++ Programming Language",
+  PUBLISHER =    "Addison-Wesley.",
+  YEAR =         "1997",
+  ISBN =         "0-201-12078-X"
+  }
+
+@BOOK{Johnsonbaugh99,
+  AUTHOR =       "R. Johnsonbaugh",
+  TITLE =        "Matemáticas Discretas",
+  PUBLISHER =    "Pearson",
+  YEAR =         "1999",
+  ISBN =	{}
+  }
+
+
+
+

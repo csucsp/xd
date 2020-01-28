@@ -1,0 +1,26 @@
+#!/bin/csh
+
+#--BEGIN-FILTERS--
+exit; revisar todo
+set out_dir=$1
+set sigla=$2 # Ejemplo CS-SPC
+set semester=$3
+set curso=$4
+#--END-FILTERS--
+
+cd $out_dir/$sigla
+latex $curso-silabo
+bibtex $curso-silabo
+latex $curso-silabo
+latex $curso-silabo
+dvipdfm $curso-silabo.dvi
+#dvips -o $curso-silabo.ps $curso-silabo.dvi
+#ps2pdf $curso-silabo.ps $curso-silabo.pdf
+rm $curso-silabo.ps $curso-silabo.log $curso-silabo.dvi $curso-silabo.aux $curso-silabo.bbl $curso-silabo.blg $curso-silabo.toc
+mkdir PDFSilabos
+mv $curso-silabo.pdf PDFSilabos/.
+
+mkdir -p ../../html/$sigla/Silabos
+cp PDFSilabos/$curso-silabo.pdf ../../html/$sigla/Silabos/$curso.pdf
+cd ../..
+

@@ -1,0 +1,14 @@
+Aqui le envio lo de la configuración
+- Crear in/country.Peru/CS-SPC/ los archivos:
+     * team.tex,
+     * syllabus-template.tex,
+     * institution-info.tex,
+     * ack.tex
+- Configurar datos de la institución (in/country.Peru/CS-SPC/institution-info.tex)
+- Copiar logo.eps en el directorio in/country.Peru/logos
+- Generar el logo.jpg
+- Configurar equipo de trabajo (in/country.Peru/CS-SPC/team.tex)
+- Editar el ./in/institutions-list.txt
+//- Adicionar el $area-acronimo.tex (ya no, el pcc-acronym.tex se genera en base al info de c/univ)
+
+- Completar cursos

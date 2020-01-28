@@ -1,0 +1,52 @@
+\section{Objetivos de Aprendizaje ({\it Learning Outcomes})}
+Cada KU dentro de un KA enumera tanto un conjunto de temas y los resultados de aprendizaje ({\it Learning Outcomes})
+que los estudiantes deben alcanzar en lo que respecta a los temas especificados. 
+Resultados de aprendizaje no son de igual tamaño y no tienen una asignación uniforme de horas curriculares; 
+temas con el mismo número de horas pueden tener muy diferentes números de los resultados del aprendizaje asociados.
+
+Cada resultado de aprendizaje tiene un nivel asociado de dominio. 
+En la definición de los diferentes niveles que dibujamos de otros enfoques curriculares, 
+especialmente la taxonomía de Bloom, que ha sido bien explorado dentro de la ciencia de la computación. 
+En este documento no se aplicó directamente los niveles de Bloom en parte porque varios de 
+ellos son impulsados por contexto pedagógico, que introduciría demasiada pluralidad en un documento de este tipo; 
+en parte porque tenemos la intención de los niveles de dominio para ser indicativa y 
+no imponer restricción teórica sobre los usuarios de este documento.
+
+Nosotros usamos tres niveles de dominio esperados que son:
+\begin{description}
+ \item [Nivel 1 \Familiarity ({\it Familiarity})]: \LearningOutcomesTxtEsFamiliarity
+ \item [Nivel 2 \Usage ({\it Usage})]: \LearningOutcomesTxtEsUsage
+ \item [Nivel 3 \Assessment ({\it Assessment})]: \LearningOutcomesTxtEsAssessment
+\end{description}
+
+% As a concrete, although admittedly simplistic, example of these levels of mastery, we consider
+% the notion of iteration in software development, for example for-loops, while-loops, and iterators.
+% At the level of ``Familiarity,'' a student would be expected to have a definition of the concept of
+% iteration in software development and know why it is a useful technique. In order to show
+% mastery at the ``Usage'' level, a student should be able to write a program properly using a form
+% of iteration. Understanding iteration at the ``Assessment'' level would require a student to
+% understand multiple methods for iteration and be able to appropriately select among them for
+% different applications.
+
+Por ejemplo, en los niveles de dominio, consideramos la noción de iteración en el desarrollo de software, por ejemplo, 
+para-bucles, mientras bucles y iteradores. 
+En el plano de la ``familiaridad'', se espera que un estudiante tenga una definición del 
+concepto de iteración en el desarrollo de software y saber por qué una técnica es útil. 
+Con el fin de mostrar el dominio del nivel ``Uso'', el estudiante debe ser capaz de 
+escribir un programa adecuadamente usando una forma de iteración. En el nivel de ``Evaluación'', 
+en la iteración se requeriría que un estudiante comprenda múltiples métodos de iteración y 
+ser capaz de seleccionar apropiadamente entre ellos para diferentes aplicaciones.
+
+% The descriptions we have included for learning outcomes may not exactly match those used by
+% institutions, in either specifics or emphasis. Institutions may have different learning outcomes
+% that capture the same level of mastery and intent for a given topic. Nevertheless, we believe that
+% by giving descriptive learning outcomes, we both make our intention clear and facilitate
+% interpretation of what outcomes mean in the context of a particular curriculum. 
+
+
+Las descripciones que hemos incluido en los resultados del aprendizaje pueden no coincidir 
+exactamente con los utilizados por las instituciones, ya sea en aspectos específicos o énfasis. 
+Las instituciones pueden tener diferentes resultados de aprendizaje que capturan el mismo nivel 
+de dominio y la intención de un tema determinado. Sin embargo, creemos que al dar los resultados 
+del aprendizaje descriptivos, los dos hacemos nuestra intención clara y facilitar la 
+interpretación de lo que los resultados medios en el contexto de un plan de estudios en particular.

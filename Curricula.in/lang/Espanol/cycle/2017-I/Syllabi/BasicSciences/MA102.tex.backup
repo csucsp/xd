@@ -1,0 +1,128 @@
+\begin{syllabus}
+
+\course{MA102. Matemática III}{Obligatorio}{MA102}
+
+\begin{justification}
+Este curso introduce los primeros conceptos del álgebra lineal, así como los métodos numéricos con un énfasis en la resolución de problemas
+con el paquete de sotfware libe de código abierto Scilab.
+La teoría matemática se limita a los fundamentos, mientras que la aplicación efectiva para la resolución de problemas es privilegiada. 
+En cada tópico, se enseña unos cuantos métodos de de relevancia para la ingeniería. 
+Los conocimientos sobre estos métodos prepara a los estudiantes para la búsqueda de alternativas más avanzadas, si se lo requiere.
+
+% This course introduces first concepts of Linear Algebra as well as of Numerical Methods
+% with an emphasis on problem-solving with the Scilab open-source computational
+% package. Mathematical theory is restricted to fundamentals whereas effective pure and
+% applied problem-solving is privileged. In each topic, only a few methods of relevance to
+% everyday Engineering are taught. Knowledgeability about these methods prepares
+% students for searching more advanced alternatives if and when necessary.
+
+\end{justification}
+
+\begin{goals}
+\item Capacidad para aplicar los conocimientos sobre Matemáticas.
+\item Capacidad para aplicar los conocimientos sobre Ingeniería.
+\item Capacidad para aplicar los conocimientos, técnicas, habilidades y herramientas modernas de la ingeniería moderna para la práctica de la ingenieria.
+ 
+%Capacity to apply knowledge of Mathematics
+%Capacity to apply knowledge of Engineering
+%Capacity to apply the knowledge, techniques, skills, and modern tools of modern Engineering necessary for the Engineering practice 
+
+
+\end{goals}
+
+\begin{outcomes}
+    \item \ShowOutcome{a}{3}
+    \item \ShowOutcome{j}{3}
+\end{outcomes}
+
+\begin{competences}
+    \item \ShowCompetence{C1}{a} 
+    \item \ShowCompetence{C20}{j} 
+    \item \ShowCompetence{C24}{j} 
+\end{competences}
+
+\begin{unit}{}{Introducción}{Anton, Chapra}{18}{C1}
+% begin{unit}{}{Introduction}{Anton, Chapra}{18}{C1}
+  \begin{topics}
+      \item Importancia del álgebra lineal y métodos numéricos. %Importance of Linear Algebra and Numerical Methods. Examples.
+   \end{topics}
+
+   \begin{learningoutcomes}
+      \item Comprender el proceso de deducción de la integral definida y su relación con el cocepto de área [\Usage].
+      \item Calcular integrales definidas [\Usage].
+      \item Asimilar el Teorema fundamental del cálculo. Manejar los métodos de integración [\Usage].
+      \item Aplicar la integral a problemas [\Usage].
+   \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{}{Álgebra lineal}{Anton, Chapra}{14}{C1}
+% begin{unit}{}{Linear Algebra}{Anton, Chapra}{14}{C1}
+   \begin{topics}
+    \item . %Elementary matrix algebra and determinants
+    \item . %Null space and exact solutions of systems of linear equations Ax=b:
+	  \begin{subtopics}
+	  \item . %Tridiagonal and triangular systems and Gaussian elimination with and without pivoting
+	  \item . %LU factorization and Crout algorithm
+	  \end{subtopics}
+    \item . %Basics on eigenvalues and eigenvectors:
+	  \begin{subtopics}
+	  \item . %Characteristic polynomials
+	  \item . %Algebraic and geometric multiplicities
+	  \end{subtopics}
+    \item . %Least squares estimation
+    \item . %Linear transformations
+    \end{topics}
+
+   \begin{learningoutcomes}
+      \item Conocer las funciones trascendentes y su importancia. Calcular derivadas e integrales [\Usage].
+      \item Manejar y ejecutar aplicaciones de las funciones trascendentes [\Usage].
+      \end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{}{Métodos Numéricos}{Anton, Chapra}{22}{C24}
+% begin{unit}{}{Numerical methods}{Anton, Chapra}{22}{C24}
+   \begin{topics}
+    \item . %Basics on solutions of systems of linear equations Ax=b: Jacobi and Gauss Seidel methods
+    \item . %Application of matrix factorizations to the solution of linear systems (singular value decomposition, QR, Cholesky) Numerical computation of null space, rank and condition number
+    \item . %Root finding:
+	  \begin{subtopics}
+	  \item . %Bisection
+	  \item . %Fixed-point iteration
+	  \item . %Newton-Raphson methods
+	  \end{subtopics}
+    \item . %Basics on interpolation:
+	  \begin{subtopics}
+	  \item . %Newton and Lagrange polynomial interpolations
+	  \item . %Spline interpolation
+	  \end{subtopics}
+    \item . %Basics on numerical differentiation and Taylor approximation
+    \item . %Basics on numerical integration:
+	  \begin{subtopics}
+	  \item . %Trapezium, midpoint and `Simpson\textquotesingle s rule
+	  \item . %Gaussian quadrature
+	  \end{subtopics}
+    \item . %Basics on numerical solutions to ODEs:
+	  \begin{subtopics}
+	  \item . %Finite differences; Euler and Runge-Kutta methods
+	  \item . %Converting higher order ODEs into a system of low order ODEs
+	  \item . %Runge-Kutta methods for systems of equations
+	  \item . %Single shooting method
+	  \end{subtopics}
+    \item . %Short introduction to optimization techniques: overview on linear programming, bounded linear systems, quadratic programming, gradient descent.
+    \end{topics}
+
+   \begin{learningoutcomes}
+      \item Manejar el concepto de integral impropia, calcular integrales [\Usage].
+      \item Conocer y manejar los diferentes series. Determinar la convergencia de una serie [\Usage].
+      \item Manejar los criterios de convergencia [\Usage].
+      \end{learningoutcomes}
+\end{unit}
+
+
+\begin{coursebibliography}
+\bibfile{BasicSciences/MA102}
+\end{coursebibliography}
+
+\end{syllabus}
+
+%\end{document}

@@ -1,0 +1,42 @@
+
+% Semester #1 .
+% CS1D1(CS1D1). Estructuras Discretas I (Obligatorio)
+CS1D1->gmezal@ucsp.edu.pe,lvasquez@ucsp.edu.pe
+% CS111(CS111). Programación de Video Juegos (Obligatorio)
+CS111->ccastelo@ucsp.edu.pe,mleguen@ucsp.edu.pe
+% MA100(MA100). Matemática I (Obligatorio)
+MA100->cortiz@ucsp.edu.pe,lmramos@ucsp.edu.pe
+% FG102(FG102). Metodología del Estudio (Obligatorio)
+FG102->achavezc@ucsp.edu.pe,ccastelo@ucsp.edu.pe,susana.chaina@ucsp.edu.pe
+% FG103(FG103). Introducción a la Vida Universitaria (Obligatorio)
+FG103->glinares@ucsp.edu.pe
+% FG101(FG101). Comunicación (Obligatorio)
+FG101->lparedesv@ucsp.edu.pe,efalvarez@ucsp.edu.pe
+
+
+% Semester #2 .
+
+
+% Semester #3 .
+
+
+% Semester #4 .
+
+
+% Semester #5 .
+
+
+% Semester #6 .
+
+
+% Semester #7 .
+
+
+% Semester #8 .
+
+
+% Semester #9 .
+
+
+% Semester #10 .
+

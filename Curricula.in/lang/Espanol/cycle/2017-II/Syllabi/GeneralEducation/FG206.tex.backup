@@ -1,0 +1,143 @@
+\begin{syllabus}
+
+\course{FG206. Sociología}{Electivos}{FG206}
+
+\begin{justification}
+La Sociología permite un acercamiento vivencial a la realidad, lo que facilita su reconocimiento análisis y comprensión.\end{justification}
+\begin{goals}
+\item Valorar el hecho social como un factor de comprensión e interpretación de la realidad social. [\Familiarity]
+\item Interpelar la realidad desde una visión unitaria a partir de la perspectiva teológica y filosófica. [\Familiarity]
+\item Superar el planteamiento teórico por formas de servicio desinteresado que expresen el sentido de la verdad. [\Familiarity]
+\end{goals}
+
+\begin{outcomes}
+    \item \ShowOutcome{e}{1}
+    \item \ShowOutcome{n}{1}
+    \item \ShowOutcome{ñ}{2}
+\end{outcomes}
+
+\begin{competences}
+    \item \ShowCompetence{C21}{e}
+    \item \ShowCompetence{C22}{n} 
+    \item \ShowCompetence{C24}{ñ}
+\end{competences}
+
+\begin{unit}{}{Primera Unidad}{Macionis1999,pablo1998,Mendoza1990}{6}{C21,C22,C24}
+\begin{topics}
+    \item La Sociología como Disciplina.
+    \begin{subtopics}
+	    \item Su Naturaleza y su Objeto.
+	    \item Su relación con las otras Ciencias.
+	    \item Las Técnicas de Investigación Sociológica.
+	    \item Perspectivas sociológicas más recientes.
+    \end{subtopics}
+\end{topics}
+\begin{learningoutcomes}
+	\item Acercarse, describir y explicar los hechos sociales. [\Familiarity]
+	\item Indagar la conexión existente entre Sociología y Sociedad. [\Familiarity]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{}{Segunda Unidad}{Pablo2001,Doig1996,Giddens2002,Mendoza1990}{9}{C21,C22,C24}
+\begin{topics}
+	\item Cultura y Sociedad.
+		\subitem Conceptos.
+		\subitem Valores y Normas.
+		\subitem La diversidad cultural.
+		\subitem La socialización.
+		\subitem Los roles sociales.
+		\subitem La identidad.
+		\subitem Interacción y vida cotidiana.
+		\subitem Tipos de sociedad.
+		\subitem El cambio social.
+		\subitem Grupos sociales.
+			\subsubitem Primarios.
+			\subsubitem Secundarios.
+\end{topics}
+\begin{learningoutcomes}
+	\item Estudiar la importancia e influencia de la cultura en la vida social humana. [\Familiarity]
+	\item Analizar lo que son los grupos sociales.[\Familiarity]
+	\item Entender el significado de grupo, categorías, reuniones o aglomeraciones y organizaciones sociales. [\Familiarity]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{}{Tercera Unidad}{Guerra2004,Benedicto2009,Morande1999}{12}{C21,C22,C24}
+\begin{topics}
+	\item Familia.
+		\subitem La familia como fenómeno generalizado.
+		\subitem Funciones insustituibles.
+		\subitem Familia y políticas públicas.
+		\subitem Relaciones constitutivas.
+		\subitem Relaciones de reciprocidad.
+\end{topics}
+\begin{learningoutcomes}
+	\item Pensar en la realidad de la familia desde las relaciones constitutivas y de reciprocidad. Analizar su funcionalidad insustituible. [\Familiarity]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{}{Cuarta Unidad}{Leon2002,Pablo2010,}{6}{C21,C22,C24}
+\begin{topics}
+	\item Bien Común: fin y función de la sociedad.
+		\subitem Los elementos que constituyen el Bien Común.
+		\subitem Los ordenamientos de la Organización Social.
+		\subitem Características del Bien Común.
+		\subitem Principios morales del Bien Común.
+\end{topics}
+\begin{learningoutcomes}
+	\item Conocer las obligaciones que tenemos con el Bien Común.[\Familiarity]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{}{Quinta Unidad}{Macionis1999,Giddens2002,Figari1996}{3}{C21,C22,C24}
+\begin{topics}
+	\item Desviación y control social.
+		\subitem Desviación, delito  y control social.
+		\subitem Teorías sobre el delito.
+		\subitem El sistema de control social.
+		\subitem El conflicto.
+			\subsubitem Percepción.
+			\subsubitem Componentes.
+		\subitem Introducción a la Resolución del Conflicto.
+\end{topics}
+\begin{learningoutcomes}
+	\item Analizar las normas que guían el rango de las actividades humanas.[\Familiarity]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{}{Sexta Unidad}{Macionis1999,Giddens2002}{6}{C21,C22,C24}
+\begin{topics}
+	\item Clase, Estratificación y Desigualdad.
+		\subitem Teorías sobre la clase y la  Estratificación.
+		\subitem La movilidad social.
+
+\end{topics}
+\begin{learningoutcomes}
+	\item Distinguir la Desigualdad Social y sus principales teorías.[\Familiarity]
+\end{learningoutcomes}
+\end{unit}
+
+\begin{unit}{}{Septima Unidad}{}{12}{C21,C22,C24}
+\begin{topics}
+	\item Pobreza, Bienestar y Exclusión Social.
+		\subitem Pobreza.
+			\subsubitem Tipos.
+		\subitem Bienestar.
+			\subsubitem Asistencia Social.
+			\subsubitem Estado.
+		\subitem Exclusión Social.
+			\subsubitem Formas.
+\end{topics}
+\begin{learningoutcomes}
+	\item Abordar la pobreza desde dos enfoques: absoluta y relativa. [\Familiarity]
+	\item Analizar la pobreza y la movilidad social. [\Familiarity]
+	\item Centrar el concepto de exclusión social analizando sus factores condicionantes.[\Familiarity]
+\end{learningoutcomes}
+\end{unit}
+
+
+
+\begin{coursebibliography}
+\bibfile{GeneralEducation/FG206}
+\end{coursebibliography}
+
+\end{syllabus}

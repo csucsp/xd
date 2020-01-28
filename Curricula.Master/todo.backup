@@ -1,0 +1,19 @@
+#Pendiente
+* Agregar Copyrights en la parte baja del poster
+* Eliminar los archivos Error-bib del Curricula2.0/out
+* Generar una pagina web con todas las mallas que esten en final
+
+* En la web las tablas de topics-by-course no deben tener (1 de 1) cuando sea solo una
+* La nota de pie de pagina debe ser SPC
+* Poner un link al pdf de cada institucion
+
+
+Hecho
+* Flexibilizar el ancho del logo en el poster
+* Borras los .ps del out/pdfs
+* Poner una linea en la malla por semestres para completar creditos (SPC)
+* Quitarle lo de: (Pág ##) al costado de cada curso
+* Ponerle creditos a cada curso
+* Ponerle colores a cada linea de la tabla de cursos
+* generar el listado de las areas activas despues de la codificacion de cursos
+* generar el libro de todos los silabos 

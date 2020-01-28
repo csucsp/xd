@@ -1,0 +1,74 @@
+\begin{syllabus}
+
+\course{HU105. Apreciación de la Música}{Electivo}{HU105}
+
+\begin{justification}
+El egresado de nuestra universidad, no sólo deberá ser un excelente profesional, conocedor de la más avanzada tecnología, sino también, un ser humano sensible y de amplia cultura. En esta perspectiva, el curso de apreciación musical, permite al alumno y alumna, conocer, entender y valorar un arte creativo y humano.
+\end{justification}
+
+\begin{goals}
+\item Formación Humana: Valorar la belleza y el potencial creador del ser humano.
+\item Formación Profesional: Conocer los principales elementos constitutivos de la obra musical, como también los principales hechos históricos del desarrollo de la música, para incrementar su bagaje cultural y apreciar la música con objetividad y criticidad.
+\end{goals}
+
+\begin{outcomes}
+\ExpandOutcome{FH}
+\ExpandOutcome{HU}
+\end{outcomes}
+
+\begin{unit}{El lenguaje de la música}{Lovon,Salvat,Vives,Penaloza2009}{11}
+\begin{topics}
+	\item La música en la vida del hombre. Concepto. El Sonido: cualidades.
+	\item Los elementos de la música. Actividades y audiciones.
+\end{topics}
+\begin{unitgoals}
+	\item Dotar al alumno de un lenguaje musical básico, que le permita apreciar y emitir un juicio con propiedad.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{El quehacer de la música}{Lovon,Salvat,Vives,Suarez2005Camino}{11}
+\begin{topics}
+	\item La voz, el canto y sus intérpretes.
+	\item Los instrumentos musicales. El conjunto instrumental.
+	\item El estilo, género y las formas musicales.
+	\item Actividades y audiciones.
+\end{topics}
+\begin{unitgoals}
+	\item Que el alumno conozca, discrimine y aprecie los elementos que integran la obra de arte musical.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{Historia de la música}{Lovon,Salvat,Vives,Schwanitz2002}{11}
+\begin{topics}
+	\item El origen de la música - fuentes. La música en la antigüedad.
+	\item La música medieval: Música religiosa.  Canto Gregoriano. Música profana.
+	\item El Renacimiento: Música instrumental y música vocal.
+	\item El Barroco y sus representantes. Nuevos instrumentos, nuevas formas.
+	\item El Clasicismo. Las formas clásicas y sus más destacados representantes.
+	\item El Romanticismo y el Nacionalismo, características generales instrumentos y formas. Las escuelas nacionalistas europeas.
+	\item La música contemporánea: Impresionismo y las nuevas corrientes de vanguardia.
+\end{topics}
+\begin{unitgoals}
+	\item Que el alumno conozca y distinga con precisión los diferentes momentos del desarrollo musical.
+	\item Dotar al alumno de un repertorio mínimo que le permita poner en práctica lo aprendido antes de emitir una apreciación crítica de ellas.
+\end{unitgoals}
+\end{unit}
+
+\begin{unit}{Música popular}{Lovon,Salvat,Vives}{12}
+\begin{topics}
+	\item Principales corrientes musicales del Siglo XX.
+	\item La música peruana: Autóctona, Mestiza, Manifestaciones musicales actuales.
+	\item Música arequipeña, principales expresiones.
+	\item Música latinoamericana y sus principales manifestaciones.
+\end{topics}
+\begin{unitgoals}
+	\item Que el alumno conozca e identifique las diferentes manifestaciones populares actuales. 
+	\item Que el alumno Se identifique con sus raíces musicales.
+\end{unitgoals}
+\end{unit}
+
+\begin{coursebibliography}
+\bibfile{GeneralEducation/HU105}
+\end{coursebibliography}
+
+\end{syllabus}
